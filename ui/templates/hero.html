@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+  .hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 28px;
+    padding: 30px 34px;
+    background:
+      radial-gradient(circle at 88% 18%, rgba(255,255,255,0.42), transparent 34%),
+      linear-gradient(105deg, #FFC21F 0%, #FFB800 58%, #F0A400 100%);
+    color: #1A1400;
+    box-shadow: 0 18px 40px rgba(26,20,0,0.12);
+  }
+  .orb {
+    position: absolute;
+    border-radius: 999px;
+    pointer-events: none;
+  }
+  .orb-1 { width: 280px; height: 280px; right: -80px; top: -120px; border: 36px solid rgba(255,255,255,0.16); }
+  .orb-2 { width: 190px; height: 190px; right: 120px; bottom: -120px; border: 28px solid rgba(26,20,0,0.06); }
+  .orb-3 { width: 14px; height: 14px; right: 36px; bottom: 34px; background: rgba(26,20,0,0.16); }
+  .eyebrow {
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(26,20,0,0.62);
+  }
+  .title {
+    margin: 0;
+    max-width: 780px;
+    font-size: clamp(30px, 4.4vw, 48px);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+  }
+  .lede {
+    margin: 12px 0 0;
+    max-width: 660px;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: rgba(26,20,0,0.72);
+    font-weight: 500;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; position: relative; z-index: 2; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 999px;
+    padding: 6px 12px;
+    background: rgba(26,20,0,0.86);
+    color: #FFF4D2;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .chip.light { background: rgba(255,255,255,0.55); color: #1A1400; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <p class="eyebrow">{{EYEBROW}}</p>
+    <h1 class="title">{{TITLE}}</h1>
+    <p class="lede">{{DESCRIPTION}}</p>
+    <div class="chips">{{CHIPS}}</div>
+  </div>
+</body>
+</html>

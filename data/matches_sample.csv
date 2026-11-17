@@ -1,0 +1,865 @@
+date,home,away,home_goals,away_goals,competition
+2023-08-12,Neftci Baku,Sabah,3.0,0.0,Azerbaijan Premier League
+2023-08-12,Zira,Qarabag,5.0,1.0,Azerbaijan Premier League
+2023-08-12,Bayer Leverkusen,Borussia Dortmund,2.0,3.0,Bundesliga
+2023-08-12,Eintracht Frankfurt,Bayern Munich,0.0,1.0,Bundesliga
+2023-08-12,APOEL,AEK Larnaca,0.0,0.0,Cypriot First Division
+2023-08-12,Omonia,Pafos,2.0,0.0,Cypriot First Division
+2023-08-12,Banik Ostrava,Slavia Praha,2.0,2.0,Czech First League
+2023-08-12,Sparta Praha,Viktoria Plzen,3.0,0.0,Czech First League
+2023-08-12,Bodo/Glimt,Molde,1.0,2.0,Eliteserien
+2023-08-12,Brann,Rosenborg,0.0,2.0,Eliteserien
+2023-08-12,AZ Alkmaar,Feyenoord,3.0,3.0,Eredivisie
+2023-08-12,PSV,Ajax,2.0,1.0,Eredivisie
+2023-08-12,Astana,Aktobe,2.0,2.0,Kazakh Premier League
+2023-08-12,Kairat Almaty,Tobol,2.0,0.0,Kazakh Premier League
+2023-08-12,Real Madrid,Barcelona,0.0,0.0,La Liga
+2023-08-12,Villarreal,Athletic Club,4.0,1.0,La Liga
+2023-08-12,Marseille,Paris Saint-Germain,1.0,0.0,Ligue 1
+2023-08-12,Monaco,Lyon,2.0,3.0,Ligue 1
+2023-08-12,Nice,Lille,0.0,0.0,Ligue 1
+2023-08-12,Arsenal,Newcastle United,1.0,1.0,Premier League
+2023-08-12,Liverpool,Chelsea,3.0,0.0,Premier League
+2023-08-12,Tottenham Hotspur,Manchester City,0.0,2.0,Premier League
+2023-08-12,Braga,Benfica,3.0,3.0,Primeira Liga
+2023-08-12,Sporting CP,Porto,1.0,1.0,Primeira Liga
+2023-08-12,Club Brugge,Genk,2.0,2.0,Pro League
+2023-08-12,Gent,Anderlecht,2.0,1.0,Pro League
+2023-08-12,Aberdeen,Celtic,0.0,1.0,Scottish Premiership
+2023-08-12,Hearts,Rangers,1.0,2.0,Scottish Premiership
+2023-08-12,Atalanta,Inter,2.0,1.0,Serie A
+2023-08-12,Juventus,Napoli,2.0,0.0,Serie A
+2023-08-12,PAOK,AEK Athens,1.0,1.0,Super League Greece
+2023-08-12,Panathinaikos,Olympiacos,2.0,0.0,Super League Greece
+2023-08-12,Fenerbahce,Besiktas,2.0,1.0,Super Lig
+2023-08-12,Trabzonspor,Galatasaray,2.0,1.0,Super Lig
+2023-08-12,Brondby,Midtjylland,1.0,1.0,Superliga
+2023-08-12,Nordsjaelland,FC Copenhagen,1.0,1.0,Superliga
+2023-08-26,Qarabag,Neftci Baku,0.0,2.0,Azerbaijan Premier League
+2023-08-26,Zira,Sabah,1.0,0.0,Azerbaijan Premier League
+2023-08-26,Bayer Leverkusen,Bayern Munich,2.0,1.0,Bundesliga
+2023-08-26,Borussia Dortmund,Eintracht Frankfurt,1.0,1.0,Bundesliga
+2023-08-26,AEK Larnaca,Omonia,2.0,1.0,Cypriot First Division
+2023-08-26,APOEL,Pafos,3.0,1.0,Cypriot First Division
+2023-08-26,Sparta Praha,Slavia Praha,1.0,0.0,Czech First League
+2023-08-26,Viktoria Plzen,Banik Ostrava,2.0,2.0,Czech First League
+2023-08-26,Brann,Molde,1.0,2.0,Eliteserien
+2023-08-26,Rosenborg,Bodo/Glimt,2.0,3.0,Eliteserien
+2023-08-26,Ajax,AZ Alkmaar,3.0,2.0,Eredivisie
+2023-08-26,PSV,Feyenoord,2.0,0.0,Eredivisie
+2023-08-26,Kairat Almaty,Aktobe,1.0,1.0,Kazakh Premier League
+2023-08-26,Tobol,Astana,2.0,0.0,Kazakh Premier League
+2023-08-26,Atletico Madrid,Athletic Club,2.0,1.0,La Liga
+2023-08-26,Villarreal,Real Madrid,2.0,3.0,La Liga
+2023-08-26,Lille,Paris Saint-Germain,0.0,2.0,Ligue 1
+2023-08-26,Monaco,Marseille,1.0,1.0,Ligue 1
+2023-08-26,Nice,Lyon,0.0,1.0,Ligue 1
+2023-08-26,Liverpool,Arsenal,1.0,3.0,Premier League
+2023-08-26,Manchester City,Newcastle United,1.0,0.0,Premier League
+2023-08-26,Tottenham Hotspur,Chelsea,4.0,0.0,Premier League
+2023-08-26,Benfica,Sporting CP,0.0,0.0,Primeira Liga
+2023-08-26,Braga,Porto,1.0,0.0,Primeira Liga
+2023-08-26,Anderlecht,Club Brugge,0.0,0.0,Pro League
+2023-08-26,Gent,Genk,0.0,0.0,Pro League
+2023-08-26,Aberdeen,Rangers,1.0,0.0,Scottish Premiership
+2023-08-26,Celtic,Hearts,4.0,0.0,Scottish Premiership
+2023-08-26,Juventus,Inter,2.0,0.0,Serie A
+2023-08-26,Napoli,Atalanta,6.0,1.0,Serie A
+2023-08-26,AEK Athens,Panathinaikos,0.0,0.0,Super League Greece
+2023-08-26,PAOK,Olympiacos,0.0,0.0,Super League Greece
+2023-08-26,Besiktas,Trabzonspor,1.0,0.0,Super Lig
+2023-08-26,Fenerbahce,Galatasaray,2.0,0.0,Super Lig
+2023-08-26,Brondby,FC Copenhagen,0.0,0.0,Superliga
+2023-08-26,Midtjylland,Nordsjaelland,2.0,2.0,Superliga
+2023-09-09,Sabah,Qarabag,0.0,0.0,Azerbaijan Premier League
+2023-09-09,Zira,Neftci Baku,0.0,0.0,Azerbaijan Premier League
+2023-09-09,Bayer Leverkusen,Eintracht Frankfurt,2.0,1.0,Bundesliga
+2023-09-09,Bayern Munich,Borussia Dortmund,1.0,0.0,Bundesliga
+2023-09-09,APOEL,Omonia,3.0,2.0,Cypriot First Division
+2023-09-09,Pafos,AEK Larnaca,1.0,0.0,Cypriot First Division
+2023-09-09,Slavia Praha,Viktoria Plzen,1.0,2.0,Czech First League
+2023-09-09,Sparta Praha,Banik Ostrava,1.0,1.0,Czech First League
+2023-09-09,Brann,Bodo/Glimt,2.0,2.0,Eliteserien
+2023-09-09,Molde,Rosenborg,1.0,0.0,Eliteserien
+2023-09-09,Feyenoord,Ajax,2.0,2.0,Eredivisie
+2023-09-09,PSV,AZ Alkmaar,1.0,0.0,Eredivisie
+2023-09-09,Aktobe,Tobol,0.0,0.0,Kazakh Premier League
+2023-09-09,Kairat Almaty,Astana,1.0,0.0,Kazakh Premier League
+2023-09-09,Athletic Club,Real Madrid,1.0,2.0,La Liga
+2023-09-09,Atletico Madrid,Barcelona,0.0,0.0,La Liga
+2023-09-09,Lille,Monaco,0.0,2.0,Ligue 1
+2023-09-09,Lyon,Marseille,1.0,0.0,Ligue 1
+2023-09-09,Nice,Paris Saint-Germain,1.0,2.0,Ligue 1
+2023-09-09,Chelsea,Arsenal,1.0,1.0,Premier League
+2023-09-09,Manchester City,Liverpool,1.0,1.0,Premier League
+2023-09-09,Tottenham Hotspur,Newcastle United,1.0,0.0,Premier League
+2023-09-09,Braga,Sporting CP,0.0,1.0,Primeira Liga
+2023-09-09,Porto,Benfica,0.0,0.0,Primeira Liga
+2023-09-09,Genk,Anderlecht,0.0,1.0,Pro League
+2023-09-09,Gent,Club Brugge,2.0,3.0,Pro League
+2023-09-09,Aberdeen,Hearts,1.0,0.0,Scottish Premiership
+2023-09-09,Rangers,Celtic,3.0,0.0,Scottish Premiership
+2023-09-09,Inter,Napoli,1.0,0.0,Serie A
+2023-09-09,Juventus,Atalanta,0.0,3.0,Serie A
+2023-09-09,Olympiacos,AEK Athens,1.0,0.0,Super League Greece
+2023-09-09,PAOK,Panathinaikos,0.0,1.0,Super League Greece
+2023-09-09,Fenerbahce,Trabzonspor,1.0,0.0,Super Lig
+2023-09-09,Galatasaray,Besiktas,1.0,2.0,Super Lig
+2023-09-09,Brondby,Nordsjaelland,2.0,0.0,Superliga
+2023-09-09,FC Copenhagen,Midtjylland,1.0,0.0,Superliga
+2023-09-23,Qarabag,Zira,1.0,1.0,Azerbaijan Premier League
+2023-09-23,Sabah,Neftci Baku,1.0,1.0,Azerbaijan Premier League
+2023-09-23,Bayern Munich,Eintracht Frankfurt,0.0,1.0,Bundesliga
+2023-09-23,Borussia Dortmund,Bayer Leverkusen,1.0,2.0,Bundesliga
+2023-09-23,AEK Larnaca,APOEL,2.0,2.0,Cypriot First Division
+2023-09-23,Pafos,Omonia,0.0,1.0,Cypriot First Division
+2023-09-23,Slavia Praha,Banik Ostrava,2.0,0.0,Czech First League
+2023-09-23,Viktoria Plzen,Sparta Praha,0.0,0.0,Czech First League
+2023-09-23,Molde,Bodo/Glimt,1.0,0.0,Eliteserien
+2023-09-23,Rosenborg,Brann,0.0,2.0,Eliteserien
+2023-09-23,Ajax,PSV,0.0,1.0,Eredivisie
+2023-09-23,Feyenoord,AZ Alkmaar,2.0,0.0,Eredivisie
+2023-09-23,Aktobe,Astana,1.0,3.0,Kazakh Premier League
+2023-09-23,Tobol,Kairat Almaty,1.0,1.0,Kazakh Premier League
+2023-09-23,Atletico Madrid,Real Madrid,5.0,0.0,La Liga
+2023-09-23,Barcelona,Villarreal,0.0,0.0,La Liga
+2023-09-23,Lyon,Lille,1.0,0.0,Ligue 1
+2023-09-23,Nice,Marseille,1.0,1.0,Ligue 1
+2023-09-23,Paris Saint-Germain,Monaco,1.0,0.0,Ligue 1
+2023-09-23,Chelsea,Manchester City,0.0,1.0,Premier League
+2023-09-23,Newcastle United,Liverpool,1.0,2.0,Premier League
+2023-09-23,Tottenham Hotspur,Arsenal,2.0,1.0,Premier League
+2023-09-23,Benfica,Braga,1.0,1.0,Primeira Liga
+2023-09-23,Porto,Sporting CP,0.0,1.0,Primeira Liga
+2023-09-23,Anderlecht,Gent,0.0,2.0,Pro League
+2023-09-23,Genk,Club Brugge,0.0,1.0,Pro League
+2023-09-23,Celtic,Aberdeen,0.0,2.0,Scottish Premiership
+2023-09-23,Rangers,Hearts,2.0,1.0,Scottish Premiership
+2023-09-23,Inter,Atalanta,3.0,2.0,Serie A
+2023-09-23,Napoli,Juventus,2.0,2.0,Serie A
+2023-09-23,AEK Athens,PAOK,1.0,0.0,Super League Greece
+2023-09-23,Olympiacos,Panathinaikos,2.0,2.0,Super League Greece
+2023-09-23,Besiktas,Fenerbahce,1.0,0.0,Super Lig
+2023-09-23,Galatasaray,Trabzonspor,0.0,2.0,Super Lig
+2023-09-23,FC Copenhagen,Nordsjaelland,1.0,0.0,Superliga
+2023-09-23,Midtjylland,Brondby,1.0,0.0,Superliga
+2023-10-07,Neftci Baku,Qarabag,2.0,2.0,Azerbaijan Premier League
+2023-10-07,Sabah,Zira,1.0,1.0,Azerbaijan Premier League
+2023-10-07,Bayern Munich,Bayer Leverkusen,0.0,0.0,Bundesliga
+2023-10-07,Eintracht Frankfurt,Borussia Dortmund,0.0,1.0,Bundesliga
+2023-10-07,Omonia,AEK Larnaca,2.0,1.0,Cypriot First Division
+2023-10-07,Pafos,APOEL,1.0,2.0,Cypriot First Division
+2023-10-07,Banik Ostrava,Viktoria Plzen,0.0,1.0,Czech First League
+2023-10-07,Slavia Praha,Sparta Praha,0.0,2.0,Czech First League
+2023-10-07,Bodo/Glimt,Rosenborg,2.0,1.0,Eliteserien
+2023-10-07,Molde,Brann,0.0,0.0,Eliteserien
+2023-10-07,AZ Alkmaar,Ajax,2.0,0.0,Eredivisie
+2023-10-07,Feyenoord,PSV,1.0,1.0,Eredivisie
+2023-10-07,Aktobe,Kairat Almaty,1.0,1.0,Kazakh Premier League
+2023-10-07,Astana,Tobol,1.0,2.0,Kazakh Premier League
+2023-10-07,Athletic Club,Villarreal,0.0,0.0,La Liga
+2023-10-07,Barcelona,Real Madrid,1.0,1.0,La Liga
+2023-10-07,Marseille,Lille,1.0,0.0,Ligue 1
+2023-10-07,Nice,Monaco,2.0,4.0,Ligue 1
+2023-10-07,Paris Saint-Germain,Lyon,1.0,2.0,Ligue 1
+2023-10-07,Arsenal,Manchester City,3.0,1.0,Premier League
+2023-10-07,Newcastle United,Chelsea,1.0,1.0,Premier League
+2023-10-07,Tottenham Hotspur,Liverpool,0.0,3.0,Premier League
+2023-10-07,Porto,Braga,2.0,1.0,Primeira Liga
+2023-10-07,Sporting CP,Benfica,3.0,2.0,Primeira Liga
+2023-10-07,Club Brugge,Anderlecht,1.0,2.0,Pro League
+2023-10-07,Genk,Gent,1.0,1.0,Pro League
+2023-10-07,Hearts,Celtic,2.0,0.0,Scottish Premiership
+2023-10-07,Rangers,Aberdeen,1.0,1.0,Scottish Premiership
+2023-10-07,Atalanta,Napoli,1.0,0.0,Serie A
+2023-10-07,Inter,Juventus,3.0,0.0,Serie A
+2023-10-07,Olympiacos,PAOK,1.0,0.0,Super League Greece
+2023-10-07,Panathinaikos,AEK Athens,1.0,1.0,Super League Greece
+2023-10-07,Galatasaray,Fenerbahce,0.0,3.0,Super Lig
+2023-10-07,Trabzonspor,Besiktas,1.0,1.0,Super Lig
+2023-10-07,FC Copenhagen,Brondby,2.0,1.0,Superliga
+2023-10-07,Nordsjaelland,Midtjylland,0.0,3.0,Superliga
+2023-10-21,Neftci Baku,Zira,0.0,1.0,Azerbaijan Premier League
+2023-10-21,Qarabag,Sabah,0.0,1.0,Azerbaijan Premier League
+2023-10-21,Borussia Dortmund,Bayern Munich,2.0,1.0,Bundesliga
+2023-10-21,Eintracht Frankfurt,Bayer Leverkusen,1.0,1.0,Bundesliga
+2023-10-21,AEK Larnaca,Pafos,3.0,1.0,Cypriot First Division
+2023-10-21,Omonia,APOEL,1.0,1.0,Cypriot First Division
+2023-10-21,Banik Ostrava,Sparta Praha,1.0,0.0,Czech First League
+2023-10-21,Viktoria Plzen,Slavia Praha,2.0,0.0,Czech First League
+2023-10-21,Bodo/Glimt,Brann,0.0,2.0,Eliteserien
+2023-10-21,Rosenborg,Molde,1.0,1.0,Eliteserien
+2023-10-21,AZ Alkmaar,PSV,0.0,2.0,Eredivisie
+2023-10-21,Ajax,Feyenoord,0.0,0.0,Eredivisie
+2023-10-21,Astana,Kairat Almaty,2.0,0.0,Kazakh Premier League
+2023-10-21,Tobol,Aktobe,0.0,0.0,Kazakh Premier League
+2023-10-21,Athletic Club,Atletico Madrid,1.0,1.0,La Liga
+2023-10-21,Real Madrid,Villarreal,4.0,1.0,La Liga
+2023-10-21,Lille,Nice,1.0,1.0,Ligue 1
+2023-10-21,Lyon,Monaco,3.0,4.0,Ligue 1
+2023-10-21,Paris Saint-Germain,Marseille,3.0,1.0,Ligue 1
+2023-10-21,Chelsea,Liverpool,4.0,0.0,Premier League
+2023-10-21,Manchester City,Tottenham Hotspur,3.0,0.0,Premier League
+2023-10-21,Newcastle United,Arsenal,2.0,3.0,Premier League
+2023-10-21,Benfica,Porto,1.0,4.0,Primeira Liga
+2023-10-21,Sporting CP,Braga,0.0,2.0,Primeira Liga
+2023-10-21,Anderlecht,Genk,1.0,1.0,Pro League
+2023-10-21,Club Brugge,Gent,1.0,1.0,Pro League
+2023-10-21,Celtic,Rangers,2.0,1.0,Scottish Premiership
+2023-10-21,Hearts,Aberdeen,2.0,0.0,Scottish Premiership
+2023-10-21,Atalanta,Juventus,2.0,0.0,Serie A
+2023-10-21,Napoli,Inter,1.0,1.0,Serie A
+2023-10-21,AEK Athens,Olympiacos,1.0,0.0,Super League Greece
+2023-10-21,Panathinaikos,PAOK,2.0,2.0,Super League Greece
+2023-10-21,Besiktas,Galatasaray,2.0,1.0,Super Lig
+2023-10-21,Trabzonspor,Fenerbahce,0.0,2.0,Super Lig
+2023-10-21,Midtjylland,FC Copenhagen,0.0,0.0,Superliga
+2023-10-21,Nordsjaelland,Brondby,0.0,0.0,Superliga
+2023-11-04,Barcelona,Atletico Madrid,3.0,1.0,La Liga
+2023-11-04,Real Madrid,Athletic Club,0.0,2.0,La Liga
+2023-11-04,Lyon,Nice,2.0,1.0,Ligue 1
+2023-11-04,Marseille,Monaco,0.0,3.0,Ligue 1
+2023-11-04,Paris Saint-Germain,Lille,3.0,1.0,Ligue 1
+2023-11-04,Arsenal,Liverpool,1.0,0.0,Premier League
+2023-11-04,Chelsea,Tottenham Hotspur,1.0,0.0,Premier League
+2023-11-04,Newcastle United,Manchester City,2.0,2.0,Premier League
+2023-11-18,Real Madrid,Atletico Madrid,2.0,2.0,La Liga
+2023-11-18,Villarreal,Barcelona,2.0,0.0,La Liga
+2023-11-18,Marseille,Lyon,0.0,1.0,Ligue 1
+2023-11-18,Monaco,Lille,2.0,2.0,Ligue 1
+2023-11-18,Paris Saint-Germain,Nice,3.0,1.0,Ligue 1
+2023-11-18,Arsenal,Chelsea,2.0,2.0,Premier League
+2023-11-18,Liverpool,Manchester City,1.0,2.0,Premier League
+2023-11-18,Newcastle United,Tottenham Hotspur,3.0,2.0,Premier League
+2023-12-02,Lille,Lyon,2.0,1.0,Ligue 1
+2023-12-02,Marseille,Nice,3.0,1.0,Ligue 1
+2023-12-02,Monaco,Paris Saint-Germain,1.0,1.0,Ligue 1
+2023-12-02,Arsenal,Tottenham Hotspur,2.0,2.0,Premier League
+2023-12-02,Liverpool,Newcastle United,1.0,0.0,Premier League
+2023-12-02,Manchester City,Chelsea,1.0,2.0,Premier League
+2023-12-16,Lille,Marseille,2.0,2.0,Ligue 1
+2023-12-16,Lyon,Paris Saint-Germain,1.0,1.0,Ligue 1
+2023-12-16,Monaco,Nice,3.0,0.0,Ligue 1
+2023-12-16,Chelsea,Newcastle United,1.0,1.0,Premier League
+2023-12-16,Liverpool,Tottenham Hotspur,1.0,3.0,Premier League
+2023-12-16,Manchester City,Arsenal,3.0,2.0,Premier League
+2024-08-10,Neftci Baku,Qarabag,0.0,1.0,Azerbaijan Premier League
+2024-08-10,Zira,Sabah,1.0,1.0,Azerbaijan Premier League
+2024-08-10,Bayer Leverkusen,Eintracht Frankfurt,2.0,0.0,Bundesliga
+2024-08-10,Bayern Munich,Borussia Dortmund,3.0,0.0,Bundesliga
+2024-08-10,APOEL,Omonia,0.0,0.0,Cypriot First Division
+2024-08-10,Pafos,AEK Larnaca,1.0,0.0,Cypriot First Division
+2024-08-10,Banik Ostrava,Slavia Praha,0.0,0.0,Czech First League
+2024-08-10,Sparta Praha,Viktoria Plzen,2.0,1.0,Czech First League
+2024-08-10,Bodo/Glimt,Rosenborg,2.0,2.0,Eliteserien
+2024-08-10,Molde,Brann,1.0,1.0,Eliteserien
+2024-08-10,AZ Alkmaar,Ajax,4.0,3.0,Eredivisie
+2024-08-10,PSV,Feyenoord,2.0,0.0,Eredivisie
+2024-08-10,Aktobe,Kairat Almaty,3.0,2.0,Kazakh Premier League
+2024-08-10,Tobol,Astana,2.0,1.0,Kazakh Premier League
+2024-08-10,Barcelona,Real Madrid,2.0,3.0,La Liga
+2024-08-10,Villarreal,Atletico Madrid,1.0,1.0,La Liga
+2024-08-10,Lyon,Lille,3.0,1.0,Ligue 1
+2024-08-10,Marseille,Nice,0.0,0.0,Ligue 1
+2024-08-10,Paris Saint-Germain,Monaco,0.0,1.0,Ligue 1
+2024-08-10,Arsenal,Liverpool,2.0,1.0,Premier League
+2024-08-10,Manchester City,Chelsea,2.0,1.0,Premier League
+2024-08-10,Tottenham Hotspur,Newcastle United,1.0,0.0,Premier League
+2024-08-10,Braga,Porto,2.0,1.0,Primeira Liga
+2024-08-10,Sporting CP,Benfica,1.0,3.0,Primeira Liga
+2024-08-10,Genk,Club Brugge,1.0,1.0,Pro League
+2024-08-10,Gent,Anderlecht,1.0,2.0,Pro League
+2024-08-10,Celtic,Aberdeen,0.0,1.0,Scottish Premiership
+2024-08-10,Rangers,Hearts,0.0,1.0,Scottish Premiership
+2024-08-10,Atalanta,Juventus,1.0,5.0,Serie A
+2024-08-10,Inter,Napoli,2.0,0.0,Serie A
+2024-08-10,Olympiacos,Panathinaikos,0.0,2.0,Super League Greece
+2024-08-10,PAOK,AEK Athens,2.0,2.0,Super League Greece
+2024-08-10,Besiktas,Trabzonspor,4.0,0.0,Super Lig
+2024-08-10,Fenerbahce,Galatasaray,1.0,1.0,Super Lig
+2024-08-10,FC Copenhagen,Brondby,1.0,0.0,Superliga
+2024-08-10,Nordsjaelland,Midtjylland,2.0,2.0,Superliga
+2024-08-24,Neftci Baku,Sabah,1.0,1.0,Azerbaijan Premier League
+2024-08-24,Qarabag,Zira,2.0,1.0,Azerbaijan Premier League
+2024-08-24,Bayern Munich,Eintracht Frankfurt,1.0,1.0,Bundesliga
+2024-08-24,Borussia Dortmund,Bayer Leverkusen,2.0,0.0,Bundesliga
+2024-08-24,APOEL,AEK Larnaca,0.0,0.0,Cypriot First Division
+2024-08-24,Omonia,Pafos,1.0,1.0,Cypriot First Division
+2024-08-24,Sparta Praha,Slavia Praha,2.0,1.0,Czech First League
+2024-08-24,Viktoria Plzen,Banik Ostrava,0.0,0.0,Czech First League
+2024-08-24,Bodo/Glimt,Brann,1.0,0.0,Eliteserien
+2024-08-24,Rosenborg,Molde,2.0,1.0,Eliteserien
+2024-08-24,Feyenoord,AZ Alkmaar,1.0,0.0,Eredivisie
+2024-08-24,PSV,Ajax,1.0,1.0,Eredivisie
+2024-08-24,Astana,Aktobe,1.0,2.0,Kazakh Premier League
+2024-08-24,Tobol,Kairat Almaty,3.0,2.0,Kazakh Premier League
+2024-08-24,Athletic Club,Atletico Madrid,2.0,1.0,La Liga
+2024-08-24,Villarreal,Barcelona,1.0,3.0,La Liga
+2024-08-24,Lille,Nice,1.0,2.0,Ligue 1
+2024-08-24,Lyon,Monaco,1.0,0.0,Ligue 1
+2024-08-24,Paris Saint-Germain,Marseille,4.0,1.0,Ligue 1
+2024-08-24,Chelsea,Liverpool,1.0,5.0,Premier League
+2024-08-24,Manchester City,Newcastle United,3.0,2.0,Premier League
+2024-08-24,Tottenham Hotspur,Arsenal,1.0,1.0,Premier League
+2024-08-24,Benfica,Braga,2.0,0.0,Primeira Liga
+2024-08-24,Sporting CP,Porto,1.0,0.0,Primeira Liga
+2024-08-24,Club Brugge,Gent,2.0,1.0,Pro League
+2024-08-24,Genk,Anderlecht,0.0,1.0,Pro League
+2024-08-24,Hearts,Celtic,2.0,3.0,Scottish Premiership
+2024-08-24,Rangers,Aberdeen,1.0,0.0,Scottish Premiership
+2024-08-24,Inter,Juventus,5.0,1.0,Serie A
+2024-08-24,Napoli,Atalanta,1.0,0.0,Serie A
+2024-08-24,Olympiacos,AEK Athens,2.0,3.0,Super League Greece
+2024-08-24,Panathinaikos,PAOK,2.0,1.0,Super League Greece
+2024-08-24,Fenerbahce,Trabzonspor,0.0,1.0,Super Lig
+2024-08-24,Galatasaray,Besiktas,1.0,1.0,Super Lig
+2024-08-24,Midtjylland,FC Copenhagen,1.0,0.0,Superliga
+2024-08-24,Nordsjaelland,Brondby,0.0,0.0,Superliga
+2024-09-07,Neftci Baku,Zira,3.0,2.0,Azerbaijan Premier League
+2024-09-07,Sabah,Qarabag,1.0,2.0,Azerbaijan Premier League
+2024-09-07,Bayern Munich,Bayer Leverkusen,1.0,1.0,Bundesliga
+2024-09-07,Eintracht Frankfurt,Borussia Dortmund,1.0,0.0,Bundesliga
+2024-09-07,AEK Larnaca,Omonia,3.0,1.0,Cypriot First Division
+2024-09-07,APOEL,Pafos,0.0,0.0,Cypriot First Division
+2024-09-07,Slavia Praha,Viktoria Plzen,1.0,4.0,Czech First League
+2024-09-07,Sparta Praha,Banik Ostrava,2.0,1.0,Czech First League
+2024-09-07,Bodo/Glimt,Molde,2.0,3.0,Eliteserien
+2024-09-07,Brann,Rosenborg,0.0,0.0,Eliteserien
+2024-09-07,Ajax,Feyenoord,1.0,2.0,Eredivisie
+2024-09-07,PSV,AZ Alkmaar,1.0,1.0,Eredivisie
+2024-09-07,Kairat Almaty,Astana,2.0,1.0,Kazakh Premier League
+2024-09-07,Tobol,Aktobe,2.0,2.0,Kazakh Premier League
+2024-09-07,Athletic Club,Real Madrid,1.0,1.0,La Liga
+2024-09-07,Atletico Madrid,Barcelona,1.0,0.0,La Liga
+2024-09-07,Lille,Paris Saint-Germain,1.0,1.0,Ligue 1
+2024-09-07,Lyon,Nice,0.0,0.0,Ligue 1
+2024-09-07,Monaco,Marseille,1.0,3.0,Ligue 1
+2024-09-07,Chelsea,Tottenham Hotspur,1.0,0.0,Premier League
+2024-09-07,Manchester City,Liverpool,3.0,0.0,Premier League
+2024-09-07,Newcastle United,Arsenal,1.0,2.0,Premier League
+2024-09-07,Porto,Benfica,2.0,1.0,Primeira Liga
+2024-09-07,Sporting CP,Braga,1.0,0.0,Primeira Liga
+2024-09-07,Anderlecht,Club Brugge,0.0,0.0,Pro League
+2024-09-07,Genk,Gent,1.0,0.0,Pro League
+2024-09-07,Aberdeen,Hearts,0.0,1.0,Scottish Premiership
+2024-09-07,Rangers,Celtic,0.0,0.0,Scottish Premiership
+2024-09-07,Inter,Atalanta,1.0,2.0,Serie A
+2024-09-07,Juventus,Napoli,2.0,1.0,Serie A
+2024-09-07,AEK Athens,Panathinaikos,1.0,1.0,Super League Greece
+2024-09-07,Olympiacos,PAOK,0.0,0.0,Super League Greece
+2024-09-07,Fenerbahce,Besiktas,0.0,1.0,Super Lig
+2024-09-07,Trabzonspor,Galatasaray,2.0,2.0,Super Lig
+2024-09-07,Brondby,Midtjylland,1.0,0.0,Superliga
+2024-09-07,Nordsjaelland,FC Copenhagen,2.0,1.0,Superliga
+2024-09-21,Qarabag,Neftci Baku,0.0,2.0,Azerbaijan Premier League
+2024-09-21,Sabah,Zira,3.0,1.0,Azerbaijan Premier League
+2024-09-21,Borussia Dortmund,Bayern Munich,1.0,4.0,Bundesliga
+2024-09-21,Eintracht Frankfurt,Bayer Leverkusen,1.0,1.0,Bundesliga
+2024-09-21,AEK Larnaca,Pafos,0.0,3.0,Cypriot First Division
+2024-09-21,Omonia,APOEL,0.0,3.0,Cypriot First Division
+2024-09-21,Slavia Praha,Banik Ostrava,0.0,1.0,Czech First League
+2024-09-21,Viktoria Plzen,Sparta Praha,1.0,1.0,Czech First League
+2024-09-21,Brann,Molde,0.0,2.0,Eliteserien
+2024-09-21,Rosenborg,Bodo/Glimt,1.0,1.0,Eliteserien
+2024-09-21,Ajax,AZ Alkmaar,1.0,0.0,Eredivisie
+2024-09-21,Feyenoord,PSV,4.0,1.0,Eredivisie
+2024-09-21,Astana,Tobol,0.0,3.0,Kazakh Premier League
+2024-09-21,Kairat Almaty,Aktobe,1.0,1.0,Kazakh Premier League
+2024-09-21,Athletic Club,Barcelona,0.0,1.0,La Liga
+2024-09-21,Real Madrid,Villarreal,3.0,1.0,La Liga
+2024-09-21,Lyon,Marseille,1.0,0.0,Ligue 1
+2024-09-21,Monaco,Lille,0.0,0.0,Ligue 1
+2024-09-21,Nice,Paris Saint-Germain,1.0,2.0,Ligue 1
+2024-09-21,Liverpool,Tottenham Hotspur,3.0,1.0,Premier League
+2024-09-21,Manchester City,Arsenal,3.0,1.0,Premier League
+2024-09-21,Newcastle United,Chelsea,3.0,2.0,Premier League
+2024-09-21,Benfica,Sporting CP,2.0,1.0,Primeira Liga
+2024-09-21,Porto,Braga,0.0,3.0,Primeira Liga
+2024-09-21,Anderlecht,Gent,0.0,1.0,Pro League
+2024-09-21,Club Brugge,Genk,0.0,1.0,Pro League
+2024-09-21,Aberdeen,Celtic,2.0,1.0,Scottish Premiership
+2024-09-21,Hearts,Rangers,2.0,0.0,Scottish Premiership
+2024-09-21,Juventus,Atalanta,1.0,1.0,Serie A
+2024-09-21,Napoli,Inter,2.0,3.0,Serie A
+2024-09-21,AEK Athens,PAOK,1.0,1.0,Super League Greece
+2024-09-21,Panathinaikos,Olympiacos,1.0,1.0,Super League Greece
+2024-09-21,Galatasaray,Fenerbahce,3.0,3.0,Super Lig
+2024-09-21,Trabzonspor,Besiktas,2.0,1.0,Super Lig
+2024-09-21,Brondby,FC Copenhagen,1.0,2.0,Superliga
+2024-09-21,Midtjylland,Nordsjaelland,0.0,2.0,Superliga
+2024-10-05,Sabah,Neftci Baku,0.0,0.0,Azerbaijan Premier League
+2024-10-05,Zira,Qarabag,3.0,1.0,Azerbaijan Premier League
+2024-10-05,Bayer Leverkusen,Borussia Dortmund,4.0,1.0,Bundesliga
+2024-10-05,Eintracht Frankfurt,Bayern Munich,1.0,3.0,Bundesliga
+2024-10-05,AEK Larnaca,APOEL,2.0,1.0,Cypriot First Division
+2024-10-05,Pafos,Omonia,0.0,0.0,Cypriot First Division
+2024-10-05,Banik Ostrava,Viktoria Plzen,0.0,3.0,Czech First League
+2024-10-05,Slavia Praha,Sparta Praha,1.0,1.0,Czech First League
+2024-10-05,Brann,Bodo/Glimt,0.0,4.0,Eliteserien
+2024-10-05,Molde,Rosenborg,1.0,1.0,Eliteserien
+2024-10-05,AZ Alkmaar,Feyenoord,3.0,2.0,Eredivisie
+2024-10-05,Ajax,PSV,0.0,1.0,Eredivisie
+2024-10-05,Aktobe,Astana,0.0,0.0,Kazakh Premier League
+2024-10-05,Kairat Almaty,Tobol,1.0,1.0,Kazakh Premier League
+2024-10-05,Atletico Madrid,Villarreal,2.0,1.0,La Liga
+2024-10-05,Real Madrid,Barcelona,5.0,1.0,La Liga
+2024-10-05,Lyon,Paris Saint-Germain,0.0,3.0,Ligue 1
+2024-10-05,Marseille,Lille,1.0,2.0,Ligue 1
+2024-10-05,Nice,Monaco,1.0,2.0,Ligue 1
+2024-10-05,Arsenal,Chelsea,3.0,1.0,Premier League
+2024-10-05,Liverpool,Newcastle United,3.0,2.0,Premier League
+2024-10-05,Manchester City,Tottenham Hotspur,0.0,1.0,Premier League
+2024-10-05,Braga,Benfica,2.0,2.0,Primeira Liga
+2024-10-05,Porto,Sporting CP,0.0,0.0,Primeira Liga
+2024-10-05,Anderlecht,Genk,0.0,1.0,Pro League
+2024-10-05,Gent,Club Brugge,3.0,1.0,Pro League
+2024-10-05,Aberdeen,Rangers,1.0,1.0,Scottish Premiership
+2024-10-05,Celtic,Hearts,0.0,2.0,Scottish Premiership
+2024-10-05,Atalanta,Napoli,0.0,1.0,Serie A
+2024-10-05,Juventus,Inter,0.0,2.0,Serie A
+2024-10-05,AEK Athens,Olympiacos,1.0,2.0,Super League Greece
+2024-10-05,PAOK,Panathinaikos,2.0,4.0,Super League Greece
+2024-10-05,Besiktas,Galatasaray,0.0,2.0,Super Lig
+2024-10-05,Trabzonspor,Fenerbahce,1.0,0.0,Super Lig
+2024-10-05,Brondby,Nordsjaelland,0.0,0.0,Superliga
+2024-10-05,FC Copenhagen,Midtjylland,3.0,2.0,Superliga
+2024-10-19,Qarabag,Sabah,1.0,2.0,Azerbaijan Premier League
+2024-10-19,Zira,Neftci Baku,2.0,4.0,Azerbaijan Premier League
+2024-10-19,Bayer Leverkusen,Bayern Munich,1.0,1.0,Bundesliga
+2024-10-19,Borussia Dortmund,Eintracht Frankfurt,3.0,2.0,Bundesliga
+2024-10-19,Omonia,AEK Larnaca,2.0,1.0,Cypriot First Division
+2024-10-19,Pafos,APOEL,0.0,1.0,Cypriot First Division
+2024-10-19,Banik Ostrava,Sparta Praha,2.0,2.0,Czech First League
+2024-10-19,Viktoria Plzen,Slavia Praha,2.0,1.0,Czech First League
+2024-10-19,Molde,Bodo/Glimt,0.0,1.0,Eliteserien
+2024-10-19,Rosenborg,Brann,2.0,4.0,Eliteserien
+2024-10-19,AZ Alkmaar,PSV,0.0,1.0,Eredivisie
+2024-10-19,Feyenoord,Ajax,0.0,1.0,Eredivisie
+2024-10-19,Aktobe,Tobol,0.0,3.0,Kazakh Premier League
+2024-10-19,Astana,Kairat Almaty,0.0,2.0,Kazakh Premier League
+2024-10-19,Atletico Madrid,Athletic Club,2.0,0.0,La Liga
+2024-10-19,Barcelona,Villarreal,3.0,1.0,La Liga
+2024-10-19,Lille,Lyon,0.0,0.0,Ligue 1
+2024-10-19,Monaco,Paris Saint-Germain,3.0,2.0,Ligue 1
+2024-10-19,Nice,Marseille,0.0,1.0,Ligue 1
+2024-10-19,Chelsea,Manchester City,1.0,3.0,Premier League
+2024-10-19,Liverpool,Arsenal,1.0,2.0,Premier League
+2024-10-19,Newcastle United,Tottenham Hotspur,0.0,1.0,Premier League
+2024-10-19,Benfica,Porto,0.0,1.0,Primeira Liga
+2024-10-19,Braga,Sporting CP,0.0,2.0,Primeira Liga
+2024-10-19,Club Brugge,Anderlecht,0.0,2.0,Pro League
+2024-10-19,Gent,Genk,0.0,1.0,Pro League
+2024-10-19,Celtic,Rangers,2.0,1.0,Scottish Premiership
+2024-10-19,Hearts,Aberdeen,0.0,1.0,Scottish Premiership
+2024-10-19,Atalanta,Inter,3.0,0.0,Serie A
+2024-10-19,Napoli,Juventus,0.0,0.0,Serie A
+2024-10-19,PAOK,Olympiacos,3.0,1.0,Super League Greece
+2024-10-19,Panathinaikos,AEK Athens,2.0,3.0,Super League Greece
+2024-10-19,Besiktas,Fenerbahce,2.0,1.0,Super Lig
+2024-10-19,Galatasaray,Trabzonspor,0.0,2.0,Super Lig
+2024-10-19,FC Copenhagen,Nordsjaelland,2.0,2.0,Superliga
+2024-10-19,Midtjylland,Brondby,1.0,0.0,Superliga
+2024-11-02,Barcelona,Atletico Madrid,3.0,0.0,La Liga
+2024-11-02,Real Madrid,Athletic Club,3.0,0.0,La Liga
+2024-11-02,Marseille,Paris Saint-Germain,0.0,1.0,Ligue 1
+2024-11-02,Monaco,Lyon,2.0,2.0,Ligue 1
+2024-11-02,Nice,Lille,1.0,0.0,Ligue 1
+2024-11-02,Arsenal,Tottenham Hotspur,0.0,1.0,Premier League
+2024-11-02,Liverpool,Chelsea,1.0,0.0,Premier League
+2024-11-02,Newcastle United,Manchester City,0.0,1.0,Premier League
+2024-11-16,Barcelona,Athletic Club,4.0,1.0,La Liga
+2024-11-16,Villarreal,Real Madrid,1.0,1.0,La Liga
+2024-11-16,Marseille,Monaco,0.0,0.0,Ligue 1
+2024-11-16,Nice,Lyon,1.0,1.0,Ligue 1
+2024-11-16,Paris Saint-Germain,Lille,3.0,1.0,Ligue 1
+2024-11-16,Arsenal,Newcastle United,3.0,5.0,Premier League
+2024-11-16,Liverpool,Manchester City,3.0,0.0,Premier League
+2024-11-16,Tottenham Hotspur,Chelsea,1.0,1.0,Premier League
+2024-11-30,Lille,Monaco,2.0,1.0,Ligue 1
+2024-11-30,Marseille,Lyon,2.0,0.0,Ligue 1
+2024-11-30,Paris Saint-Germain,Nice,3.0,2.0,Ligue 1
+2024-11-30,Arsenal,Manchester City,2.0,2.0,Premier League
+2024-11-30,Chelsea,Newcastle United,1.0,0.0,Premier League
+2024-11-30,Tottenham Hotspur,Liverpool,3.0,0.0,Premier League
+2024-12-14,Lille,Marseille,1.0,5.0,Ligue 1
+2024-12-14,Monaco,Nice,1.0,1.0,Ligue 1
+2024-12-14,Paris Saint-Germain,Lyon,2.0,0.0,Ligue 1
+2024-12-14,Chelsea,Arsenal,0.0,1.0,Premier League
+2024-12-14,Newcastle United,Liverpool,2.0,1.0,Premier League
+2024-12-14,Tottenham Hotspur,Manchester City,3.0,0.0,Premier League
+2025-08-09,Qarabag,Neftci Baku,0.0,0.0,Azerbaijan Premier League
+2025-08-09,Sabah,Zira,2.0,1.0,Azerbaijan Premier League
+2025-08-09,Bayer Leverkusen,Eintracht Frankfurt,3.0,2.0,Bundesliga
+2025-08-09,Borussia Dortmund,Bayern Munich,0.0,4.0,Bundesliga
+2025-08-09,AEK Larnaca,APOEL,1.0,3.0,Cypriot First Division
+2025-08-09,Omonia,Pafos,0.0,1.0,Cypriot First Division
+2025-08-09,Banik Ostrava,Sparta Praha,1.0,1.0,Czech First League
+2025-08-09,Slavia Praha,Viktoria Plzen,0.0,1.0,Czech First League
+2025-08-09,Brann,Molde,1.0,1.0,Eliteserien
+2025-08-09,Rosenborg,Bodo/Glimt,1.0,2.0,Eliteserien
+2025-08-09,AZ Alkmaar,PSV,1.0,0.0,Eredivisie
+2025-08-09,Ajax,Feyenoord,4.0,1.0,Eredivisie
+2025-08-09,Astana,Aktobe,0.0,0.0,Kazakh Premier League
+2025-08-09,Tobol,Kairat Almaty,1.0,0.0,Kazakh Premier League
+2025-08-09,Barcelona,Real Madrid,2.0,1.0,La Liga
+2025-08-09,Villarreal,Athletic Club,0.0,1.0,La Liga
+2025-08-09,Lille,Lyon,1.0,3.0,Ligue 1
+2025-08-09,Marseille,Monaco,1.0,1.0,Ligue 1
+2025-08-09,Nice,Paris Saint-Germain,3.0,2.0,Ligue 1
+2025-08-09,Chelsea,Tottenham Hotspur,1.0,0.0,Premier League
+2025-08-09,Manchester City,Liverpool,4.0,1.0,Premier League
+2025-08-09,Newcastle United,Arsenal,3.0,1.0,Premier League
+2025-08-09,Porto,Benfica,0.0,1.0,Primeira Liga
+2025-08-09,Sporting CP,Braga,2.0,0.0,Primeira Liga
+2025-08-09,Club Brugge,Gent,0.0,2.0,Pro League
+2025-08-09,Genk,Anderlecht,1.0,4.0,Pro League
+2025-08-09,Aberdeen,Rangers,0.0,4.0,Scottish Premiership
+2025-08-09,Celtic,Hearts,0.0,2.0,Scottish Premiership
+2025-08-09,Atalanta,Inter,2.0,1.0,Serie A
+2025-08-09,Napoli,Juventus,4.0,1.0,Serie A
+2025-08-09,AEK Athens,PAOK,0.0,2.0,Super League Greece
+2025-08-09,Olympiacos,Panathinaikos,2.0,2.0,Super League Greece
+2025-08-09,Besiktas,Galatasaray,0.0,1.0,Super Lig
+2025-08-09,Trabzonspor,Fenerbahce,0.0,1.0,Super Lig
+2025-08-09,FC Copenhagen,Brondby,2.0,0.0,Superliga
+2025-08-09,Nordsjaelland,Midtjylland,1.0,2.0,Superliga
+2025-08-23,Sabah,Neftci Baku,1.0,0.0,Azerbaijan Premier League
+2025-08-23,Zira,Qarabag,3.0,2.0,Azerbaijan Premier League
+2025-08-23,Bayer Leverkusen,Bayern Munich,3.0,4.0,Bundesliga
+2025-08-23,Eintracht Frankfurt,Borussia Dortmund,1.0,2.0,Bundesliga
+2025-08-23,Omonia,APOEL,0.0,1.0,Cypriot First Division
+2025-08-23,Pafos,AEK Larnaca,1.0,0.0,Cypriot First Division
+2025-08-23,Banik Ostrava,Viktoria Plzen,0.0,2.0,Czech First League
+2025-08-23,Sparta Praha,Slavia Praha,4.0,1.0,Czech First League
+2025-08-23,Bodo/Glimt,Brann,1.0,1.0,Eliteserien
+2025-08-23,Rosenborg,Molde,1.0,0.0,Eliteserien
+2025-08-23,Ajax,PSV,0.0,1.0,Eredivisie
+2025-08-23,Feyenoord,AZ Alkmaar,1.0,0.0,Eredivisie
+2025-08-23,Kairat Almaty,Astana,0.0,0.0,Kazakh Premier League
+2025-08-23,Tobol,Aktobe,1.0,1.0,Kazakh Premier League
+2025-08-23,Atletico Madrid,Athletic Club,2.0,0.0,La Liga
+2025-08-23,Villarreal,Barcelona,1.0,2.0,La Liga
+2025-08-23,Lille,Nice,0.0,1.0,Ligue 1
+2025-08-23,Marseille,Lyon,1.0,1.0,Ligue 1
+2025-08-23,Monaco,Paris Saint-Germain,1.0,0.0,Ligue 1
+2025-08-23,Liverpool,Tottenham Hotspur,1.0,1.0,Premier League
+2025-08-23,Manchester City,Arsenal,1.0,1.0,Premier League
+2025-08-23,Newcastle United,Chelsea,3.0,3.0,Premier League
+2025-08-23,Braga,Porto,0.0,1.0,Primeira Liga
+2025-08-23,Sporting CP,Benfica,1.0,0.0,Primeira Liga
+2025-08-23,Anderlecht,Club Brugge,0.0,0.0,Pro League
+2025-08-23,Genk,Gent,1.0,1.0,Pro League
+2025-08-23,Aberdeen,Hearts,2.0,0.0,Scottish Premiership
+2025-08-23,Rangers,Celtic,0.0,1.0,Scottish Premiership
+2025-08-23,Juventus,Atalanta,0.0,4.0,Serie A
+2025-08-23,Napoli,Inter,2.0,3.0,Serie A
+2025-08-23,Olympiacos,PAOK,1.0,1.0,Super League Greece
+2025-08-23,Panathinaikos,AEK Athens,1.0,2.0,Super League Greece
+2025-08-23,Fenerbahce,Besiktas,2.0,0.0,Super Lig
+2025-08-23,Trabzonspor,Galatasaray,1.0,2.0,Super Lig
+2025-08-23,Midtjylland,FC Copenhagen,2.0,0.0,Superliga
+2025-08-23,Nordsjaelland,Brondby,3.0,0.0,Superliga
+2025-09-06,Neftci Baku,Zira,0.0,1.0,Azerbaijan Premier League
+2025-09-06,Sabah,Qarabag,0.0,1.0,Azerbaijan Premier League
+2025-09-06,Bayer Leverkusen,Borussia Dortmund,2.0,2.0,Bundesliga
+2025-09-06,Bayern Munich,Eintracht Frankfurt,0.0,1.0,Bundesliga
+2025-09-06,APOEL,Pafos,1.0,2.0,Cypriot First Division
+2025-09-06,Omonia,AEK Larnaca,2.0,0.0,Cypriot First Division
+2025-09-06,Banik Ostrava,Slavia Praha,1.0,1.0,Czech First League
+2025-09-06,Viktoria Plzen,Sparta Praha,0.0,1.0,Czech First League
+2025-09-06,Molde,Bodo/Glimt,2.0,0.0,Eliteserien
+2025-09-06,Rosenborg,Brann,1.0,1.0,Eliteserien
+2025-09-06,Ajax,AZ Alkmaar,3.0,2.0,Eredivisie
+2025-09-06,PSV,Feyenoord,0.0,0.0,Eredivisie
+2025-09-06,Aktobe,Kairat Almaty,2.0,3.0,Kazakh Premier League
+2025-09-06,Tobol,Astana,0.0,0.0,Kazakh Premier League
+2025-09-06,Athletic Club,Barcelona,3.0,3.0,La Liga
+2025-09-06,Atletico Madrid,Real Madrid,0.0,1.0,La Liga
+2025-09-06,Lyon,Nice,2.0,1.0,Ligue 1
+2025-09-06,Marseille,Paris Saint-Germain,2.0,3.0,Ligue 1
+2025-09-06,Monaco,Lille,0.0,2.0,Ligue 1
+2025-09-06,Arsenal,Chelsea,2.0,0.0,Premier League
+2025-09-06,Liverpool,Newcastle United,1.0,1.0,Premier League
+2025-09-06,Manchester City,Tottenham Hotspur,0.0,0.0,Premier League
+2025-09-06,Benfica,Braga,2.0,0.0,Primeira Liga
+2025-09-06,Sporting CP,Porto,2.0,0.0,Primeira Liga
+2025-09-06,Genk,Club Brugge,0.0,1.0,Pro League
+2025-09-06,Gent,Anderlecht,3.0,1.0,Pro League
+2025-09-06,Aberdeen,Celtic,0.0,1.0,Scottish Premiership
+2025-09-06,Hearts,Rangers,0.0,2.0,Scottish Premiership
+2025-09-06,Inter,Juventus,3.0,0.0,Serie A
+2025-09-06,Napoli,Atalanta,3.0,1.0,Serie A
+2025-09-06,Olympiacos,AEK Athens,0.0,1.0,Super League Greece
+2025-09-06,PAOK,Panathinaikos,0.0,1.0,Super League Greece
+2025-09-06,Galatasaray,Fenerbahce,2.0,2.0,Super Lig
+2025-09-06,Trabzonspor,Besiktas,1.0,0.0,Super Lig
+2025-09-06,Brondby,Midtjylland,0.0,0.0,Superliga
+2025-09-06,Nordsjaelland,FC Copenhagen,0.0,1.0,Superliga
+2025-09-16,Arsenal,Tottenham Hotspur,0.0,1.0,UCL
+2025-09-16,Athletic Club,Slavia Praha,2.0,1.0,UCL
+2025-09-16,Bayer Leverkusen,Paris Saint-Germain,2.0,2.0,UCL
+2025-09-16,Celtic,Napoli,1.0,2.0,UCL
+2025-09-16,Chelsea,Monaco,0.0,3.0,UCL
+2025-09-16,FC Copenhagen,Liverpool,0.0,0.0,UCL
+2025-09-16,Galatasaray,Kairat Almaty,2.0,1.0,UCL
+2025-09-16,Inter,Juventus,0.0,1.0,UCL
+2025-09-16,Manchester City,Eintracht Frankfurt,0.0,2.0,UCL
+2025-09-16,Marseille,Club Brugge,3.0,1.0,UCL
+2025-09-16,Newcastle United,Borussia Dortmund,1.0,0.0,UCL
+2025-09-16,Olympiacos,Bodo/Glimt,2.0,2.0,UCL
+2025-09-16,PSV,Benfica,3.0,0.0,UCL
+2025-09-16,Pafos,Bayern Munich,1.0,0.0,UCL
+2025-09-16,Qarabag,Barcelona,1.0,4.0,UCL
+2025-09-16,Real Madrid,Atletico Madrid,4.0,0.0,UCL
+2025-09-16,Sporting CP,Atalanta,0.0,0.0,UCL
+2025-09-16,Villarreal,Ajax,0.0,3.0,UCL
+2025-09-20,Neftci Baku,Qarabag,0.0,0.0,Azerbaijan Premier League
+2025-09-20,Zira,Sabah,1.0,3.0,Azerbaijan Premier League
+2025-09-20,Bayern Munich,Borussia Dortmund,3.0,0.0,Bundesliga
+2025-09-20,Eintracht Frankfurt,Bayer Leverkusen,1.0,1.0,Bundesliga
+2025-09-20,APOEL,AEK Larnaca,2.0,2.0,Cypriot First Division
+2025-09-20,Pafos,Omonia,2.0,1.0,Cypriot First Division
+2025-09-20,Sparta Praha,Banik Ostrava,1.0,1.0,Czech First League
+2025-09-20,Viktoria Plzen,Slavia Praha,3.0,1.0,Czech First League
+2025-09-20,Bodo/Glimt,Rosenborg,2.0,3.0,Eliteserien
+2025-09-20,Molde,Brann,2.0,0.0,Eliteserien
+2025-09-20,Feyenoord,Ajax,1.0,1.0,Eredivisie
+2025-09-20,PSV,AZ Alkmaar,3.0,0.0,Eredivisie
+2025-09-20,Aktobe,Astana,2.0,3.0,Kazakh Premier League
+2025-09-20,Kairat Almaty,Tobol,1.0,0.0,Kazakh Premier League
+2025-09-20,Atletico Madrid,Barcelona,3.0,1.0,La Liga
+2025-09-20,Real Madrid,Villarreal,2.0,0.0,La Liga
+2025-09-20,Lyon,Monaco,0.0,0.0,Ligue 1
+2025-09-20,Marseille,Nice,1.0,2.0,Ligue 1
+2025-09-20,Paris Saint-Germain,Lille,1.0,2.0,Ligue 1
+2025-09-20,Arsenal,Liverpool,3.0,1.0,Premier League
+2025-09-20,Manchester City,Chelsea,1.0,1.0,Premier League
+2025-09-20,Tottenham Hotspur,Newcastle United,2.0,2.0,Premier League
+2025-09-20,Benfica,Porto,2.0,0.0,Primeira Liga
+2025-09-20,Braga,Sporting CP,2.0,3.0,Primeira Liga
+2025-09-20,Anderlecht,Genk,2.0,1.0,Pro League
+2025-09-20,Gent,Club Brugge,0.0,1.0,Pro League
+2025-09-20,Hearts,Celtic,0.0,1.0,Scottish Premiership
+2025-09-20,Rangers,Aberdeen,2.0,1.0,Scottish Premiership
+2025-09-20,Inter,Atalanta,0.0,0.0,Serie A
+2025-09-20,Juventus,Napoli,0.0,1.0,Serie A
+2025-09-20,PAOK,AEK Athens,1.0,0.0,Super League Greece
+2025-09-20,Panathinaikos,Olympiacos,1.0,2.0,Super League Greece
+2025-09-20,Fenerbahce,Trabzonspor,1.0,1.0,Super Lig
+2025-09-20,Galatasaray,Besiktas,1.0,2.0,Super Lig
+2025-09-20,Brondby,FC Copenhagen,2.0,0.0,Superliga
+2025-09-20,Midtjylland,Nordsjaelland,2.0,1.0,Superliga
+2025-09-30,Atalanta,Real Madrid,2.0,1.0,UCL
+2025-09-30,Barcelona,Pafos,2.0,0.0,UCL
+2025-09-30,Bayern Munich,Olympiacos,3.0,0.0,UCL
+2025-09-30,Benfica,Newcastle United,1.0,2.0,UCL
+2025-09-30,Chelsea,Manchester City,1.0,1.0,UCL
+2025-09-30,Eintracht Frankfurt,Kairat Almaty,1.0,1.0,UCL
+2025-09-30,Inter,Galatasaray,3.0,1.0,UCL
+2025-09-30,Juventus,FC Copenhagen,1.0,1.0,UCL
+2025-09-30,Liverpool,Club Brugge,2.0,0.0,UCL
+2025-09-30,Marseille,Celtic,1.0,0.0,UCL
+2025-09-30,Monaco,Borussia Dortmund,1.0,1.0,UCL
+2025-09-30,Napoli,Bodo/Glimt,0.0,1.0,UCL
+2025-09-30,PSV,Bayer Leverkusen,1.0,1.0,UCL
+2025-09-30,Paris Saint-Germain,Atletico Madrid,0.0,1.0,UCL
+2025-09-30,Qarabag,Athletic Club,1.0,0.0,UCL
+2025-09-30,Slavia Praha,Arsenal,1.0,4.0,UCL
+2025-09-30,Tottenham Hotspur,Ajax,0.0,1.0,UCL
+2025-09-30,Villarreal,Sporting CP,1.0,1.0,UCL
+2025-10-04,Neftci Baku,Sabah,1.0,1.0,Azerbaijan Premier League
+2025-10-04,Qarabag,Zira,0.0,1.0,Azerbaijan Premier League
+2025-10-04,Bayern Munich,Bayer Leverkusen,6.0,1.0,Bundesliga
+2025-10-04,Borussia Dortmund,Eintracht Frankfurt,1.0,1.0,Bundesliga
+2025-10-04,AEK Larnaca,Pafos,2.0,0.0,Cypriot First Division
+2025-10-04,APOEL,Omonia,0.0,1.0,Cypriot First Division
+2025-10-04,Slavia Praha,Sparta Praha,1.0,0.0,Czech First League
+2025-10-04,Viktoria Plzen,Banik Ostrava,0.0,1.0,Czech First League
+2025-10-04,Brann,Bodo/Glimt,1.0,0.0,Eliteserien
+2025-10-04,Molde,Rosenborg,3.0,2.0,Eliteserien
+2025-10-04,AZ Alkmaar,Feyenoord,2.0,2.0,Eredivisie
+2025-10-04,PSV,Ajax,4.0,3.0,Eredivisie
+2025-10-04,Aktobe,Tobol,0.0,0.0,Kazakh Premier League
+2025-10-04,Astana,Kairat Almaty,5.0,1.0,Kazakh Premier League
+2025-10-04,Athletic Club,Villarreal,3.0,0.0,La Liga
+2025-10-04,Real Madrid,Barcelona,3.0,4.0,La Liga
+2025-10-04,Marseille,Lille,2.0,2.0,Ligue 1
+2025-10-04,Nice,Monaco,0.0,3.0,Ligue 1
+2025-10-04,Paris Saint-Germain,Lyon,1.0,0.0,Ligue 1
+2025-10-04,Chelsea,Liverpool,0.0,0.0,Premier League
+2025-10-04,Manchester City,Newcastle United,2.0,1.0,Premier League
+2025-10-04,Tottenham Hotspur,Arsenal,1.0,1.0,Premier League
+2025-10-04,Benfica,Sporting CP,2.0,3.0,Primeira Liga
+2025-10-04,Porto,Braga,2.0,2.0,Primeira Liga
+2025-10-04,Club Brugge,Anderlecht,0.0,1.0,Pro League
+2025-10-04,Gent,Genk,0.0,3.0,Pro League
+2025-10-04,Celtic,Rangers,2.0,0.0,Scottish Premiership
+2025-10-04,Hearts,Aberdeen,1.0,0.0,Scottish Premiership
+2025-10-04,Atalanta,Juventus,1.0,1.0,Serie A
+2025-10-04,Inter,Napoli,3.0,3.0,Serie A
+2025-10-04,AEK Athens,Panathinaikos,4.0,2.0,Super League Greece
+2025-10-04,PAOK,Olympiacos,2.0,1.0,Super League Greece
+2025-10-04,Besiktas,Fenerbahce,1.0,1.0,Super Lig
+2025-10-04,Galatasaray,Trabzonspor,2.0,1.0,Super Lig
+2025-10-04,Brondby,Nordsjaelland,0.0,1.0,Superliga
+2025-10-04,FC Copenhagen,Midtjylland,0.0,1.0,Superliga
+2025-10-18,Qarabag,Sabah,1.0,3.0,Azerbaijan Premier League
+2025-10-18,Zira,Neftci Baku,1.0,2.0,Azerbaijan Premier League
+2025-10-18,Borussia Dortmund,Bayer Leverkusen,1.0,3.0,Bundesliga
+2025-10-18,Eintracht Frankfurt,Bayern Munich,1.0,3.0,Bundesliga
+2025-10-18,AEK Larnaca,Omonia,1.0,2.0,Cypriot First Division
+2025-10-18,Pafos,APOEL,0.0,1.0,Cypriot First Division
+2025-10-18,Slavia Praha,Banik Ostrava,2.0,1.0,Czech First League
+2025-10-18,Sparta Praha,Viktoria Plzen,3.0,2.0,Czech First League
+2025-10-18,Bodo/Glimt,Molde,2.0,0.0,Eliteserien
+2025-10-18,Brann,Rosenborg,3.0,2.0,Eliteserien
+2025-10-18,AZ Alkmaar,Ajax,3.0,2.0,Eredivisie
+2025-10-18,Feyenoord,PSV,2.0,1.0,Eredivisie
+2025-10-18,Astana,Tobol,1.0,2.0,Kazakh Premier League
+2025-10-18,Kairat Almaty,Aktobe,2.0,1.0,Kazakh Premier League
+2025-10-18,Athletic Club,Atletico Madrid,0.0,3.0,La Liga
+2025-10-18,Barcelona,Villarreal,1.0,2.0,La Liga
+2025-10-18,Lyon,Lille,1.0,0.0,Ligue 1
+2025-10-18,Monaco,Marseille,1.0,1.0,Ligue 1
+2025-10-18,Paris Saint-Germain,Nice,1.0,1.0,Ligue 1
+2025-10-18,Arsenal,Newcastle United,0.0,1.0,Premier League
+2025-10-18,Liverpool,Manchester City,2.0,3.0,Premier League
+2025-10-18,Tottenham Hotspur,Chelsea,0.0,2.0,Premier League
+2025-10-18,Braga,Benfica,2.0,0.0,Primeira Liga
+2025-10-18,Porto,Sporting CP,0.0,0.0,Primeira Liga
+2025-10-18,Anderlecht,Gent,5.0,0.0,Pro League
+2025-10-18,Club Brugge,Genk,2.0,1.0,Pro League
+2025-10-18,Celtic,Aberdeen,1.0,0.0,Scottish Premiership
+2025-10-18,Rangers,Hearts,3.0,1.0,Scottish Premiership
+2025-10-18,Atalanta,Napoli,1.0,1.0,Serie A
+2025-10-18,Juventus,Inter,3.0,0.0,Serie A
+2025-10-18,AEK Athens,Olympiacos,3.0,1.0,Super League Greece
+2025-10-18,Panathinaikos,PAOK,1.0,3.0,Super League Greece
+2025-10-18,Besiktas,Trabzonspor,3.0,1.0,Super Lig
+2025-10-18,Fenerbahce,Galatasaray,3.0,1.0,Super Lig
+2025-10-18,FC Copenhagen,Nordsjaelland,0.0,1.0,Superliga
+2025-10-18,Midtjylland,Brondby,0.0,0.0,Superliga
+2025-10-21,Ajax,Sporting CP,0.0,0.0,UCL
+2025-10-21,Arsenal,Qarabag,0.0,3.0,UCL
+2025-10-21,Athletic Club,Pafos,0.0,0.0,UCL
+2025-10-21,Atletico Madrid,PSV,2.0,0.0,UCL
+2025-10-21,Bodo/Glimt,Marseille,1.0,2.0,UCL
+2025-10-21,Borussia Dortmund,Manchester City,0.0,3.0,UCL
+2025-10-21,Celtic,Liverpool,3.0,3.0,UCL
+2025-10-21,Club Brugge,Juventus,2.0,1.0,UCL
+2025-10-21,Eintracht Frankfurt,Inter,2.0,2.0,UCL
+2025-10-21,Galatasaray,FC Copenhagen,0.0,0.0,UCL
+2025-10-21,Kairat Almaty,Chelsea,3.0,0.0,UCL
+2025-10-21,Monaco,Benfica,2.0,3.0,UCL
+2025-10-21,Napoli,Bayern Munich,0.0,3.0,UCL
+2025-10-21,Newcastle United,Bayer Leverkusen,2.0,3.0,UCL
+2025-10-21,Olympiacos,Barcelona,0.0,2.0,UCL
+2025-10-21,Paris Saint-Germain,Atalanta,0.0,1.0,UCL
+2025-10-21,Real Madrid,Villarreal,1.0,0.0,UCL
+2025-10-21,Tottenham Hotspur,Slavia Praha,4.0,4.0,UCL
+2025-11-01,Barcelona,Athletic Club,1.0,0.0,La Liga
+2025-11-01,Real Madrid,Atletico Madrid,2.0,1.0,La Liga
+2025-11-01,Lyon,Marseille,1.0,1.0,Ligue 1
+2025-11-01,Nice,Lille,1.0,0.0,Ligue 1
+2025-11-01,Paris Saint-Germain,Monaco,2.0,0.0,Ligue 1
+2025-11-01,Arsenal,Manchester City,0.0,2.0,Premier League
+2025-11-01,Chelsea,Newcastle United,1.0,0.0,Premier League
+2025-11-01,Tottenham Hotspur,Liverpool,5.0,1.0,Premier League
+2025-11-04,Ajax,Slavia Praha,0.0,0.0,UCL
+2025-11-04,Atalanta,PSV,1.0,1.0,UCL
+2025-11-04,Atletico Madrid,Newcastle United,2.0,4.0,UCL
+2025-11-04,Barcelona,Napoli,2.0,2.0,UCL
+2025-11-04,Bayer Leverkusen,Monaco,0.0,0.0,UCL
+2025-11-04,Bayern Munich,Marseille,1.0,1.0,UCL
+2025-11-04,Club Brugge,Galatasaray,1.0,3.0,UCL
+2025-11-04,FC Copenhagen,Eintracht Frankfurt,0.0,0.0,UCL
+2025-11-04,Inter,Chelsea,1.0,1.0,UCL
+2025-11-04,Juventus,Celtic,1.0,0.0,UCL
+2025-11-04,Kairat Almaty,Borussia Dortmund,0.0,1.0,UCL
+2025-11-04,Liverpool,Bodo/Glimt,3.0,2.0,UCL
+2025-11-04,Manchester City,Benfica,2.0,0.0,UCL
+2025-11-04,Olympiacos,Athletic Club,3.0,1.0,UCL
+2025-11-04,Pafos,Arsenal,0.0,1.0,UCL
+2025-11-04,Paris Saint-Germain,Villarreal,1.0,1.0,UCL
+2025-11-04,Sporting CP,Real Madrid,1.0,3.0,UCL
+2025-11-04,Tottenham Hotspur,Qarabag,2.0,1.0,UCL
+2025-11-15,Barcelona,Atletico Madrid,1.0,1.0,La Liga
+2025-11-15,Villarreal,Real Madrid,1.0,0.0,La Liga
+2025-11-15,Lille,Monaco,3.0,0.0,Ligue 1
+2025-11-15,Nice,Lyon,0.0,2.0,Ligue 1
+2025-11-15,Paris Saint-Germain,Marseille,3.0,1.0,Ligue 1
+2025-11-15,Chelsea,Arsenal,2.0,1.0,Premier League
+2025-11-15,Newcastle United,Liverpool,0.0,0.0,Premier League
+2025-11-15,Tottenham Hotspur,Manchester City,1.0,5.0,Premier League
+2025-11-25,Arsenal,Olympiacos,2.0,1.0,UCL
+2025-11-25,Athletic Club,Napoli,1.0,3.0,UCL
+2025-11-25,Benfica,Kairat Almaty,1.0,0.0,UCL
+2025-11-25,Bodo/Glimt,Juventus,0.0,0.0,UCL
+2025-11-25,Borussia Dortmund,Inter,1.0,3.0,UCL
+2025-11-25,Eintracht Frankfurt,Club Brugge,0.0,1.0,UCL
+2025-11-25,FC Copenhagen,Chelsea,0.0,1.0,UCL
+2025-11-25,Galatasaray,Celtic,1.0,0.0,UCL
+2025-11-25,Liverpool,Bayern Munich,5.0,0.0,UCL
+2025-11-25,Manchester City,Bayer Leverkusen,2.0,1.0,UCL
+2025-11-25,Marseille,Barcelona,1.0,4.0,UCL
+2025-11-25,Monaco,Atletico Madrid,0.0,1.0,UCL
+2025-11-25,Newcastle United,Atalanta,1.0,0.0,UCL
+2025-11-25,Pafos,Tottenham Hotspur,1.0,1.0,UCL
+2025-11-25,Real Madrid,Ajax,4.0,0.0,UCL
+2025-11-25,Slavia Praha,Qarabag,1.0,1.0,UCL
+2025-11-25,Sporting CP,Paris Saint-Germain,2.0,1.0,UCL
+2025-11-25,Villarreal,PSV,0.0,2.0,UCL
+2025-12-09,Ajax,Qarabag,,,UCL
+2025-12-09,Atalanta,Monaco,,,UCL
+2025-12-09,Athletic Club,Marseille,,,UCL
+2025-12-09,Atletico Madrid,Manchester City,,,UCL
+2025-12-09,Barcelona,Liverpool,,,UCL
+2025-12-09,Bayer Leverkusen,Kairat Almaty,,,UCL
+2025-12-09,Bayern Munich,Juventus,,,UCL
+2025-12-09,Benfica,Inter,,,UCL
+2025-12-09,Bodo/Glimt,Galatasaray,,,UCL
+2025-12-09,Borussia Dortmund,FC Copenhagen,,,UCL
+2025-12-09,Celtic,Eintracht Frankfurt,,,UCL
+2025-12-09,Club Brugge,Chelsea,,,UCL
+2025-12-09,Napoli,Arsenal,,,UCL
+2025-12-09,Newcastle United,Villarreal,,,UCL
+2025-12-09,Olympiacos,Tottenham Hotspur,,,UCL
+2025-12-09,PSV,Sporting CP,,,UCL
+2025-12-09,Paris Saint-Germain,Real Madrid,,,UCL
+2025-12-09,Slavia Praha,Pafos,,,UCL
+2026-01-20,Ajax,Paris Saint-Germain,,,UCL
+2026-01-20,Atalanta,Manchester City,,,UCL
+2026-01-20,Bayer Leverkusen,Inter,,,UCL
+2026-01-20,Borussia Dortmund,Club Brugge,,,UCL
+2026-01-20,Chelsea,Celtic,,,UCL
+2026-01-20,Eintracht Frankfurt,Bodo/Glimt,,,UCL
+2026-01-20,FC Copenhagen,Benfica,,,UCL
+2026-01-20,Galatasaray,Bayern Munich,,,UCL
+2026-01-20,Juventus,Barcelona,,,UCL
+2026-01-20,Kairat Almaty,Atletico Madrid,,,UCL
+2026-01-20,Liverpool,Athletic Club,,,UCL
+2026-01-20,Marseille,Arsenal,,,UCL
+2026-01-20,Monaco,Villarreal,,,UCL
+2026-01-20,PSV,Real Madrid,,,UCL
+2026-01-20,Qarabag,Pafos,,,UCL
+2026-01-20,Slavia Praha,Olympiacos,,,UCL
+2026-01-20,Sporting CP,Newcastle United,,,UCL
+2026-01-20,Tottenham Hotspur,Napoli,,,UCL
+2026-01-28,Arsenal,Liverpool,,,UCL
+2026-01-28,Atletico Madrid,Inter,,,UCL
+2026-01-28,Barcelona,Galatasaray,,,UCL
+2026-01-28,Bayern Munich,Eintracht Frankfurt,,,UCL
+2026-01-28,Celtic,Borussia Dortmund,,,UCL
+2026-01-28,Chelsea,Bodo/Glimt,,,UCL
+2026-01-28,Club Brugge,Benfica,,,UCL
+2026-01-28,FC Copenhagen,Bayer Leverkusen,,,UCL
+2026-01-28,Juventus,Athletic Club,,,UCL
+2026-01-28,Kairat Almaty,Atalanta,,,UCL
+2026-01-28,Manchester City,Villarreal,,,UCL
+2026-01-28,Marseille,Tottenham Hotspur,,,UCL
+2026-01-28,Napoli,Slavia Praha,,,UCL
+2026-01-28,PSV,Paris Saint-Germain,,,UCL
+2026-01-28,Pafos,Ajax,,,UCL
+2026-01-28,Qarabag,Olympiacos,,,UCL
+2026-01-28,Real Madrid,Newcastle United,,,UCL
+2026-01-28,Sporting CP,Monaco,,,UCL

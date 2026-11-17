@@ -1,0 +1,1382 @@
+date,home,away,home_goals,away_goals,competition
+2025-09-16 16:45:00,Athletic Club,Arsenal,0,2,UCL 2025/26
+2025-09-16 16:45:00,PSV,Union Saint-Gilloise,1,3,UCL 2025/26
+2025-09-16 19:00:00,Benfica,Qarabag,2,3,UCL 2025/26
+2025-09-16 19:00:00,Juventus,Borussia Dortmund,4,4,UCL 2025/26
+2025-09-16 19:00:00,Real Madrid,Marseille,2,1,UCL 2025/26
+2025-09-16 19:00:00,Tottenham Hotspur,Villarreal,1,0,UCL 2025/26
+2025-09-17 16:45:00,Olympiacos,Pafos,0,0,UCL 2025/26
+2025-09-17 16:45:00,Slavia Praha,Bodo/Glimt,2,2,UCL 2025/26
+2025-09-17 19:00:00,Ajax,Inter,0,2,UCL 2025/26
+2025-09-17 19:00:00,Bayern Munich,Chelsea,3,1,UCL 2025/26
+2025-09-17 19:00:00,Liverpool,Atletico Madrid,3,2,UCL 2025/26
+2025-09-17 19:00:00,Paris Saint-Germain,Atalanta,4,0,UCL 2025/26
+2025-09-18 16:45:00,Club Brugge,Monaco,4,1,UCL 2025/26
+2025-09-18 16:45:00,FC Copenhagen,Bayer Leverkusen,2,2,UCL 2025/26
+2025-09-18 19:00:00,Eintracht Frankfurt,Galatasaray,5,1,UCL 2025/26
+2025-09-18 19:00:00,Manchester City,Napoli,2,0,UCL 2025/26
+2025-09-18 19:00:00,Newcastle United,Barcelona,1,2,UCL 2025/26
+2025-09-18 19:00:00,Sporting CP,Kairat Almaty,4,1,UCL 2025/26
+2025-09-30 16:45:00,Atalanta,Club Brugge,2,1,UCL 2025/26
+2025-09-30 16:45:00,Kairat Almaty,Real Madrid,0,5,UCL 2025/26
+2025-09-30 19:00:00,Atletico Madrid,Eintracht Frankfurt,5,1,UCL 2025/26
+2025-09-30 19:00:00,Bodo/Glimt,Tottenham Hotspur,2,2,UCL 2025/26
+2025-09-30 19:00:00,Chelsea,Benfica,1,0,UCL 2025/26
+2025-09-30 19:00:00,Galatasaray,Liverpool,1,0,UCL 2025/26
+2025-09-30 19:00:00,Inter,Slavia Praha,3,0,UCL 2025/26
+2025-09-30 19:00:00,Marseille,Ajax,4,0,UCL 2025/26
+2025-09-30 19:00:00,Pafos,Bayern Munich,1,5,UCL 2025/26
+2025-10-01 16:45:00,Qarabag,FC Copenhagen,2,0,UCL 2025/26
+2025-10-01 16:45:00,Union Saint-Gilloise,Newcastle United,0,4,UCL 2025/26
+2025-10-01 19:00:00,Arsenal,Olympiacos,2,0,UCL 2025/26
+2025-10-01 19:00:00,Barcelona,Paris Saint-Germain,1,2,UCL 2025/26
+2025-10-01 19:00:00,Bayer Leverkusen,PSV,1,1,UCL 2025/26
+2025-10-01 19:00:00,Borussia Dortmund,Athletic Club,4,1,UCL 2025/26
+2025-10-01 19:00:00,Monaco,Manchester City,2,2,UCL 2025/26
+2025-10-01 19:00:00,Napoli,Sporting CP,2,1,UCL 2025/26
+2025-10-01 19:00:00,Villarreal,Juventus,2,2,UCL 2025/26
+2025-10-21 16:45:00,Barcelona,Olympiacos,6,1,UCL 2025/26
+2025-10-21 16:45:00,Kairat Almaty,Pafos,0,0,UCL 2025/26
+2025-10-21 19:00:00,Arsenal,Atletico Madrid,4,0,UCL 2025/26
+2025-10-21 19:00:00,Bayer Leverkusen,Paris Saint-Germain,2,7,UCL 2025/26
+2025-10-21 19:00:00,FC Copenhagen,Borussia Dortmund,2,4,UCL 2025/26
+2025-10-21 19:00:00,Newcastle United,Benfica,3,0,UCL 2025/26
+2025-10-21 19:00:00,PSV,Napoli,6,2,UCL 2025/26
+2025-10-21 19:00:00,Union Saint-Gilloise,Inter,0,4,UCL 2025/26
+2025-10-21 19:00:00,Villarreal,Manchester City,0,2,UCL 2025/26
+2025-10-22 16:45:00,Athletic Club,Qarabag,3,1,UCL 2025/26
+2025-10-22 16:45:00,Galatasaray,Bodo/Glimt,3,1,UCL 2025/26
+2025-10-22 19:00:00,Atalanta,Slavia Praha,0,0,UCL 2025/26
+2025-10-22 19:00:00,Bayern Munich,Club Brugge,4,0,UCL 2025/26
+2025-10-22 19:00:00,Chelsea,Ajax,5,1,UCL 2025/26
+2025-10-22 19:00:00,Eintracht Frankfurt,Liverpool,1,5,UCL 2025/26
+2025-10-22 19:00:00,Monaco,Tottenham Hotspur,0,0,UCL 2025/26
+2025-10-22 19:00:00,Real Madrid,Juventus,1,0,UCL 2025/26
+2025-10-22 19:00:00,Sporting CP,Marseille,2,1,UCL 2025/26
+2025-11-04 17:45:00,Napoli,Eintracht Frankfurt,0,0,UCL 2025/26
+2025-11-04 17:45:00,Slavia Praha,Arsenal,0,3,UCL 2025/26
+2025-11-04 20:00:00,Atletico Madrid,Union Saint-Gilloise,3,1,UCL 2025/26
+2025-11-04 20:00:00,Bodo/Glimt,Monaco,0,1,UCL 2025/26
+2025-11-04 20:00:00,Juventus,Sporting CP,1,1,UCL 2025/26
+2025-11-04 20:00:00,Liverpool,Real Madrid,1,0,UCL 2025/26
+2025-11-04 20:00:00,Olympiacos,PSV,1,1,UCL 2025/26
+2025-11-04 20:00:00,Paris Saint-Germain,Bayern Munich,1,2,UCL 2025/26
+2025-11-04 20:00:00,Tottenham Hotspur,FC Copenhagen,4,0,UCL 2025/26
+2025-11-05 17:45:00,Pafos,Villarreal,1,0,UCL 2025/26
+2025-11-05 17:45:00,Qarabag,Chelsea,2,2,UCL 2025/26
+2025-11-05 20:00:00,Ajax,Galatasaray,0,3,UCL 2025/26
+2025-11-05 20:00:00,Benfica,Bayer Leverkusen,0,1,UCL 2025/26
+2025-11-05 20:00:00,Club Brugge,Barcelona,3,3,UCL 2025/26
+2025-11-05 20:00:00,Inter,Kairat Almaty,2,1,UCL 2025/26
+2025-11-05 20:00:00,Manchester City,Borussia Dortmund,4,1,UCL 2025/26
+2025-11-05 20:00:00,Marseille,Atalanta,0,1,UCL 2025/26
+2025-11-05 20:00:00,Newcastle United,Athletic Club,2,0,UCL 2025/26
+2025-11-25 17:45:00,Ajax,Benfica,0,2,UCL 2025/26
+2025-11-25 17:45:00,Galatasaray,Union Saint-Gilloise,0,1,UCL 2025/26
+2025-11-25 20:00:00,Bodo/Glimt,Juventus,2,3,UCL 2025/26
+2025-11-25 20:00:00,Borussia Dortmund,Villarreal,4,0,UCL 2025/26
+2025-11-25 20:00:00,Chelsea,Barcelona,3,0,UCL 2025/26
+2025-11-25 20:00:00,Manchester City,Bayer Leverkusen,0,2,UCL 2025/26
+2025-11-25 20:00:00,Marseille,Newcastle United,2,1,UCL 2025/26
+2025-11-25 20:00:00,Napoli,Qarabag,2,0,UCL 2025/26
+2025-11-25 20:00:00,Slavia Praha,Athletic Club,0,0,UCL 2025/26
+2025-11-26 17:45:00,FC Copenhagen,Kairat Almaty,3,2,UCL 2025/26
+2025-11-26 17:45:00,Pafos,Monaco,2,2,UCL 2025/26
+2025-11-26 20:00:00,Arsenal,Bayern Munich,3,1,UCL 2025/26
+2025-11-26 20:00:00,Atletico Madrid,Inter,2,1,UCL 2025/26
+2025-11-26 20:00:00,Eintracht Frankfurt,Atalanta,0,3,UCL 2025/26
+2025-11-26 20:00:00,Liverpool,PSV,1,4,UCL 2025/26
+2025-11-26 20:00:00,Olympiacos,Real Madrid,3,4,UCL 2025/26
+2025-11-26 20:00:00,Paris Saint-Germain,Tottenham Hotspur,5,3,UCL 2025/26
+2025-11-26 20:00:00,Sporting CP,Club Brugge,3,0,UCL 2025/26
+2025-12-09 15:30:00,Kairat Almaty,Olympiacos,0,1,UCL 2025/26
+2025-12-09 17:45:00,Bayern Munich,Sporting CP,3,1,UCL 2025/26
+2025-12-09 20:00:00,Atalanta,Chelsea,2,1,UCL 2025/26
+2025-12-09 20:00:00,Barcelona,Eintracht Frankfurt,2,1,UCL 2025/26
+2025-12-09 20:00:00,Inter,Liverpool,0,1,UCL 2025/26
+2025-12-09 20:00:00,Monaco,Galatasaray,1,0,UCL 2025/26
+2025-12-09 20:00:00,PSV,Atletico Madrid,2,3,UCL 2025/26
+2025-12-09 20:00:00,Tottenham Hotspur,Slavia Praha,3,0,UCL 2025/26
+2025-12-09 20:00:00,Union Saint-Gilloise,Marseille,2,3,UCL 2025/26
+2025-12-10 17:45:00,Qarabag,Ajax,2,4,UCL 2025/26
+2025-12-10 17:45:00,Villarreal,FC Copenhagen,2,3,UCL 2025/26
+2025-12-10 20:00:00,Athletic Club,Paris Saint-Germain,0,0,UCL 2025/26
+2025-12-10 20:00:00,Bayer Leverkusen,Newcastle United,2,2,UCL 2025/26
+2025-12-10 20:00:00,Benfica,Napoli,2,0,UCL 2025/26
+2025-12-10 20:00:00,Borussia Dortmund,Bodo/Glimt,2,2,UCL 2025/26
+2025-12-10 20:00:00,Club Brugge,Arsenal,0,3,UCL 2025/26
+2025-12-10 20:00:00,Juventus,Pafos,2,0,UCL 2025/26
+2025-12-10 20:00:00,Real Madrid,Manchester City,1,2,UCL 2025/26
+2026-01-20 15:30:00,Kairat Almaty,Club Brugge,1,4,UCL 2025/26
+2026-01-20 17:45:00,Bodo/Glimt,Manchester City,3,1,UCL 2025/26
+2026-01-20 20:00:00,FC Copenhagen,Napoli,1,1,UCL 2025/26
+2026-01-20 20:00:00,Inter,Arsenal,1,3,UCL 2025/26
+2026-01-20 20:00:00,Olympiacos,Bayer Leverkusen,2,0,UCL 2025/26
+2026-01-20 20:00:00,Real Madrid,Monaco,6,1,UCL 2025/26
+2026-01-20 20:00:00,Sporting CP,Paris Saint-Germain,2,1,UCL 2025/26
+2026-01-20 20:00:00,Tottenham Hotspur,Borussia Dortmund,2,0,UCL 2025/26
+2026-01-20 20:00:00,Villarreal,Ajax,1,2,UCL 2025/26
+2026-01-21 17:45:00,Galatasaray,Atletico Madrid,1,1,UCL 2025/26
+2026-01-21 17:45:00,Qarabag,Eintracht Frankfurt,3,2,UCL 2025/26
+2026-01-21 20:00:00,Atalanta,Athletic Club,2,3,UCL 2025/26
+2026-01-21 20:00:00,Bayern Munich,Union Saint-Gilloise,2,0,UCL 2025/26
+2026-01-21 20:00:00,Chelsea,Pafos,1,0,UCL 2025/26
+2026-01-21 20:00:00,Juventus,Benfica,2,0,UCL 2025/26
+2026-01-21 20:00:00,Marseille,Liverpool,0,3,UCL 2025/26
+2026-01-21 20:00:00,Newcastle United,PSV,3,0,UCL 2025/26
+2026-01-21 20:00:00,Slavia Praha,Barcelona,2,4,UCL 2025/26
+2026-01-28 20:00:00,Ajax,Olympiacos,1,2,UCL 2025/26
+2026-01-28 20:00:00,Arsenal,Kairat Almaty,3,2,UCL 2025/26
+2026-01-28 20:00:00,Athletic Club,Sporting CP,2,3,UCL 2025/26
+2026-01-28 20:00:00,Atletico Madrid,Bodo/Glimt,1,2,UCL 2025/26
+2026-01-28 20:00:00,Barcelona,FC Copenhagen,4,1,UCL 2025/26
+2026-01-28 20:00:00,Bayer Leverkusen,Villarreal,3,0,UCL 2025/26
+2026-01-28 20:00:00,Benfica,Real Madrid,4,2,UCL 2025/26
+2026-01-28 20:00:00,Borussia Dortmund,Inter,0,2,UCL 2025/26
+2026-01-28 20:00:00,Club Brugge,Marseille,3,0,UCL 2025/26
+2026-01-28 20:00:00,Eintracht Frankfurt,Tottenham Hotspur,0,2,UCL 2025/26
+2026-01-28 20:00:00,Liverpool,Qarabag,6,0,UCL 2025/26
+2026-01-28 20:00:00,Manchester City,Galatasaray,2,0,UCL 2025/26
+2026-01-28 20:00:00,Monaco,Juventus,0,0,UCL 2025/26
+2026-01-28 20:00:00,Napoli,Chelsea,2,3,UCL 2025/26
+2026-01-28 20:00:00,PSV,Bayern Munich,1,2,UCL 2025/26
+2026-01-28 20:00:00,Pafos,Slavia Praha,4,1,UCL 2025/26
+2026-01-28 20:00:00,Paris Saint-Germain,Newcastle United,1,1,UCL 2025/26
+2026-01-28 20:00:00,Union Saint-Gilloise,Atalanta,1,0,UCL 2025/26
+2026-02-17 17:45:00,Galatasaray,Juventus,5,2,UCL 2025/26
+2026-02-17 20:00:00,Benfica,Real Madrid,0,1,UCL 2025/26
+2026-02-17 20:00:00,Monaco,Paris Saint-Germain,2,3,UCL 2025/26
+2026-02-17 20:15:00,Borussia Dortmund,Atalanta,2,0,UCL 2025/26
+2026-02-18 17:45:00,Qarabag,Newcastle United,1,6,UCL 2025/26
+2026-02-18 20:00:00,Bodo/Glimt,Inter,3,1,UCL 2025/26
+2026-02-18 20:00:00,Club Brugge,Atletico Madrid,3,3,UCL 2025/26
+2026-02-18 20:00:00,Olympiacos,Bayer Leverkusen,0,2,UCL 2025/26
+2026-02-24 17:45:00,Atletico Madrid,Club Brugge,4,1,UCL 2025/26
+2026-02-24 20:00:00,Bayer Leverkusen,Olympiacos,0,0,UCL 2025/26
+2026-02-24 20:00:00,Inter,Bodo/Glimt,1,2,UCL 2025/26
+2026-02-24 20:00:00,Newcastle United,Qarabag,3,2,UCL 2025/26
+2026-02-25 17:45:00,Atalanta,Borussia Dortmund,4,1,UCL 2025/26
+2026-02-25 20:00:00,Juventus,Galatasaray,3,2,UCL 2025/26
+2026-02-25 20:00:00,Paris Saint-Germain,Monaco,2,2,UCL 2025/26
+2026-02-25 20:00:00,Real Madrid,Benfica,2,1,UCL 2025/26
+2026-03-10 17:45:00,Galatasaray,Liverpool,1,0,UCL 2025/26
+2026-03-10 20:00:00,Atalanta,Bayern Munich,1,6,UCL 2025/26
+2026-03-10 20:00:00,Atletico Madrid,Tottenham Hotspur,5,2,UCL 2025/26
+2026-03-10 20:00:00,Newcastle United,Barcelona,1,1,UCL 2025/26
+2026-03-11 17:45:00,Bayer Leverkusen,Arsenal,1,1,UCL 2025/26
+2026-03-11 20:00:00,Bodo/Glimt,Sporting CP,3,0,UCL 2025/26
+2026-03-11 20:00:00,Paris Saint-Germain,Chelsea,5,2,UCL 2025/26
+2026-03-11 20:00:00,Real Madrid,Manchester City,3,0,UCL 2025/26
+2026-03-17 17:45:00,Sporting CP,Bodo/Glimt,5,0,UCL 2025/26
+2026-03-17 20:00:00,Arsenal,Bayer Leverkusen,2,0,UCL 2025/26
+2026-03-17 20:00:00,Chelsea,Paris Saint-Germain,0,3,UCL 2025/26
+2026-03-17 20:00:00,Manchester City,Real Madrid,1,2,UCL 2025/26
+2026-03-18 17:45:00,Barcelona,Newcastle United,7,2,UCL 2025/26
+2026-03-18 20:00:00,Bayern Munich,Atalanta,4,1,UCL 2025/26
+2026-03-18 20:00:00,Liverpool,Galatasaray,4,0,UCL 2025/26
+2026-03-18 20:00:00,Tottenham Hotspur,Atletico Madrid,3,2,UCL 2025/26
+2026-04-07 19:00:00,Real Madrid,Bayern Munich,1,2,UCL 2025/26
+2026-04-07 19:00:00,Sporting CP,Arsenal,0,1,UCL 2025/26
+2026-04-08 19:00:00,Barcelona,Atletico Madrid,0,2,UCL 2025/26
+2026-04-08 19:00:00,Paris Saint-Germain,Liverpool,2,0,UCL 2025/26
+2026-04-14 19:00:00,Atletico Madrid,Barcelona,1,2,UCL 2025/26
+2026-04-14 19:00:00,Liverpool,Paris Saint-Germain,0,2,UCL 2025/26
+2026-04-15 19:00:00,Arsenal,Sporting CP,0,0,UCL 2025/26
+2026-04-15 19:00:00,Bayern Munich,Real Madrid,4,3,UCL 2025/26
+2026-04-28 19:00:00,Paris Saint-Germain,Bayern Munich,5,4,UCL 2025/26
+2026-04-29 19:00:00,Atletico Madrid,Arsenal,1,1,UCL 2025/26
+2026-05-05 19:00:00,Arsenal,Atletico Madrid,1,0,UCL 2025/26
+2026-05-06 19:00:00,Bayern Munich,Paris Saint-Germain,1,1,UCL 2025/26
+2026-05-30 16:00:00,Paris Saint-Germain,Arsenal,1,1,UCL 2025/26
+2026-07-31 00:00:00,Dundee United,Rangers,1,1,Scottish Premiership
+2026-08-01 00:00:00,Aberdeen,Hearts,2,1,Scottish Premiership
+2026-08-01 00:00:00,Falkirk,St Mirren,0,2,Scottish Premiership
+2026-08-02 00:00:00,Hibernian,Motherwell,1,2,Scottish Premiership
+2026-08-02 00:00:00,St Johnstone,Kilmarnock,4,3,Scottish Premiership
+2026-08-03 00:00:00,Celtic,Dundee,1,0,Scottish Premiership
+2026-08-07 00:00:00,Cambuur,Excelsior,0,4,Eredivisie
+2026-08-07 00:00:00,Estoril,Famalicao,1,1,Primeira Liga
+2026-08-07 00:00:00,Club Brugge,Kortrijk,3,0,Pro League
+2026-08-08 00:00:00,AZ Alkmaar,Den Haag,2,0,Eredivisie
+2026-08-08 00:00:00,Go Ahead Eagles,Willem II,4,1,Eredivisie
+2026-08-08 00:00:00,Nijmegen,Telstar,1,2,Eredivisie
+2026-08-08 00:00:00,PSV,For Sittard,2,2,Eredivisie
+2026-08-08 00:00:00,Estrela,Sporting CP,2,2,Primeira Liga
+2026-08-08 00:00:00,Guimaraes,Arouca,0,1,Primeira Liga
+2026-08-08 00:00:00,Maritimo,Casa Pia,1,0,Primeira Liga
+2026-08-08 00:00:00,St Truiden,Lommel SK,1,1,Pro League
+2026-08-08 00:00:00,Standard,Cercle Brugge,2,2,Pro League
+2026-08-08 00:00:00,Westerlo,St. Gilloise,1,5,Pro League
+2026-08-08 00:00:00,Dundee,Aberdeen,2,0,Scottish Premiership
+2026-08-08 00:00:00,St Mirren,St Johnstone,1,0,Scottish Premiership
+2026-08-09 00:00:00,Groningen,Utrecht,2,1,Eredivisie
+2026-08-09 00:00:00,Heerenveen,Twente,1,0,Eredivisie
+2026-08-09 00:00:00,Sparta Rotterdam,Feyenoord,0,1,Eredivisie
+2026-08-09 00:00:00,Zwolle,Ajax,0,2,Eredivisie
+2026-08-09 00:00:00,Benfica,Academico Viseu,2,2,Primeira Liga
+2026-08-09 00:00:00,Gil Vicente,Rio Ave,1,0,Primeira Liga
+2026-08-09 00:00:00,Moreirense,Braga,2,2,Primeira Liga
+2026-08-09 00:00:00,Porto,Alverca,2,0,Primeira Liga
+2026-08-09 00:00:00,Anderlecht,RAAL La Louviere,2,1,Pro League
+2026-08-09 00:00:00,Antwerp,Beveren,2,1,Pro League
+2026-08-09 00:00:00,Charleroi,Oud-Heverlee Leuven,3,1,Pro League
+2026-08-09 00:00:00,Gent,Mechelen,2,0,Pro League
+2026-08-09 00:00:00,Waregem,Genk,2,1,Pro League
+2026-08-09 00:00:00,Hearts,Dundee United,4,0,Scottish Premiership
+2026-08-09 00:00:00,Kilmarnock,Celtic,1,5,Scottish Premiership
+2026-08-09 00:00:00,Motherwell,Falkirk,0,0,Scottish Premiership
+2026-08-09 00:00:00,Rangers,Hibernian,1,2,Scottish Premiership
+2026-08-10 00:00:00,Santa Clara,Nacional,2,2,Primeira Liga
+2026-08-14 00:00:00,Telstar,Sparta Rotterdam,1,3,Eredivisie
+2026-08-14 00:00:00,Sporting CP,Guimaraes,3,2,Primeira Liga
+2026-08-14 00:00:00,Cercle Brugge,St Truiden,3,3,Pro League
+2026-08-14 00:00:00,Galatasaray,Corum,2,2,Super Lig
+2026-08-15 00:00:00,Excelsior,PSV,1,2,Eredivisie
+2026-08-15 00:00:00,For Sittard,Cambuur,3,1,Eredivisie
+2026-08-15 00:00:00,Utrecht,AZ Alkmaar,1,4,Eredivisie
+2026-08-15 00:00:00,Willem II,Nijmegen,1,4,Eredivisie
+2026-08-15 00:00:00,Alaves,Getafe,3,0,La Liga
+2026-08-15 00:00:00,Sevilla,Vallecano,2,1,La Liga
+2026-08-15 00:00:00,Academico Viseu,Santa Clara,0,1,Primeira Liga
+2026-08-15 00:00:00,Alverca,Estrela,2,2,Primeira Liga
+2026-08-15 00:00:00,Rio Ave,Porto,0,2,Primeira Liga
+2026-08-15 00:00:00,Genk,Westerlo,3,2,Pro League
+2026-08-15 00:00:00,Kortrijk,Antwerp,0,3,Pro League
+2026-08-15 00:00:00,Oud-Heverlee Leuven,Club Brugge,0,3,Pro League
+2026-08-15 00:00:00,St. Gilloise,Waregem,0,0,Pro League
+2026-08-15 00:00:00,Gaziantep,Alanyaspor,1,1,Super Lig
+2026-08-15 00:00:00,Genclerbirligi,Fenerbahce,2,1,Super Lig
+2026-08-15 00:00:00,Kasimpasa,Trabzonspor,1,1,Super Lig
+2026-08-15 00:00:00,Konyaspor,Rizespor,0,1,Super Lig
+2026-08-16 00:00:00,Ajax,Heerenveen,2,2,Eredivisie
+2026-08-16 00:00:00,Den Haag,Groningen,1,4,Eredivisie
+2026-08-16 00:00:00,Feyenoord,Go Ahead Eagles,2,2,Eredivisie
+2026-08-16 00:00:00,Twente,Zwolle,3,1,Eredivisie
+2026-08-16 00:00:00,Espanol,Levante,3,0,La Liga
+2026-08-16 00:00:00,Santander,Villarreal,2,2,La Liga
+2026-08-16 00:00:00,Arouca,Moreirense,4,0,Primeira Liga
+2026-08-16 00:00:00,Famalicao,Maritimo,1,2,Primeira Liga
+2026-08-16 00:00:00,Nacional,Estoril,2,0,Primeira Liga
+2026-08-16 00:00:00,Beveren,Anderlecht,1,0,Pro League
+2026-08-16 00:00:00,Lommel SK,Charleroi,0,1,Pro League
+2026-08-16 00:00:00,Mechelen,Standard,3,3,Pro League
+2026-08-16 00:00:00,RAAL La Louviere,Gent,1,2,Pro League
+2026-08-16 00:00:00,Amedspor,Erzurumspor,3,0,Super Lig
+2026-08-16 00:00:00,Besiktas,Eyupspor,1,0,Super Lig
+2026-08-16 00:00:00,Buyuksehyr,Kocaelispor,2,0,Super Lig
+2026-08-17 00:00:00,La Coruna,Elche,1,1,La Liga
+2026-08-17 00:00:00,Casa Pia,Benfica,0,7,Primeira Liga
+2026-08-17 00:00:00,Samsunspor,Goztep,3,3,Super Lig
+2026-08-19 00:00:00,Atletico Madrid,Malaga,2,0,La Liga
+2026-08-20 00:00:00,Vallecano,Alaves,1,1,La Liga
+2026-08-21 00:00:00,Real Betis,Sociedad,1,0,La Liga
+2026-08-21 00:00:00,Marseille,Strasbourg,4,0,Ligue 1
+2026-08-21 00:00:00,Arsenal,Coventry,3,0,Premier League
+2026-08-21 00:00:00,Standard,RAAL La Louviere,2,0,Pro League
+2026-08-21 00:00:00,Erzurumspor,Galatasaray,0,4,Super Lig
+2026-08-22 00:00:00,For Sittard,AZ Alkmaar,0,2,Eredivisie
+2026-08-22 00:00:00,Heerenveen,Zwolle,0,2,Eredivisie
+2026-08-22 00:00:00,Sparta Rotterdam,Utrecht,3,3,Eredivisie
+2026-08-22 00:00:00,Athletic Club,Sevilla,1,3,La Liga
+2026-08-22 00:00:00,Espanol,Real Madrid,1,2,La Liga
+2026-08-22 00:00:00,Valencia,Celta,0,0,La Liga
+2026-08-22 00:00:00,Le Mans,Brest,2,2,Ligue 1
+2026-08-22 00:00:00,Lens,Auxerre,5,2,Ligue 1
+2026-08-22 00:00:00,Nice,Lorient,0,0,Ligue 1
+2026-08-22 00:00:00,Toulouse,Lyon,0,2,Ligue 1
+2026-08-22 00:00:00,Troyes,Paris FC,0,0,Ligue 1
+2026-08-22 00:00:00,Brentford,Tottenham Hotspur,3,0,Premier League
+2026-08-22 00:00:00,Everton,Crystal Palace,2,0,Premier League
+2026-08-22 00:00:00,Hull,Manchester United,2,0,Premier League
+2026-08-22 00:00:00,Ipswich,Sunderland,2,1,Premier League
+2026-08-22 00:00:00,Nottingham Forest,Leeds,0,1,Premier League
+2026-08-22 00:00:00,Estoril,Rio Ave,0,2,Primeira Liga
+2026-08-22 00:00:00,Maritimo,Academico Viseu,2,2,Primeira Liga
+2026-08-22 00:00:00,Sporting CP,Alverca,3,1,Primeira Liga
+2026-08-22 00:00:00,Antwerp,Genk,4,4,Pro League
+2026-08-22 00:00:00,Charleroi,Mechelen,2,0,Pro League
+2026-08-22 00:00:00,Waregem,Beveren,4,0,Pro League
+2026-08-22 00:00:00,Dundee United,Dundee,0,2,Scottish Premiership
+2026-08-22 00:00:00,Genoa,Napoli,0,2,Serie A
+2026-08-22 00:00:00,Inter,Monza,4,1,Serie A
+2026-08-22 00:00:00,Parma,Cagliari,0,1,Serie A
+2026-08-22 00:00:00,Udinese,Como,1,1,Serie A
+2026-08-22 00:00:00,AEK Athens,Iraklis,4,0,Super League Greece
+2026-08-22 00:00:00,Kalamata,Aris,2,3,Super League Greece
+2026-08-22 00:00:00,Olympiacos,Atromitos,1,0,Super League Greece
+2026-08-22 00:00:00,Corum,Kasimpasa,0,1,Super Lig
+2026-08-22 00:00:00,Fenerbahce,Konyaspor,4,2,Super Lig
+2026-08-22 00:00:00,Rizespor,Samsunspor,0,2,Super Lig
+2026-08-23 00:00:00,Cambuur,Feyenoord,2,5,Eredivisie
+2026-08-23 00:00:00,Go Ahead Eagles,Den Haag,3,1,Eredivisie
+2026-08-23 00:00:00,PSV,Groningen,5,1,Eredivisie
+2026-08-23 00:00:00,Atletico Madrid,Villarreal,2,2,La Liga
+2026-08-23 00:00:00,Elche,Barcelona,0,5,La Liga
+2026-08-23 00:00:00,Getafe,Santander,1,0,La Liga
+2026-08-23 00:00:00,Angers,Lille,0,2,Ligue 1
+2026-08-23 00:00:00,Le Havre,Monaco,0,1,Ligue 1
+2026-08-23 00:00:00,Rennes,Paris Saint-Germain,2,2,Ligue 1
+2026-08-23 00:00:00,Brighton,Aston Villa,4,0,Premier League
+2026-08-23 00:00:00,Manchester City,Bournemouth,2,1,Premier League
+2026-08-23 00:00:00,Newcastle United,Liverpool,2,2,Premier League
+2026-08-23 00:00:00,Guimaraes,Nacional,1,0,Primeira Liga
+2026-08-23 00:00:00,Porto,Arouca,2,0,Primeira Liga
+2026-08-23 00:00:00,Santa Clara,Famalicao,1,0,Primeira Liga
+2026-08-23 00:00:00,Club Brugge,Cercle Brugge,1,0,Pro League
+2026-08-23 00:00:00,Lommel SK,Westerlo,4,0,Pro League
+2026-08-23 00:00:00,Atalanta,Sassuolo,2,1,Serie A
+2026-08-23 00:00:00,Frosinone,Juventus,0,1,Serie A
+2026-08-23 00:00:00,Torino,Milan,1,2,Serie A
+2026-08-23 00:00:00,Venezia,Lecce,0,2,Serie A
+2026-08-23 00:00:00,OFI Crete,Volos NFC,2,0,Super League Greece
+2026-08-23 00:00:00,PAOK,Levadeiakos,4,0,Super League Greece
+2026-08-23 00:00:00,Panetolikos,Asteras Tripolis,3,1,Super League Greece
+2026-08-23 00:00:00,Alanyaspor,Besiktas,1,0,Super Lig
+2026-08-23 00:00:00,Eyupspor,Gaziantep,0,1,Super Lig
+2026-08-23 00:00:00,Goztep,Genclerbirligi,0,1,Super Lig
+2026-08-23 00:00:00,Trabzonspor,Buyuksehyr,2,1,Super Lig
+2026-08-24 00:00:00,Malaga,La Coruna,1,1,La Liga
+2026-08-24 00:00:00,Osasuna,Levante,0,0,La Liga
+2026-08-24 00:00:00,Fulham,Chelsea,2,3,Premier League
+2026-08-24 00:00:00,Gil Vicente,Casa Pia,2,0,Primeira Liga
+2026-08-24 00:00:00,Bologna,Lazio,0,1,Serie A
+2026-08-24 00:00:00,Roma,Fiorentina,4,0,Serie A
+2026-08-24 00:00:00,Kocaelispor,Amedspor,2,0,Super Lig
+2026-08-25 00:00:00,Valencia,Real Betis,0,1,La Liga
+2026-08-26 00:00:00,Real Madrid,Sociedad,4,1,La Liga
+2026-08-27 00:00:00,Barcelona,Athletic Club,2,0,La Liga
+2026-08-27 00:00:00,Celta,Osasuna,1,2,La Liga
+2026-08-28 00:00:00,Bayern Munich,VfB Stuttgart,5,1,Bundesliga
+2026-08-28 00:00:00,Groningen,For Sittard,2,3,Eredivisie
+2026-08-28 00:00:00,Alaves,Villarreal,1,0,La Liga
+2026-08-28 00:00:00,Santander,Elche,3,2,La Liga
+2026-08-28 00:00:00,Lille,Paris Saint-Germain,2,2,Ligue 1
+2026-08-28 00:00:00,Crystal Palace,Manchester City,1,4,Premier League
+2026-08-28 00:00:00,Rio Ave,Sporting CP,0,4,Primeira Liga
+2026-08-28 00:00:00,Genk,Beveren,4,0,Pro League
+2026-08-28 00:00:00,Milan,Venezia,2,0,Serie A
+2026-08-28 00:00:00,Genclerbirligi,Erzurumspor,1,1,Super Lig
+2026-08-29 00:00:00,Borussia Dortmund,Hamburg,2,0,Bundesliga
+2026-08-29 00:00:00,Elversberg,Bayer Leverkusen,3,2,Bundesliga
+2026-08-29 00:00:00,FC Koln,Hoffenheim,3,2,Bundesliga
+2026-08-29 00:00:00,Mainz,Paderborn,0,0,Bundesliga
+2026-08-29 00:00:00,RB Leipzig,M'gladbach,3,0,Bundesliga
+2026-08-29 00:00:00,Union Berlin,Eintracht Frankfurt,3,3,Bundesliga
+2026-08-29 00:00:00,AZ Alkmaar,Go Ahead Eagles,5,2,Eredivisie
+2026-08-29 00:00:00,Excelsior,Sparta Rotterdam,2,1,Eredivisie
+2026-08-29 00:00:00,Zwolle,Nijmegen,1,3,Eredivisie
+2026-08-29 00:00:00,Levante,Real Betis,5,2,La Liga
+2026-08-29 00:00:00,Sevilla,Atletico Madrid,1,3,La Liga
+2026-08-29 00:00:00,Sociedad,Espanol,2,1,La Liga
+2026-08-29 00:00:00,Auxerre,Angers,1,3,Ligue 1
+2026-08-29 00:00:00,Brest,Toulouse,2,2,Ligue 1
+2026-08-29 00:00:00,Lorient,Troyes,1,2,Ligue 1
+2026-08-29 00:00:00,Lyon,Le Havre,1,1,Ligue 1
+2026-08-29 00:00:00,Strasbourg,Lens,2,1,Ligue 1
+2026-08-29 00:00:00,Bournemouth,Everton,1,1,Premier League
+2026-08-29 00:00:00,Coventry,Hull,0,1,Premier League
+2026-08-29 00:00:00,Liverpool,Nottingham Forest,2,2,Premier League
+2026-08-29 00:00:00,Tottenham Hotspur,Newcastle United,0,2,Premier League
+2026-08-29 00:00:00,Academico Viseu,Porto,0,3,Primeira Liga
+2026-08-29 00:00:00,Alverca,Santa Clara,1,1,Primeira Liga
+2026-08-29 00:00:00,Arouca,Maritimo,2,1,Primeira Liga
+2026-08-29 00:00:00,Cercle Brugge,Lommel SK,0,1,Pro League
+2026-08-29 00:00:00,Kortrijk,Charleroi,1,3,Pro League
+2026-08-29 00:00:00,Oud-Heverlee Leuven,Standard,1,2,Pro League
+2026-08-29 00:00:00,RAAL La Louviere,Mechelen,2,2,Pro League
+2026-08-29 00:00:00,Celtic,Falkirk,2,1,Scottish Premiership
+2026-08-29 00:00:00,Hearts,St Johnstone,2,1,Scottish Premiership
+2026-08-29 00:00:00,Kilmarnock,Dundee United,0,4,Scottish Premiership
+2026-08-29 00:00:00,Fiorentina,Frosinone,0,3,Serie A
+2026-08-29 00:00:00,Juventus,Parma,2,0,Serie A
+2026-08-29 00:00:00,Monza,Udinese,2,3,Serie A
+2026-08-29 00:00:00,Sassuolo,Torino,2,1,Serie A
+2026-08-29 00:00:00,Panetolikos,Kalamata,2,0,Super League Greece
+2026-08-29 00:00:00,Volos NFC,Iraklis,1,1,Super League Greece
+2026-08-29 00:00:00,Galatasaray,Goztep,3,2,Super Lig
+2026-08-29 00:00:00,Gaziantep,Rizespor,1,2,Super Lig
+2026-08-29 00:00:00,Konyaspor,Kocaelispor,1,2,Super Lig
+2026-08-30 00:00:00,Augsburg,Schalke 04,3,0,Bundesliga
+2026-08-30 00:00:00,Freiburg,Werder Bremen,4,1,Bundesliga
+2026-08-30 00:00:00,Cambuur,Twente,1,4,Eredivisie
+2026-08-30 00:00:00,Feyenoord,Den Haag,2,2,Eredivisie
+2026-08-30 00:00:00,Telstar,Ajax,0,4,Eredivisie
+2026-08-30 00:00:00,Utrecht,PSV,1,6,Eredivisie
+2026-08-30 00:00:00,Willem II,Heerenveen,2,2,Eredivisie
+2026-08-30 00:00:00,Celta,Athletic Club,0,2,La Liga
+2026-08-30 00:00:00,La Coruna,Valencia,3,1,La Liga
+2026-08-30 00:00:00,Real Madrid,Malaga,4,0,La Liga
+2026-08-30 00:00:00,Monaco,Marseille,2,0,Ligue 1
+2026-08-30 00:00:00,Paris FC,Nice,3,0,Ligue 1
+2026-08-30 00:00:00,Rennes,Le Mans,3,2,Ligue 1
+2026-08-30 00:00:00,Chelsea,Brighton,4,3,Premier League
+2026-08-30 00:00:00,Leeds,Brentford,1,1,Premier League
+2026-08-30 00:00:00,Manchester United,Ipswich,5,2,Premier League
+2026-08-30 00:00:00,Sunderland,Fulham,1,0,Premier League
+2026-08-30 00:00:00,Casa Pia,Moreirense,0,1,Primeira Liga
+2026-08-30 00:00:00,Famalicao,Gil Vicente,0,0,Primeira Liga
+2026-08-30 00:00:00,Nacional,Estrela,2,3,Primeira Liga
+2026-08-30 00:00:00,Antwerp,St Truiden,1,4,Pro League
+2026-08-30 00:00:00,Gent,Club Brugge,2,1,Pro League
+2026-08-30 00:00:00,St. Gilloise,Anderlecht,3,0,Pro League
+2026-08-30 00:00:00,Westerlo,Waregem,2,2,Pro League
+2026-08-30 00:00:00,Aberdeen,Rangers,0,1,Scottish Premiership
+2026-08-30 00:00:00,Dundee,Hibernian,1,2,Scottish Premiership
+2026-08-30 00:00:00,St Mirren,Motherwell,3,3,Scottish Premiership
+2026-08-30 00:00:00,Cagliari,Inter,0,1,Serie A
+2026-08-30 00:00:00,Lazio,Genoa,1,0,Serie A
+2026-08-30 00:00:00,Napoli,Como,1,2,Serie A
+2026-08-30 00:00:00,Aris,OFI Crete,2,1,Super League Greece
+2026-08-30 00:00:00,Asteras Tripolis,Olympiacos,0,1,Super League Greece
+2026-08-30 00:00:00,Atromitos,PAOK,1,2,Super League Greece
+2026-08-30 00:00:00,Kifisia,AEK Athens,1,1,Super League Greece
+2026-08-30 00:00:00,Buyuksehyr,Kasimpasa,1,1,Super Lig
+2026-08-30 00:00:00,Eyupspor,Alanyaspor,2,1,Super Lig
+2026-08-30 00:00:00,Samsunspor,Fenerbahce,0,2,Super Lig
+2026-08-31 00:00:00,Barcelona,Vallecano,5,2,La Liga
+2026-08-31 00:00:00,Osasuna,Getafe,1,0,La Liga
+2026-08-31 00:00:00,Aston Villa,Arsenal,0,1,Premier League
+2026-08-31 00:00:00,Benfica,Estoril,2,1,Primeira Liga
+2026-08-31 00:00:00,Braga,Guimaraes,1,0,Primeira Liga
+2026-08-31 00:00:00,Atalanta,Bologna,1,0,Serie A
+2026-08-31 00:00:00,Lecce,Roma,0,4,Serie A
+2026-08-31 00:00:00,Levadeiakos,Panathinaikos,0,2,Super League Greece
+2026-08-31 00:00:00,Amedspor,Trabzonspor,2,1,Super Lig
+2026-08-31 00:00:00,Besiktas,Corum,6,2,Super Lig
+2026-09-02 00:00:00,St Truiden,St. Gilloise,0,3,Pro League
+2026-09-02 00:00:00,Celtic,Aberdeen,3,0,Scottish Premiership
+2026-09-02 00:00:00,Dundee,St Johnstone,1,1,Scottish Premiership
+2026-09-02 00:00:00,Falkirk,Rangers,1,2,Scottish Premiership
+2026-09-02 00:00:00,Kilmarnock,St Mirren,0,1,Scottish Premiership
+2026-09-02 00:00:00,Motherwell,Dundee United,3,0,Scottish Premiership
+2026-09-03 00:00:00,Sociedad,Celta,0,0,La Liga
+2026-09-03 00:00:00,Toulouse,Lille,0,1,Ligue 1
+2026-09-03 00:00:00,Anderlecht,Kortrijk,1,0,Pro League
+2026-09-03 00:00:00,Gent,Oud-Heverlee Leuven,1,0,Pro League
+2026-09-03 00:00:00,Hibernian,Hearts,1,3,Scottish Premiership
+2026-09-04 00:00:00,VfB Stuttgart,FC Koln,4,1,Bundesliga
+2026-09-04 00:00:00,Sparta Rotterdam,Zwolle,2,2,Eredivisie
+2026-09-04 00:00:00,Real Betis,Real Madrid,1,0,La Liga
+2026-09-04 00:00:00,Lyon,Auxerre,3,1,Ligue 1
+2026-09-04 00:00:00,Paris Saint-Germain,Monaco,1,2,Ligue 1
+2026-09-04 00:00:00,Ipswich,Liverpool,0,2,Premier League
+2026-09-04 00:00:00,Porto,Moreirense,2,1,Primeira Liga
+2026-09-04 00:00:00,Lommel SK,Club Brugge,0,1,Pro League
+2026-09-04 00:00:00,Genoa,Como,1,4,Serie A
+2026-09-04 00:00:00,Buyuksehyr,Galatasaray,2,3,Super Lig
+2026-09-05 00:00:00,Bayer Leverkusen,Union Berlin,4,0,Bundesliga
+2026-09-05 00:00:00,Hoffenheim,Borussia Dortmund,2,3,Bundesliga
+2026-09-05 00:00:00,M'gladbach,Elversberg,3,4,Bundesliga
+2026-09-05 00:00:00,Paderborn,Freiburg,0,1,Bundesliga
+2026-09-05 00:00:00,Schalke 04,Bayern Munich,0,0,Bundesliga
+2026-09-05 00:00:00,Werder Bremen,RB Leipzig,3,1,Bundesliga
+2026-09-05 00:00:00,Ajax,PSV,1,3,Eredivisie
+2026-09-05 00:00:00,Nijmegen,Feyenoord,1,3,Eredivisie
+2026-09-05 00:00:00,Willem II,Excelsior,0,3,Eredivisie
+2026-09-05 00:00:00,Athletic Club,Atletico Madrid,3,0,La Liga
+2026-09-05 00:00:00,Vallecano,Santander,3,2,La Liga
+2026-09-05 00:00:00,Villarreal,La Coruna,2,3,La Liga
+2026-09-05 00:00:00,Le Havre,Brest,1,2,Ligue 1
+2026-09-05 00:00:00,Lens,Lorient,0,1,Ligue 1
+2026-09-05 00:00:00,Nice,Le Mans,1,1,Ligue 1
+2026-09-05 00:00:00,Brentford,Sunderland,1,1,Premier League
+2026-09-05 00:00:00,Brighton,Leeds,1,1,Premier League
+2026-09-05 00:00:00,Fulham,Crystal Palace,2,3,Premier League
+2026-09-05 00:00:00,Hull,Aston Villa,0,0,Premier League
+2026-09-05 00:00:00,Manchester City,Coventry,1,0,Premier League
+2026-09-05 00:00:00,Newcastle United,Bournemouth,2,2,Premier League
+2026-09-05 00:00:00,Nottingham Forest,Tottenham Hotspur,0,0,Premier League
+2026-09-05 00:00:00,Alverca,Braga,1,2,Primeira Liga
+2026-09-05 00:00:00,Estrela,Famalicao,2,2,Primeira Liga
+2026-09-05 00:00:00,Maritimo,Benfica,0,3,Primeira Liga
+2026-09-05 00:00:00,Sporting CP,Nacional,2,0,Primeira Liga
+2026-09-05 00:00:00,Charleroi,St. Gilloise,2,3,Pro League
+2026-09-05 00:00:00,Mechelen,Westerlo,0,4,Pro League
+2026-09-05 00:00:00,St Truiden,RAAL La Louviere,4,0,Pro League
+2026-09-05 00:00:00,Standard,Antwerp,1,0,Pro League
+2026-09-05 00:00:00,Aberdeen,Kilmarnock,0,0,Scottish Premiership
+2026-09-05 00:00:00,Dundee United,Falkirk,1,1,Scottish Premiership
+2026-09-05 00:00:00,Rangers,Motherwell,1,0,Scottish Premiership
+2026-09-05 00:00:00,St Mirren,Celtic,1,2,Scottish Premiership
+2026-09-05 00:00:00,Fiorentina,Torino,1,2,Serie A
+2026-09-05 00:00:00,Inter,Napoli,3,2,Serie A
+2026-09-05 00:00:00,Roma,Atalanta,2,1,Serie A
+2026-09-05 00:00:00,AEK Athens,Aris,5,0,Super League Greece
+2026-09-05 00:00:00,Volos NFC,Olympiacos,1,1,Super League Greece
+2026-09-05 00:00:00,Erzurumspor,Konyaspor,1,0,Super Lig
+2026-09-05 00:00:00,Fenerbahce,Besiktas,1,2,Super Lig
+2026-09-06 00:00:00,Eintracht Frankfurt,Augsburg,1,4,Bundesliga
+2026-09-06 00:00:00,Hamburg,Mainz,0,5,Bundesliga
+2026-09-06 00:00:00,Den Haag,For Sittard,2,3,Eredivisie
+2026-09-06 00:00:00,Groningen,Twente,2,2,Eredivisie
+2026-09-06 00:00:00,Heerenveen,AZ Alkmaar,2,3,Eredivisie
+2026-09-06 00:00:00,Telstar,Cambuur,2,2,Eredivisie
+2026-09-06 00:00:00,Alaves,Osasuna,5,2,La Liga
+2026-09-06 00:00:00,Espanol,Sevilla,1,1,La Liga
+2026-09-06 00:00:00,Malaga,Levante,0,0,La Liga
+2026-09-06 00:00:00,Valencia,Barcelona,0,5,La Liga
+2026-09-06 00:00:00,Angers,Rennes,1,2,Ligue 1
+2026-09-06 00:00:00,Marseille,Paris FC,2,3,Ligue 1
+2026-09-06 00:00:00,Troyes,Strasbourg,2,6,Ligue 1
+2026-09-06 00:00:00,Arsenal,Chelsea,2,1,Premier League
+2026-09-06 00:00:00,Everton,Manchester United,2,2,Premier League
+2026-09-06 00:00:00,Gil Vicente,Academico Viseu,0,1,Primeira Liga
+2026-09-06 00:00:00,Guimaraes,Casa Pia,0,0,Primeira Liga
+2026-09-06 00:00:00,Santa Clara,Rio Ave,4,0,Primeira Liga
+2026-09-06 00:00:00,Anderlecht,Genk,0,0,Pro League
+2026-09-06 00:00:00,Beveren,Oud-Heverlee Leuven,3,0,Pro League
+2026-09-06 00:00:00,Cercle Brugge,Gent,0,3,Pro League
+2026-09-06 00:00:00,Kortrijk,Waregem,0,2,Pro League
+2026-09-06 00:00:00,Hearts,Dundee,2,1,Scottish Premiership
+2026-09-06 00:00:00,St Johnstone,Hibernian,2,1,Scottish Premiership
+2026-09-06 00:00:00,Bologna,Sassuolo,2,2,Serie A
+2026-09-06 00:00:00,Frosinone,Venezia,3,2,Serie A
+2026-09-06 00:00:00,Juventus,Milan,1,1,Serie A
+2026-09-06 00:00:00,Parma,Monza,1,1,Serie A
+2026-09-06 00:00:00,Atromitos,Kalamata,1,1,Super League Greece
+2026-09-06 00:00:00,Levadeiakos,Panetolikos,0,2,Super League Greece
+2026-09-06 00:00:00,OFI Crete,Kifisia,2,0,Super League Greece
+2026-09-06 00:00:00,Panathinaikos,PAOK,3,1,Super League Greece
+2026-09-06 00:00:00,Corum,Eyupspor,3,0,Super Lig
+2026-09-06 00:00:00,Kasimpasa,Amedspor,2,2,Super Lig
+2026-09-06 00:00:00,Kocaelispor,Samsunspor,1,0,Super Lig
+2026-09-06 00:00:00,Trabzonspor,Genclerbirligi,5,0,Super Lig
+2026-09-07 00:00:00,Elche,Sociedad,2,3,La Liga
+2026-09-07 00:00:00,Getafe,Celta,1,1,La Liga
+2026-09-07 00:00:00,Estoril,Arouca,0,0,Primeira Liga
+2026-09-07 00:00:00,Cagliari,Lecce,1,0,Serie A
+2026-09-07 00:00:00,Udinese,Lazio,1,2,Serie A
+2026-09-07 00:00:00,Asteras Tripolis,Iraklis,0,2,Super League Greece
+2026-09-07 00:00:00,Goztep,Gaziantep,2,4,Super Lig
+2026-09-07 00:00:00,Rizespor,Alanyaspor,0,1,Super Lig
+2026-09-08 00:00:00,Nijmegen,Excelsior,2,2,Eredivisie
+2026-09-08 00:00:00,Utrecht,Go Ahead Eagles,3,3,Eredivisie
+2026-09-09 00:00:00,Twente,Telstar,1,0,Eredivisie
+2026-09-09 00:00:00,Moreirense,Benfica,0,4,Primeira Liga
+2026-09-09 00:00:00,Rangers,St Mirren,1,0,Scottish Premiership
+2026-09-09 00:00:00,St Johnstone,Celtic,0,1,Scottish Premiership
+2026-09-10 00:00:00,Estrela,Braga,2,1,Primeira Liga
+2026-09-10 00:00:00,Panathinaikos,Kifisia,3,1,Super League Greece
+2026-09-11 00:00:00,Union Berlin,Schalke 04,1,3,Bundesliga
+2026-09-11 00:00:00,AZ Alkmaar,Willem II,1,1,Eredivisie
+2026-09-11 00:00:00,Sevilla,Valencia,1,0,La Liga
+2026-09-11 00:00:00,Rennes,Marseille,1,0,Ligue 1
+2026-09-11 00:00:00,Mechelen,Anderlecht,0,1,Pro League
+2026-09-11 00:00:00,Venezia,Fiorentina,2,4,Serie A
+2026-09-11 00:00:00,Besiktas,Erzurumspor,3,0,Super Lig
+2026-09-12 00:00:00,Augsburg,Bayer Leverkusen,2,2,Bundesliga
+2026-09-12 00:00:00,Borussia Dortmund,Paderborn,3,0,Bundesliga
+2026-09-12 00:00:00,FC Koln,Werder Bremen,1,1,Bundesliga
+2026-09-12 00:00:00,Freiburg,M'gladbach,5,0,Bundesliga
+2026-09-12 00:00:00,Hoffenheim,VfB Stuttgart,2,1,Bundesliga
+2026-09-12 00:00:00,Mainz,Eintracht Frankfurt,1,3,Bundesliga
+2026-09-12 00:00:00,Cambuur,Nijmegen,3,0,Eredivisie
+2026-09-12 00:00:00,For Sittard,Ajax,1,5,Eredivisie
+2026-09-12 00:00:00,Go Ahead Eagles,Groningen,1,1,Eredivisie
+2026-09-12 00:00:00,Twente,Den Haag,2,0,Eredivisie
+2026-09-12 00:00:00,Athletic Club,Elche,1,1,La Liga
+2026-09-12 00:00:00,Osasuna,Espanol,0,2,La Liga
+2026-09-12 00:00:00,Real Madrid,Vallecano,4,1,La Liga
+2026-09-12 00:00:00,Santander,Alaves,2,1,La Liga
+2026-09-12 00:00:00,Auxerre,Nice,1,0,Ligue 1
+2026-09-12 00:00:00,Le Havre,Angers,0,0,Ligue 1
+2026-09-12 00:00:00,Lorient,Toulouse,2,2,Ligue 1
+2026-09-12 00:00:00,Paris FC,Lyon,0,0,Ligue 1
+2026-09-12 00:00:00,Strasbourg,Monaco,1,1,Ligue 1
+2026-09-12 00:00:00,Aston Villa,Nottingham Forest,1,2,Premier League
+2026-09-12 00:00:00,Bournemouth,Brentford,2,2,Premier League
+2026-09-12 00:00:00,Chelsea,Hull,2,2,Premier League
+2026-09-12 00:00:00,Crystal Palace,Ipswich,2,3,Premier League
+2026-09-12 00:00:00,Liverpool,Fulham,0,0,Premier League
+2026-09-12 00:00:00,Sunderland,Arsenal,0,2,Premier League
+2026-09-12 00:00:00,Tottenham Hotspur,Everton,0,0,Premier League
+2026-09-12 00:00:00,Academico Viseu,Guimaraes,2,1,Primeira Liga
+2026-09-12 00:00:00,Casa Pia,Porto,1,4,Primeira Liga
+2026-09-12 00:00:00,Nacional,Alverca,1,3,Primeira Liga
+2026-09-12 00:00:00,Beveren,St Truiden,2,0,Pro League
+2026-09-12 00:00:00,Oud-Heverlee Leuven,Cercle Brugge,1,1,Pro League
+2026-09-12 00:00:00,St. Gilloise,Lommel SK,5,0,Pro League
+2026-09-12 00:00:00,Westerlo,Standard,4,2,Pro League
+2026-09-12 00:00:00,Atalanta,Cagliari,1,2,Serie A
+2026-09-12 00:00:00,Genoa,Frosinone,1,1,Serie A
+2026-09-12 00:00:00,Lazio,Milan,2,2,Serie A
+2026-09-12 00:00:00,Iraklis,Atromitos,1,1,Super League Greece
+2026-09-12 00:00:00,Olympiacos,OFI Crete,0,1,Super League Greece
+2026-09-12 00:00:00,Alanyaspor,Goztep,2,2,Super Lig
+2026-09-12 00:00:00,Eyupspor,Rizespor,0,2,Super Lig
+2026-09-12 00:00:00,Konyaspor,Trabzonspor,1,0,Super Lig
+2026-09-12 00:00:00,Samsunspor,Corum,1,5,Super Lig
+2026-09-13 00:00:00,Elversberg,Bayern Munich,1,2,Bundesliga
+2026-09-13 00:00:00,RB Leipzig,Hamburg,5,0,Bundesliga
+2026-09-13 00:00:00,Excelsior,Utrecht,1,2,Eredivisie
+2026-09-13 00:00:00,Heerenveen,Telstar,0,0,Eredivisie
+2026-09-13 00:00:00,PSV,Sparta Rotterdam,4,1,Eredivisie
+2026-09-13 00:00:00,Zwolle,Feyenoord,0,7,Eredivisie
+2026-09-13 00:00:00,Celta,Malaga,1,1,La Liga
+2026-09-13 00:00:00,Getafe,La Coruna,1,1,La Liga
+2026-09-13 00:00:00,Levante,Barcelona,2,4,La Liga
+2026-09-13 00:00:00,Sociedad,Atletico Madrid,0,3,La Liga
+2026-09-13 00:00:00,Brest,Paris Saint-Germain,0,1,Ligue 1
+2026-09-13 00:00:00,Le Mans,Lens,2,2,Ligue 1
+2026-09-13 00:00:00,Lille,Troyes,2,0,Ligue 1
+2026-09-13 00:00:00,Coventry,Brighton,0,5,Premier League
+2026-09-13 00:00:00,Manchester United,Manchester City,0,1,Premier League
+2026-09-13 00:00:00,Arouca,Santa Clara,1,2,Primeira Liga
+2026-09-13 00:00:00,Benfica,Gil Vicente,3,1,Primeira Liga
+2026-09-13 00:00:00,Famalicao,Sporting CP,1,1,Primeira Liga
+2026-09-13 00:00:00,Club Brugge,Antwerp,3,1,Pro League
+2026-09-13 00:00:00,Genk,Gent,1,1,Pro League
+2026-09-13 00:00:00,RAAL La Louviere,Kortrijk,3,0,Pro League
+2026-09-13 00:00:00,Waregem,Charleroi,0,1,Pro League
+2026-09-13 00:00:00,Lecce,Monza,3,2,Serie A
+2026-09-13 00:00:00,Napoli,Bologna,1,0,Serie A
+2026-09-13 00:00:00,Sassuolo,Juventus,3,2,Serie A
+2026-09-13 00:00:00,Asteras Tripolis,AEK Athens,1,1,Super League Greece
+2026-09-13 00:00:00,Kalamata,Volos NFC,3,1,Super League Greece
+2026-09-13 00:00:00,Kifisia,Levadeiakos,0,0,Super League Greece
+2026-09-13 00:00:00,PAOK,Aris,2,0,Super League Greece
+2026-09-13 00:00:00,Panathinaikos,Panetolikos,3,0,Super League Greece
+2026-09-13 00:00:00,Amedspor,Buyuksehyr,5,0,Super Lig
+2026-09-13 00:00:00,Galatasaray,Kocaelispor,1,0,Super Lig
+2026-09-13 00:00:00,Genclerbirligi,Kasimpasa,1,2,Super Lig
+2026-09-14 00:00:00,Villarreal,Real Betis,1,2,La Liga
+2026-09-14 00:00:00,Leeds,Newcastle United,4,1,Premier League
+2026-09-14 00:00:00,Braga,Estoril,1,0,Primeira Liga
+2026-09-14 00:00:00,Moreirense,Maritimo,3,1,Primeira Liga
+2026-09-14 00:00:00,Rio Ave,Estrela,3,3,Primeira Liga
+2026-09-14 00:00:00,Como,Parma,2,1,Serie A
+2026-09-14 00:00:00,Inter,Udinese,5,3,Serie A
+2026-09-14 00:00:00,Torino,Roma,0,2,Serie A
+2026-09-14 00:00:00,Gaziantep,Fenerbahce,0,0,Super Lig
+2026-09-15 00:00:00,Ajax,Willem II,5,1,Eredivisie
+2026-09-15 00:00:00,Alaves,Valencia,0,1,La Liga
+2026-09-15 00:00:00,Elche,Real Madrid,2,3,La Liga
+2026-09-15 00:00:00,Vallecano,Espanol,2,1,La Liga
+2026-09-15 00:00:00,Falkirk,Hearts,2,1,Scottish Premiership
+2026-09-15 00:00:00,Hibernian,Kilmarnock,0,1,Scottish Premiership
+2026-09-15 00:00:00,Motherwell,Aberdeen,0,4,Scottish Premiership
+2026-09-16 00:00:00,Atletico Madrid,Osasuna,4,0,La Liga
+2026-09-16 00:00:00,Barcelona,Santander,7,2,La Liga
+2026-09-16 00:00:00,La Coruna,Sevilla,0,1,La Liga
+2026-09-16 00:00:00,AEK Athens,Villarreal,,,UCL
+2026-09-16 00:00:00,Arsenal,Viking,,,UCL
+2026-09-16 00:00:00,Aston Villa,VfB Stuttgart,,,UCL
+2026-09-16 00:00:00,Barcelona,Slovan Bratislava,,,UCL
+2026-09-16 00:00:00,Bayern Munich,Slavia Praha,,,UCL
+2026-09-16 00:00:00,Feyenoord,RB Leipzig,,,UCL
+2026-09-16 00:00:00,Inter,Paris Saint-Germain,,,UCL
+2026-09-16 00:00:00,Lille,Manchester United,,,UCL
+2026-09-16 00:00:00,Manchester City,Liverpool,,,UCL
+2026-09-16 00:00:00,Napoli,Lens,,,UCL
+2026-09-16 00:00:00,PSV,LASK,,,UCL
+2026-09-16 00:00:00,Porto,Galatasaray,,,UCL
+2026-09-16 00:00:00,Real Betis,Fenerbahce,,,UCL
+2026-09-16 00:00:00,Real Madrid,Como,,,UCL
+2026-09-16 00:00:00,Roma,Club Brugge,,,UCL
+2026-09-16 00:00:00,Sabah,Borussia Dortmund,,,UCL
+2026-09-16 00:00:00,Shakhtar Donetsk,Bodo/Glimt,,,UCL
+2026-09-16 00:00:00,Sporting CP,Atletico Madrid,,,UCL
+2026-09-17 00:00:00,Malaga,Villarreal,1,3,La Liga
+2026-09-17 00:00:00,Real Betis,Getafe,1,0,La Liga
+2026-09-18 00:00:00,Bayern Munich,Union Berlin,7,0,Bundesliga
+2026-09-18 00:00:00,Groningen,Zwolle,3,0,Eredivisie
+2026-09-18 00:00:00,Espanol,Elche,1,3,La Liga
+2026-09-18 00:00:00,Monaco,Lens,2,1,Ligue 1
+2026-09-18 00:00:00,Brentford,Chelsea,3,0,Premier League
+2026-09-18 00:00:00,Gent,Standard,2,1,Pro League
+2026-09-18 00:00:00,Monza,Sassuolo,2,1,Serie A
+2026-09-18 00:00:00,Kasimpasa,Konyaspor,0,0,Super Lig
+2026-09-19 00:00:00,Eintracht Frankfurt,Freiburg,2,2,Bundesliga
+2026-09-19 00:00:00,Hamburg,FC Koln,2,1,Bundesliga
+2026-09-19 00:00:00,M'gladbach,Mainz,3,4,Bundesliga
+2026-09-19 00:00:00,VfB Stuttgart,Borussia Dortmund,0,1,Bundesliga
+2026-09-19 00:00:00,Werder Bremen,Augsburg,3,2,Bundesliga
+2026-09-19 00:00:00,Ajax,Excelsior,2,2,Eredivisie
+2026-09-19 00:00:00,Den Haag,Cambuur,1,1,Eredivisie
+2026-09-19 00:00:00,Sparta Rotterdam,Heerenveen,0,4,Eredivisie
+2026-09-19 00:00:00,Willem II,For Sittard,0,1,Eredivisie
+2026-09-19 00:00:00,Athletic Club,Alaves,0,0,La Liga
+2026-09-19 00:00:00,Celta,Santander,5,0,La Liga
+2026-09-19 00:00:00,Osasuna,Vallecano,1,1,La Liga
+2026-09-19 00:00:00,Sevilla,Barcelona,1,3,La Liga
+2026-09-19 00:00:00,Angers,Troyes,2,0,Ligue 1
+2026-09-19 00:00:00,Le Mans,Lorient,2,1,Ligue 1
+2026-09-19 00:00:00,Lyon,Rennes,4,0,Ligue 1
+2026-09-19 00:00:00,Paris FC,Strasbourg,2,1,Ligue 1
+2026-09-19 00:00:00,Toulouse,Le Havre,3,2,Ligue 1
+2026-09-19 00:00:00,Brighton,Arsenal,3,0,Premier League
+2026-09-19 00:00:00,Everton,Ipswich,1,0,Premier League
+2026-09-19 00:00:00,Newcastle United,Hull,2,1,Premier League
+2026-09-19 00:00:00,Nottingham Forest,Coventry,0,1,Premier League
+2026-09-19 00:00:00,Tottenham Hotspur,Aston Villa,2,3,Premier League
+2026-09-19 00:00:00,Alverca,Rio Ave,1,0,Primeira Liga
+2026-09-19 00:00:00,Gil Vicente,Maritimo,1,1,Primeira Liga
+2026-09-19 00:00:00,Nacional,Famalicao,0,4,Primeira Liga
+2026-09-19 00:00:00,Sporting CP,Arouca,2,2,Primeira Liga
+2026-09-19 00:00:00,Anderlecht,Waregem,3,0,Pro League
+2026-09-19 00:00:00,Charleroi,Cercle Brugge,3,2,Pro League
+2026-09-19 00:00:00,Lommel SK,Mechelen,0,0,Pro League
+2026-09-19 00:00:00,Oud-Heverlee Leuven,RAAL La Louviere,2,0,Pro League
+2026-09-19 00:00:00,Dundee,Motherwell,2,1,Scottish Premiership
+2026-09-19 00:00:00,Hibernian,Aberdeen,1,1,Scottish Premiership
+2026-09-19 00:00:00,Kilmarnock,Hearts,1,1,Scottish Premiership
+2026-09-19 00:00:00,St Johnstone,Falkirk,1,1,Scottish Premiership
+2026-09-19 00:00:00,St Mirren,Dundee United,0,3,Scottish Premiership
+2026-09-19 00:00:00,Bologna,Torino,1,1,Serie A
+2026-09-19 00:00:00,Roma,Inter,2,2,Serie A
+2026-09-19 00:00:00,Udinese,Cagliari,0,1,Serie A
+2026-09-19 00:00:00,Venezia,Lazio,0,2,Serie A
+2026-09-19 00:00:00,Aris,Iraklis,0,0,Super League Greece
+2026-09-19 00:00:00,Atromitos,Kifisia,1,2,Super League Greece
+2026-09-19 00:00:00,Buyuksehyr,Genclerbirligi,4,0,Super Lig
+2026-09-19 00:00:00,Corum,Alanyaspor,1,2,Super Lig
+2026-09-19 00:00:00,Kocaelispor,Gaziantep,2,0,Super Lig
+2026-09-19 00:00:00,Trabzonspor,Galatasaray,4,0,Super Lig
+2026-09-20 00:00:00,Bayer Leverkusen,RB Leipzig,2,0,Bundesliga
+2026-09-20 00:00:00,Paderborn,Hoffenheim,3,1,Bundesliga
+2026-09-20 00:00:00,Schalke 04,Elversberg,0,0,Bundesliga
+2026-09-20 00:00:00,AZ Alkmaar,Telstar,1,0,Eredivisie
+2026-09-20 00:00:00,Feyenoord,Utrecht,5,0,Eredivisie
+2026-09-20 00:00:00,Nijmegen,Go Ahead Eagles,1,1,Eredivisie
+2026-09-20 00:00:00,Twente,PSV,3,2,Eredivisie
+2026-09-20 00:00:00,Atletico Madrid,Real Madrid,2,1,La Liga
+2026-09-20 00:00:00,Getafe,Malaga,1,0,La Liga
+2026-09-20 00:00:00,La Coruna,Real Betis,1,1,La Liga
+2026-09-20 00:00:00,Valencia,Sociedad,2,3,La Liga
+2026-09-20 00:00:00,Villarreal,Levante,3,1,La Liga
+2026-09-20 00:00:00,Auxerre,Brest,2,1,Ligue 1
+2026-09-20 00:00:00,Marseille,Paris Saint-Germain,1,2,Ligue 1
+2026-09-20 00:00:00,Nice,Lille,2,1,Ligue 1
+2026-09-20 00:00:00,Bournemouth,Liverpool,0,1,Premier League
+2026-09-20 00:00:00,Fulham,Manchester United,1,1,Premier League
+2026-09-20 00:00:00,Leeds,Crystal Palace,0,0,Premier League
+2026-09-20 00:00:00,Manchester City,Sunderland,5,3,Premier League
+2026-09-20 00:00:00,Estoril,Casa Pia,1,2,Primeira Liga
+2026-09-20 00:00:00,Estrela,Academico Viseu,0,2,Primeira Liga
+2026-09-20 00:00:00,Guimaraes,Moreirense,1,1,Primeira Liga
+2026-09-20 00:00:00,Porto,Benfica,3,1,Primeira Liga
+2026-09-20 00:00:00,Santa Clara,Braga,0,0,Primeira Liga
+2026-09-20 00:00:00,Antwerp,St. Gilloise,0,2,Pro League
+2026-09-20 00:00:00,Club Brugge,Genk,3,0,Pro League
+2026-09-20 00:00:00,Kortrijk,Beveren,1,0,Pro League
+2026-09-20 00:00:00,St Truiden,Westerlo,0,2,Pro League
+2026-09-20 00:00:00,Celtic,Rangers,0,1,Scottish Premiership
+2026-09-20 00:00:00,Fiorentina,Napoli,1,1,Serie A
+2026-09-20 00:00:00,Frosinone,Como,2,0,Serie A
+2026-09-20 00:00:00,Juventus,Atalanta,2,0,Serie A
+2026-09-20 00:00:00,Milan,Lecce,3,0,Serie A
+2026-09-20 00:00:00,Parma,Genoa,2,1,Serie A
+2026-09-20 00:00:00,Kalamata,Panathinaikos,0,1,Super League Greece
+2026-09-20 00:00:00,Levadeiakos,Olympiacos,0,1,Super League Greece
+2026-09-20 00:00:00,OFI Crete,Asteras Tripolis,2,2,Super League Greece
+2026-09-20 00:00:00,Panetolikos,PAOK,1,3,Super League Greece
+2026-09-20 00:00:00,Volos NFC,AEK Athens,1,2,Super League Greece
+2026-09-20 00:00:00,Amedspor,Besiktas,3,2,Super Lig
+2026-09-20 00:00:00,Erzurumspor,Samsunspor,1,0,Super Lig
+2026-09-20 00:00:00,Fenerbahce,Eyupspor,8,0,Super Lig
+2026-09-20 00:00:00,Goztep,Rizespor,2,2,Super Lig
+2026-09-30 00:00:00,AEK Athens,Viking,,,UCL
+2026-09-30 00:00:00,Arsenal,Sporting CP,,,UCL
+2026-09-30 00:00:00,Barcelona,Shakhtar Donetsk,,,UCL
+2026-09-30 00:00:00,Bodo/Glimt,Roma,,,UCL
+2026-09-30 00:00:00,Borussia Dortmund,Real Madrid,,,UCL
+2026-09-30 00:00:00,Club Brugge,Real Betis,,,UCL
+2026-09-30 00:00:00,Como,RB Leipzig,,,UCL
+2026-09-30 00:00:00,Fenerbahce,Porto,,,UCL
+2026-09-30 00:00:00,Galatasaray,PSV,,,UCL
+2026-09-30 00:00:00,Inter,Napoli,,,UCL
+2026-09-30 00:00:00,Lens,Manchester City,,,UCL
+2026-09-30 00:00:00,Liverpool,Lille,,,UCL
+2026-09-30 00:00:00,Manchester United,LASK,,,UCL
+2026-09-30 00:00:00,Paris Saint-Germain,Feyenoord,,,UCL
+2026-09-30 00:00:00,Sabah,Bayern Munich,,,UCL
+2026-09-30 00:00:00,Slavia Praha,Atletico Madrid,,,UCL
+2026-09-30 00:00:00,Slovan Bratislava,Aston Villa,,,UCL
+2026-09-30 00:00:00,VfB Stuttgart,Villarreal,,,UCL
+2026-10-09 00:00:00,Borussia Dortmund,Werder Bremen,2,2,Bundesliga
+2026-10-09 00:00:00,PSV,Heerenveen,2,0,Eredivisie
+2026-10-09 00:00:00,Malaga,Espanol,1,1,La Liga
+2026-10-09 00:00:00,Lens,Lyon,2,1,Ligue 1
+2026-10-09 00:00:00,Braga,Sporting CP,1,3,Primeira Liga
+2026-10-09 00:00:00,Moreirense,Gil Vicente,0,1,Primeira Liga
+2026-10-09 00:00:00,Beveren,Lommel SK,1,3,Pro League
+2026-10-09 00:00:00,Galatasaray,Kasimpasa,3,1,Super Lig
+2026-10-10 00:00:00,Augsburg,Bayern Munich,2,2,Bundesliga
+2026-10-10 00:00:00,Hoffenheim,Hamburg,2,3,Bundesliga
+2026-10-10 00:00:00,Mainz,Bayer Leverkusen,3,4,Bundesliga
+2026-10-10 00:00:00,Paderborn,VfB Stuttgart,0,2,Bundesliga
+2026-10-10 00:00:00,RB Leipzig,Eintracht Frankfurt,6,0,Bundesliga
+2026-10-10 00:00:00,Union Berlin,Elversberg,1,0,Bundesliga
+2026-10-10 00:00:00,Ajax,Nijmegen,1,1,Eredivisie
+2026-10-10 00:00:00,Feyenoord,AZ Alkmaar,2,0,Eredivisie
+2026-10-10 00:00:00,For Sittard,Twente,1,1,Eredivisie
+2026-10-10 00:00:00,Go Ahead Eagles,Sparta Rotterdam,3,3,Eredivisie
+2026-10-10 00:00:00,Alaves,Atletico Madrid,1,2,La Liga
+2026-10-10 00:00:00,Barcelona,Getafe,3,0,La Liga
+2026-10-10 00:00:00,Real Madrid,Villarreal,1,0,La Liga
+2026-10-10 00:00:00,Brest,Angers,5,1,Ligue 1
+2026-10-10 00:00:00,Lille,Le Havre,1,0,Ligue 1
+2026-10-10 00:00:00,Lorient,Paris FC,1,0,Ligue 1
+2026-10-10 00:00:00,Monaco,Toulouse,2,2,Ligue 1
+2026-10-10 00:00:00,Paris Saint-Germain,Le Mans,3,1,Ligue 1
+2026-10-10 00:00:00,Arsenal,Leeds,2,1,Premier League
+2026-10-10 00:00:00,Aston Villa,Brentford,2,2,Premier League
+2026-10-10 00:00:00,Chelsea,Bournemouth,5,1,Premier League
+2026-10-10 00:00:00,Ipswich,Fulham,2,1,Premier League
+2026-10-10 00:00:00,Manchester United,Tottenham Hotspur,1,1,Premier League
+2026-10-10 00:00:00,Sunderland,Brighton,0,2,Premier League
+2026-10-10 00:00:00,Academico Viseu,Estoril,2,1,Primeira Liga
+2026-10-10 00:00:00,Casa Pia,Santa Clara,0,1,Primeira Liga
+2026-10-10 00:00:00,Maritimo,Porto,1,2,Primeira Liga
+2026-10-10 00:00:00,Cercle Brugge,Anderlecht,1,2,Pro League
+2026-10-10 00:00:00,Genk,Kortrijk,3,0,Pro League
+2026-10-10 00:00:00,RAAL La Louviere,Club Brugge,1,4,Pro League
+2026-10-10 00:00:00,Waregem,Gent,0,2,Pro League
+2026-10-10 00:00:00,Dundee United,Hibernian,1,0,Scottish Premiership
+2026-10-10 00:00:00,Falkirk,Dundee,1,2,Scottish Premiership
+2026-10-10 00:00:00,Hearts,St Mirren,5,0,Scottish Premiership
+2026-10-10 00:00:00,Rangers,Kilmarnock,3,1,Scottish Premiership
+2026-10-10 00:00:00,Genoa,Fiorentina,2,1,Serie A
+2026-10-10 00:00:00,Inter,Parma,3,0,Serie A
+2026-10-10 00:00:00,Napoli,Frosinone,3,0,Serie A
+2026-10-10 00:00:00,AEK Athens,OFI Crete,3,0,Super League Greece
+2026-10-10 00:00:00,Asteras Tripolis,Atromitos,2,1,Super League Greece
+2026-10-10 00:00:00,Alanyaspor,Erzurumspor,0,0,Super Lig
+2026-10-10 00:00:00,Genclerbirligi,Amedspor,2,2,Super Lig
+2026-10-10 00:00:00,Rizespor,Fenerbahce,0,3,Super Lig
+2026-10-10 00:00:00,Samsunspor,Trabzonspor,0,3,Super Lig
+2026-10-11 00:00:00,FC Koln,M'gladbach,2,1,Bundesliga
+2026-10-11 00:00:00,Freiburg,Schalke 04,2,1,Bundesliga
+2026-10-11 00:00:00,Excelsior,Groningen,1,5,Eredivisie
+2026-10-11 00:00:00,Telstar,Den Haag,2,2,Eredivisie
+2026-10-11 00:00:00,Utrecht,Willem II,3,1,Eredivisie
+2026-10-11 00:00:00,Zwolle,Cambuur,0,1,Eredivisie
+2026-10-11 00:00:00,Elche,Celta,0,0,La Liga
+2026-10-11 00:00:00,Real Betis,Osasuna,5,2,La Liga
+2026-10-11 00:00:00,Santander,Valencia,2,2,La Liga
+2026-10-11 00:00:00,Sociedad,La Coruna,3,2,La Liga
+2026-10-11 00:00:00,Nice,Strasbourg,2,1,Ligue 1
+2026-10-11 00:00:00,Rennes,Auxerre,4,1,Ligue 1
+2026-10-11 00:00:00,Troyes,Marseille,0,2,Ligue 1
+2026-10-11 00:00:00,Crystal Palace,Nottingham Forest,3,1,Premier League
+2026-10-11 00:00:00,Hull,Everton,2,2,Premier League
+2026-10-11 00:00:00,Liverpool,Manchester City,0,3,Premier League
+2026-10-11 00:00:00,Arouca,Estrela,1,0,Primeira Liga
+2026-10-11 00:00:00,Benfica,Guimaraes,2,0,Primeira Liga
+2026-10-11 00:00:00,Rio Ave,Nacional,3,2,Primeira Liga
+2026-10-11 00:00:00,Mechelen,St Truiden,4,3,Pro League
+2026-10-11 00:00:00,St. Gilloise,Oud-Heverlee Leuven,1,1,Pro League
+2026-10-11 00:00:00,Standard,Charleroi,0,1,Pro League
+2026-10-11 00:00:00,Westerlo,Antwerp,5,1,Pro League
+2026-10-11 00:00:00,Aberdeen,St Johnstone,0,1,Scottish Premiership
+2026-10-11 00:00:00,Motherwell,Celtic,0,2,Scottish Premiership
+2026-10-11 00:00:00,Cagliari,Juventus,1,1,Serie A
+2026-10-11 00:00:00,Como,Roma,0,0,Serie A
+2026-10-11 00:00:00,Lazio,Monza,3,1,Serie A
+2026-10-11 00:00:00,Lecce,Bologna,1,2,Serie A
+2026-10-11 00:00:00,Sassuolo,Milan,1,1,Serie A
+2026-10-11 00:00:00,Aris,Volos NFC,3,2,Super League Greece
+2026-10-11 00:00:00,Iraklis,Levadeiakos,2,0,Super League Greece
+2026-10-11 00:00:00,Kifisia,Panetolikos,2,0,Super League Greece
+2026-10-11 00:00:00,Olympiacos,Panathinaikos,1,0,Super League Greece
+2026-10-11 00:00:00,Besiktas,Kocaelispor,2,1,Super Lig
+2026-10-11 00:00:00,Gaziantep,Corum,0,3,Super Lig
+2026-10-11 00:00:00,Konyaspor,Buyuksehyr,0,0,Super Lig
+2026-10-12 00:00:00,Levante,Sevilla,3,3,La Liga
+2026-10-12 00:00:00,Coventry,Newcastle United,4,1,Premier League
+2026-10-12 00:00:00,Famalicao,Alverca,1,4,Primeira Liga
+2026-10-12 00:00:00,Atalanta,Venezia,3,1,Serie A
+2026-10-12 00:00:00,Torino,Udinese,2,1,Serie A
+2026-10-12 00:00:00,PAOK,Kalamata,1,3,Super League Greece
+2026-10-12 00:00:00,Eyupspor,Goztep,0,4,Super Lig
+2026-10-16 00:00:00,Eintracht Frankfurt,FC Koln,1,0,Bundesliga
+2026-10-16 00:00:00,Heerenveen,Excelsior,4,0,Eredivisie
+2026-10-16 00:00:00,La Coruna,Levante,1,1,La Liga
+2026-10-16 00:00:00,Le Mans,Toulouse,0,3,Ligue 1
+2026-10-16 00:00:00,Frosinone,Sassuolo,4,2,Serie A
+2026-10-16 00:00:00,Corum,Rizespor,2,1,Super Lig
+2026-10-17 00:00:00,Bayern Munich,RB Leipzig,6,1,Bundesliga
+2026-10-17 00:00:00,Elversberg,Augsburg,4,3,Bundesliga
+2026-10-17 00:00:00,Hamburg,VfB Stuttgart,1,0,Bundesliga
+2026-10-17 00:00:00,Schalke 04,Mainz,0,1,Bundesliga
+2026-10-17 00:00:00,Union Berlin,Borussia Dortmund,0,0,Bundesliga
+2026-10-17 00:00:00,Werder Bremen,Paderborn,2,2,Bundesliga
+2026-10-17 00:00:00,Den Haag,PSV,2,1,Eredivisie
+2026-10-17 00:00:00,Sparta Rotterdam,Willem II,3,2,Eredivisie
+2026-10-17 00:00:00,Telstar,Feyenoord,3,4,Eredivisie
+2026-10-17 00:00:00,Espanol,Atletico Madrid,0,1,La Liga
+2026-10-17 00:00:00,Real Betis,Barcelona,2,5,La Liga
+2026-10-17 00:00:00,Valencia,Athletic Club,0,0,La Liga
+2026-10-17 00:00:00,Villarreal,Elche,0,0,La Liga
+2026-10-17 00:00:00,Lille,Brest,1,1,Ligue 1
+2026-10-17 00:00:00,Strasbourg,Paris Saint-Germain,1,3,Ligue 1
+2026-10-17 00:00:00,Troyes,Lens,1,3,Ligue 1
+2026-10-17 00:00:00,Brentford,Liverpool,1,2,Premier League
+2026-10-17 00:00:00,Everton,Chelsea,0,2,Premier League
+2026-10-17 00:00:00,Fulham,Hull,1,0,Premier League
+2026-10-17 00:00:00,Manchester City,Ipswich,3,2,Premier League
+2026-10-17 00:00:00,Newcastle United,Aston Villa,0,1,Premier League
+2026-10-17 00:00:00,Aberdeen,St Mirren,3,1,Scottish Premiership
+2026-10-17 00:00:00,Dundee,Rangers,2,2,Scottish Premiership
+2026-10-17 00:00:00,Hibernian,Falkirk,1,2,Scottish Premiership
+2026-10-17 00:00:00,Kilmarnock,Motherwell,3,2,Scottish Premiership
+2026-10-17 00:00:00,St Johnstone,Dundee United,1,1,Scottish Premiership
+2026-10-17 00:00:00,Bologna,Inter,1,3,Serie A
+2026-10-17 00:00:00,Roma,Genoa,2,0,Serie A
+2026-10-17 00:00:00,Venezia,Napoli,1,0,Serie A
+2026-10-17 00:00:00,Levadeiakos,Volos NFC,0,0,Super League Greece
+2026-10-17 00:00:00,Amedspor,Konyaspor,1,0,Super Lig
+2026-10-17 00:00:00,Erzurumspor,Eyupspor,2,0,Super Lig
+2026-10-17 00:00:00,Fenerbahce,Alanyaspor,3,0,Super Lig
+2026-10-17 00:00:00,Genclerbirligi,Galatasaray,0,1,Super Lig
+2026-10-18 00:00:00,Bayer Leverkusen,Freiburg,2,1,Bundesliga
+2026-10-18 00:00:00,M'gladbach,Hoffenheim,1,2,Bundesliga
+2026-10-18 00:00:00,Cambuur,AZ Alkmaar,2,2,Eredivisie
+2026-10-18 00:00:00,Groningen,Ajax,2,5,Eredivisie
+2026-10-18 00:00:00,Nijmegen,For Sittard,2,2,Eredivisie
+2026-10-18 00:00:00,Twente,Utrecht,1,2,Eredivisie
+2026-10-18 00:00:00,Zwolle,Go Ahead Eagles,4,1,Eredivisie
+2026-10-18 00:00:00,Celta,Alaves,2,1,La Liga
+2026-10-18 00:00:00,Malaga,Sociedad,2,5,La Liga
+2026-10-18 00:00:00,Osasuna,Santander,2,0,La Liga
+2026-10-18 00:00:00,Real Madrid,Sevilla,4,1,La Liga
+2026-10-18 00:00:00,Angers,Marseille,2,5,Ligue 1
+2026-10-18 00:00:00,Le Havre,Auxerre,1,3,Ligue 1
+2026-10-18 00:00:00,Lorient,Monaco,1,0,Ligue 1
+2026-10-18 00:00:00,Lyon,Nice,2,1,Ligue 1
+2026-10-18 00:00:00,Paris FC,Rennes,4,3,Ligue 1
+2026-10-18 00:00:00,Bournemouth,Sunderland,2,0,Premier League
+2026-10-18 00:00:00,Brighton,Crystal Palace,5,0,Premier League
+2026-10-18 00:00:00,Leeds,Manchester United,1,1,Premier League
+2026-10-18 00:00:00,Nottingham Forest,Arsenal,0,1,Premier League
+2026-10-18 00:00:00,Celtic,Hearts,7,1,Scottish Premiership
+2026-10-18 00:00:00,Fiorentina,Como,1,3,Serie A
+2026-10-18 00:00:00,Juventus,Lazio,0,3,Serie A
+2026-10-18 00:00:00,Milan,Atalanta,3,2,Serie A
+2026-10-18 00:00:00,Udinese,Lecce,0,3,Serie A
+2026-10-18 00:00:00,Kalamata,OFI Crete,4,3,Super League Greece
+2026-10-18 00:00:00,Kifisia,Aris,1,2,Super League Greece
+2026-10-18 00:00:00,PAOK,Iraklis,2,1,Super League Greece
+2026-10-18 00:00:00,Panathinaikos,Asteras Tripolis,5,1,Super League Greece
+2026-10-18 00:00:00,Panetolikos,Olympiacos,0,2,Super League Greece
+2026-10-18 00:00:00,Buyuksehyr,Gaziantep,2,1,Super Lig
+2026-10-18 00:00:00,Kasimpasa,Samsunspor,4,1,Super Lig
+2026-10-18 00:00:00,Kocaelispor,Goztep,1,2,Super Lig
+2026-10-19 00:00:00,Getafe,Vallecano,1,1,La Liga
+2026-10-19 00:00:00,Tottenham Hotspur,Coventry,3,1,Premier League
+2026-10-19 00:00:00,Braga,Gil Vicente,1,2,Primeira Liga
+2026-10-19 00:00:00,Monza,Cagliari,4,0,Serie A
+2026-10-19 00:00:00,Parma,Torino,0,3,Serie A
+2026-10-19 00:00:00,Trabzonspor,Besiktas,2,0,Super Lig
+2026-10-21 00:00:00,Levante,Athletic Club,3,1,La Liga
+2026-10-21 00:00:00,AEK Athens,VfB Stuttgart,,,UCL
+2026-10-21 00:00:00,Aston Villa,Shakhtar Donetsk,,,UCL
+2026-10-21 00:00:00,Atletico Madrid,Sabah,,,UCL
+2026-10-21 00:00:00,Bodo/Glimt,Real Betis,,,UCL
+2026-10-21 00:00:00,Borussia Dortmund,RB Leipzig,,,UCL
+2026-10-21 00:00:00,Club Brugge,Porto,,,UCL
+2026-10-21 00:00:00,Fenerbahce,PSV,,,UCL
+2026-10-21 00:00:00,Galatasaray,Manchester United,,,UCL
+2026-10-21 00:00:00,LASK,Liverpool,,,UCL
+2026-10-21 00:00:00,Lille,Lens,,,UCL
+2026-10-21 00:00:00,Manchester City,Inter,,,UCL
+2026-10-21 00:00:00,Napoli,Feyenoord,,,UCL
+2026-10-21 00:00:00,Paris Saint-Germain,Como,,,UCL
+2026-10-21 00:00:00,Real Madrid,Bayern Munich,,,UCL
+2026-10-21 00:00:00,Roma,Barcelona,,,UCL
+2026-10-21 00:00:00,Slavia Praha,Arsenal,,,UCL
+2026-10-21 00:00:00,Viking,Sporting CP,,,UCL
+2026-10-21 00:00:00,Villarreal,Slovan Bratislava,,,UCL
+2026-10-23 00:00:00,VfB Stuttgart,M'gladbach,2,3,Bundesliga
+2026-10-23 00:00:00,Go Ahead Eagles,Telstar,3,2,Eredivisie
+2026-10-23 00:00:00,Alaves,Malaga,1,1,La Liga
+2026-10-23 00:00:00,Brest,Nice,1,2,Ligue 1
+2026-10-23 00:00:00,Ipswich,Nottingham Forest,1,1,Premier League
+2026-10-23 00:00:00,Guimaraes,Maritimo,5,0,Primeira Liga
+2026-10-23 00:00:00,Torino,Monza,3,2,Serie A
+2026-10-23 00:00:00,Alanyaspor,Kocaelispor,1,2,Super Lig
+2026-10-24 00:00:00,Augsburg,Union Berlin,1,1,Bundesliga
+2026-10-24 00:00:00,Borussia Dortmund,Eintracht Frankfurt,1,0,Bundesliga
+2026-10-24 00:00:00,FC Koln,Schalke 04,0,0,Bundesliga
+2026-10-24 00:00:00,Mainz,Werder Bremen,2,3,Bundesliga
+2026-10-24 00:00:00,Paderborn,Hamburg,1,0,Bundesliga
+2026-10-24 00:00:00,RB Leipzig,Elversberg,4,0,Bundesliga
+2026-10-24 00:00:00,Den Haag,Heerenveen,2,3,Eredivisie
+2026-10-24 00:00:00,Utrecht,Zwolle,1,1,Eredivisie
+2026-10-24 00:00:00,Willem II,Cambuur,1,6,Eredivisie
+2026-10-24 00:00:00,Atletico Madrid,La Coruna,1,0,La Liga
+2026-10-24 00:00:00,Santander,Espanol,2,1,La Liga
+2026-10-24 00:00:00,Valencia,Villarreal,1,2,La Liga
+2026-10-24 00:00:00,Vallecano,Elche,0,3,La Liga
+2026-10-24 00:00:00,Lens,Paris FC,2,1,Ligue 1
+2026-10-24 00:00:00,Arsenal,Everton,2,0,Premier League
+2026-10-24 00:00:00,Aston Villa,Manchester City,2,1,Premier League
+2026-10-24 00:00:00,Chelsea,Tottenham Hotspur,0,2,Premier League
+2026-10-24 00:00:00,Coventry,Fulham,0,1,Premier League
+2026-10-24 00:00:00,Alverca,Arouca,0,1,Primeira Liga
+2026-10-24 00:00:00,Estrela,Casa Pia,0,2,Primeira Liga
+2026-10-24 00:00:00,Gil Vicente,Porto,0,1,Primeira Liga
+2026-10-24 00:00:00,Antwerp,Charleroi,3,0,Pro League
+2026-10-24 00:00:00,Oud-Heverlee Leuven,Lommel SK,2,2,Pro League
+2026-10-24 00:00:00,RAAL La Louviere,Waregem,3,0,Pro League
+2026-10-24 00:00:00,Westerlo,Beveren,4,4,Pro League
+2026-10-24 00:00:00,Dundee United,Aberdeen,3,2,Scottish Premiership
+2026-10-24 00:00:00,Falkirk,Kilmarnock,3,0,Scottish Premiership
+2026-10-24 00:00:00,Rangers,St Johnstone,4,0,Scottish Premiership
+2026-10-24 00:00:00,St Mirren,Dundee,2,1,Scottish Premiership
+2026-10-24 00:00:00,Cagliari,Bologna,0,2,Serie A
+2026-10-24 00:00:00,Como,Sassuolo,2,0,Serie A
+2026-10-24 00:00:00,Lazio,Parma,2,1,Serie A
+2026-10-24 00:00:00,Napoli,Roma,3,3,Serie A
+2026-10-24 00:00:00,AEK Athens,Panetolikos,5,0,Super League Greece
+2026-10-24 00:00:00,Asteras Tripolis,Levadeiakos,0,0,Super League Greece
+2026-10-24 00:00:00,Iraklis,Kifisia,2,3,Super League Greece
+2026-10-24 00:00:00,Eyupspor,Kasimpasa,0,1,Super Lig
+2026-10-24 00:00:00,Gaziantep,Erzurumspor,1,3,Super Lig
+2026-10-24 00:00:00,Samsunspor,Amedspor,1,2,Super Lig
+2026-10-25 00:00:00,Freiburg,Bayern Munich,1,3,Bundesliga
+2026-10-25 00:00:00,Hoffenheim,Bayer Leverkusen,3,0,Bundesliga
+2026-10-25 00:00:00,AZ Alkmaar,Twente,0,2,Eredivisie
+2026-10-25 00:00:00,For Sittard,Excelsior,1,0,Eredivisie
+2026-10-25 00:00:00,Nijmegen,Groningen,2,2,Eredivisie
+2026-10-25 00:00:00,PSV,Feyenoord,1,1,Eredivisie
+2026-10-25 00:00:00,Sparta Rotterdam,Ajax,1,2,Eredivisie
+2026-10-25 00:00:00,Athletic Club,Getafe,4,0,La Liga
+2026-10-25 00:00:00,Barcelona,Real Madrid,1,2,La Liga
+2026-10-25 00:00:00,Celta,Real Betis,0,0,La Liga
+2026-10-25 00:00:00,Sociedad,Levante,2,1,La Liga
+2026-10-25 00:00:00,Angers,Lorient,0,0,Ligue 1
+2026-10-25 00:00:00,Auxerre,Le Mans,1,1,Ligue 1
+2026-10-25 00:00:00,Marseille,Le Havre,4,3,Ligue 1
+2026-10-25 00:00:00,Monaco,Lille,1,1,Ligue 1
+2026-10-25 00:00:00,Rennes,Strasbourg,3,0,Ligue 1
+2026-10-25 00:00:00,Toulouse,Troyes,0,0,Ligue 1
+2026-10-25 00:00:00,Crystal Palace,Newcastle United,0,2,Premier League
+2026-10-25 00:00:00,Hull,Brentford,1,1,Premier League
+2026-10-25 00:00:00,Liverpool,Brighton,2,0,Premier League
+2026-10-25 00:00:00,Manchester United,Bournemouth,0,3,Premier League
+2026-10-25 00:00:00,Sunderland,Leeds,0,0,Premier League
+2026-10-25 00:00:00,Estoril,Moreirense,1,3,Primeira Liga
+2026-10-25 00:00:00,Nacional,Braga,1,0,Primeira Liga
+2026-10-25 00:00:00,Rio Ave,Famalicao,0,4,Primeira Liga
+2026-10-25 00:00:00,Sporting CP,Academico Viseu,1,2,Primeira Liga
+2026-10-25 00:00:00,Club Brugge,St Truiden,3,2,Pro League
+2026-10-25 00:00:00,Genk,Standard,2,1,Pro League
+2026-10-25 00:00:00,Gent,Anderlecht,4,0,Pro League
+2026-10-25 00:00:00,St. Gilloise,Cercle Brugge,5,2,Pro League
+2026-10-25 00:00:00,Hibernian,Celtic,1,2,Scottish Premiership
+2026-10-25 00:00:00,Motherwell,Hearts,0,2,Scottish Premiership
+2026-10-25 00:00:00,Atalanta,Frosinone,4,4,Serie A
+2026-10-25 00:00:00,Genoa,Venezia,1,0,Serie A
+2026-10-25 00:00:00,Inter,Fiorentina,2,1,Serie A
+2026-10-25 00:00:00,Lecce,Juventus,0,2,Serie A
+2026-10-25 00:00:00,Udinese,Milan,0,2,Serie A
+2026-10-25 00:00:00,Aris,Atromitos,3,1,Super League Greece
+2026-10-25 00:00:00,OFI Crete,PAOK,2,1,Super League Greece
+2026-10-25 00:00:00,Olympiacos,Kalamata,5,0,Super League Greece
+2026-10-25 00:00:00,Volos NFC,Panathinaikos,0,1,Super League Greece
+2026-10-25 00:00:00,Goztep,Corum,2,0,Super Lig
+2026-10-25 00:00:00,Konyaspor,Genclerbirligi,2,0,Super Lig
+2026-10-26 00:00:00,Sevilla,Osasuna,2,0,La Liga
+2026-10-26 00:00:00,Paris Saint-Germain,Lyon,2,0,Ligue 1
+2026-10-26 00:00:00,Santa Clara,Benfica,1,2,Primeira Liga
+2026-10-26 00:00:00,Besiktas,Buyuksehyr,2,0,Super Lig
+2026-10-26 00:00:00,Galatasaray,Fenerbahce,2,1,Super Lig
+2026-10-26 00:00:00,Rizespor,Trabzonspor,3,4,Super Lig
+2026-10-27 00:00:00,Roma,Cagliari,4,2,Serie A
+2026-10-27 00:00:00,Sassuolo,Lazio,2,6,Serie A
+2026-10-27 00:00:00,Torino,Como,1,3,Serie A
+2026-10-28 00:00:00,Aberdeen,Falkirk,0,1,Scottish Premiership
+2026-10-28 00:00:00,Celtic,Dundee United,2,2,Scottish Premiership
+2026-10-28 00:00:00,Dundee,Kilmarnock,3,1,Scottish Premiership
+2026-10-28 00:00:00,Hearts,Rangers,2,2,Scottish Premiership
+2026-10-28 00:00:00,St Johnstone,Motherwell,2,2,Scottish Premiership
+2026-10-28 00:00:00,St Mirren,Hibernian,1,1,Scottish Premiership
+2026-10-28 00:00:00,Genoa,Juventus,2,0,Serie A
+2026-10-28 00:00:00,Milan,Bologna,2,4,Serie A
+2026-10-28 00:00:00,Monza,Napoli,1,4,Serie A
+2026-10-28 00:00:00,Parma,Udinese,0,0,Serie A
+2026-10-28 00:00:00,Venezia,Inter,0,2,Serie A
+2026-10-29 00:00:00,Fiorentina,Atalanta,2,2,Serie A
+2026-10-29 00:00:00,Frosinone,Lecce,5,1,Serie A
+2026-10-30 00:00:00,Elversberg,Mainz,4,1,Bundesliga
+2026-10-30 00:00:00,Villarreal,Espanol,0,1,La Liga
+2026-10-30 00:00:00,Le Havre,Paris Saint-Germain,1,5,Ligue 1
+2026-10-30 00:00:00,Lille,Lens,1,0,Ligue 1
+2026-10-30 00:00:00,Nice,Rennes,5,2,Ligue 1
+2026-10-30 00:00:00,Casa Pia,Sporting CP,0,2,Primeira Liga
+2026-10-30 00:00:00,Waregem,Club Brugge,2,4,Pro League
+2026-10-30 00:00:00,Konyaspor,Galatasaray,0,4,Super Lig
+2026-10-31 00:00:00,Augsburg,Freiburg,1,2,Bundesliga
+2026-10-31 00:00:00,Bayer Leverkusen,VfB Stuttgart,2,4,Bundesliga
+2026-10-31 00:00:00,Bayern Munich,Borussia Dortmund,2,2,Bundesliga
+2026-10-31 00:00:00,M'gladbach,Paderborn,0,0,Bundesliga
+2026-10-31 00:00:00,Schalke 04,RB Leipzig,0,2,Bundesliga
+2026-10-31 00:00:00,Werder Bremen,Hoffenheim,2,0,Bundesliga
+2026-10-31 00:00:00,Ajax,AZ Alkmaar,1,0,Eredivisie
+2026-10-31 00:00:00,Cambuur,Go Ahead Eagles,4,0,Eredivisie
+2026-10-31 00:00:00,Feyenoord,For Sittard,1,1,Eredivisie
+2026-10-31 00:00:00,Heerenveen,Nijmegen,1,0,Eredivisie
+2026-10-31 00:00:00,PSV,Willem II,7,0,Eredivisie
+2026-10-31 00:00:00,Barcelona,Alaves,6,1,La Liga
+2026-10-31 00:00:00,Levante,Atletico Madrid,0,2,La Liga
+2026-10-31 00:00:00,Real Betis,Malaga,2,1,La Liga
+2026-10-31 00:00:00,Vallecano,Celta,3,0,La Liga
+2026-10-31 00:00:00,Troyes,Le Mans,2,0,Ligue 1
+2026-10-31 00:00:00,Aston Villa,Fulham,1,1,Premier League
+2026-10-31 00:00:00,Bournemouth,Leeds,2,0,Premier League
+2026-10-31 00:00:00,Brentford,Nottingham Forest,2,0,Premier League
+2026-10-31 00:00:00,Chelsea,Manchester United,2,0,Premier League
+2026-10-31 00:00:00,Coventry,Sunderland,3,1,Premier League
+2026-10-31 00:00:00,Hull,Ipswich,2,2,Premier League
+2026-10-31 00:00:00,Manchester City,Brighton,0,1,Premier League
+2026-10-31 00:00:00,Tottenham Hotspur,Crystal Palace,2,0,Premier League
+2026-10-31 00:00:00,Moreirense,Estrela,2,1,Primeira Liga
+2026-10-31 00:00:00,Porto,Estoril,4,0,Primeira Liga
+2026-10-31 00:00:00,Anderlecht,Westerlo,4,1,Pro League
+2026-10-31 00:00:00,Beveren,St. Gilloise,1,2,Pro League
+2026-10-31 00:00:00,Mechelen,Genk,1,0,Pro League
+2026-10-31 00:00:00,Standard,Kortrijk,1,1,Pro League
+2026-10-31 00:00:00,Kilmarnock,St Johnstone,2,2,Scottish Premiership
+2026-10-31 00:00:00,Motherwell,St Mirren,1,0,Scottish Premiership
+2026-10-31 00:00:00,Bologna,Monza,2,1,Serie A
+2026-10-31 00:00:00,Milan,Inter,3,1,Serie A
+2026-10-31 00:00:00,Udinese,Roma,2,5,Serie A
+2026-10-31 00:00:00,Kifisia,Olympiacos,2,3,Super League Greece
+2026-10-31 00:00:00,Erzurumspor,Corum,1,3,Super Lig
+2026-10-31 00:00:00,Fenerbahce,Goztep,1,2,Super Lig
+2026-10-31 00:00:00,Kocaelispor,Rizespor,0,0,Super Lig
+2026-11-01 00:00:00,Eintracht Frankfurt,Hamburg,3,1,Bundesliga
+2026-11-01 00:00:00,Union Berlin,FC Koln,1,1,Bundesliga
+2026-11-01 00:00:00,Excelsior,Twente,0,9,Eredivisie
+2026-11-01 00:00:00,Groningen,Sparta Rotterdam,2,3,Eredivisie
+2026-11-01 00:00:00,Telstar,Utrecht,4,2,Eredivisie
+2026-11-01 00:00:00,Zwolle,Den Haag,1,0,Eredivisie
+2026-11-01 00:00:00,Athletic Club,Sociedad,2,1,La Liga
+2026-11-01 00:00:00,Elche,Valencia,0,1,La Liga
+2026-11-01 00:00:00,Getafe,Sevilla,3,1,La Liga
+2026-11-01 00:00:00,Santander,Real Madrid,0,3,La Liga
+2026-11-01 00:00:00,Lyon,Angers,2,0,Ligue 1
+2026-11-01 00:00:00,Marseille,Toulouse,2,0,Ligue 1
+2026-11-01 00:00:00,Paris FC,Monaco,3,1,Ligue 1
+2026-11-01 00:00:00,Strasbourg,Auxerre,5,1,Ligue 1
+2026-11-01 00:00:00,Liverpool,Arsenal,0,1,Premier League
+2026-11-01 00:00:00,Academico Viseu,Rio Ave,2,1,Primeira Liga
+2026-11-01 00:00:00,Arouca,Nacional,1,0,Primeira Liga
+2026-11-01 00:00:00,Braga,Famalicao,3,0,Primeira Liga
+2026-11-01 00:00:00,Maritimo,Santa Clara,0,2,Primeira Liga
+2026-11-01 00:00:00,Cercle Brugge,Antwerp,2,1,Pro League
+2026-11-01 00:00:00,Charleroi,RAAL La Louviere,5,2,Pro League
+2026-11-01 00:00:00,Lommel SK,Gent,2,0,Pro League
+2026-11-01 00:00:00,St Truiden,Oud-Heverlee Leuven,1,2,Pro League
+2026-11-01 00:00:00,Falkirk,Celtic,2,0,Scottish Premiership
+2026-11-01 00:00:00,Como,Venezia,1,0,Serie A
+2026-11-01 00:00:00,Frosinone,Torino,2,0,Serie A
+2026-11-01 00:00:00,Juventus,Napoli,2,0,Serie A
+2026-11-01 00:00:00,Lazio,Cagliari,2,1,Serie A
+2026-11-01 00:00:00,Lecce,Genoa,1,2,Serie A
+2026-11-01 00:00:00,Levadeiakos,Aris,3,0,Super League Greece
+2026-11-01 00:00:00,PAOK,Asteras Tripolis,2,1,Super League Greece
+2026-11-01 00:00:00,Panathinaikos,AEK Athens,2,0,Super League Greece
+2026-11-01 00:00:00,Panetolikos,OFI Crete,0,1,Super League Greece
+2026-11-01 00:00:00,Amedspor,Eyupspor,5,1,Super Lig
+2026-11-01 00:00:00,Buyuksehyr,Samsunspor,5,2,Super Lig
+2026-11-01 00:00:00,Kasimpasa,Besiktas,2,2,Super Lig
+2026-11-01 00:00:00,Trabzonspor,Gaziantep,2,0,Super Lig
+2026-11-02 00:00:00,La Coruna,Osasuna,2,1,La Liga
+2026-11-02 00:00:00,Lorient,Brest,0,2,Ligue 1
+2026-11-02 00:00:00,Newcastle United,Everton,0,1,Premier League
+2026-11-02 00:00:00,Benfica,Alverca,1,0,Primeira Liga
+2026-11-02 00:00:00,Gil Vicente,Guimaraes,0,0,Primeira Liga
+2026-11-02 00:00:00,Atalanta,Parma,0,3,Serie A
+2026-11-02 00:00:00,Sassuolo,Fiorentina,2,4,Serie A
+2026-11-02 00:00:00,Atromitos,Volos NFC,3,0,Super League Greece
+2026-11-02 00:00:00,Kalamata,Iraklis,1,1,Super League Greece
+2026-11-02 00:00:00,Genclerbirligi,Alanyaspor,5,0,Super Lig
+2026-11-04 00:00:00,Kortrijk,Mechelen,1,3,Pro League
+2026-11-04 00:00:00,Aston Villa,Roma,,,UCL
+2026-11-04 00:00:00,Atletico Madrid,Real Madrid,,,UCL
+2026-11-04 00:00:00,Bayern Munich,RB Leipzig,,,UCL
+2026-11-04 00:00:00,Feyenoord,Manchester City,,,UCL
+2026-11-04 00:00:00,Inter,Lille,,,UCL
+2026-11-04 00:00:00,LASK,Lens,,,UCL
+2026-11-04 00:00:00,Liverpool,Galatasaray,,,UCL
+2026-11-04 00:00:00,Manchester United,Fenerbahce,,,UCL
+2026-11-04 00:00:00,Napoli,Como,,,UCL
+2026-11-04 00:00:00,PSV,Club Brugge,,,UCL
+2026-11-04 00:00:00,Paris Saint-Germain,Borussia Dortmund,,,UCL
+2026-11-04 00:00:00,Porto,Bodo/Glimt,,,UCL
+2026-11-04 00:00:00,Real Betis,Barcelona,,,UCL
+2026-11-04 00:00:00,Sabah,Arsenal,,,UCL
+2026-11-04 00:00:00,Shakhtar Donetsk,Villarreal,,,UCL
+2026-11-04 00:00:00,Slovan Bratislava,VfB Stuttgart,,,UCL
+2026-11-04 00:00:00,Sporting CP,AEK Athens,,,UCL
+2026-11-04 00:00:00,Viking,Slavia Praha,,,UCL
+2026-11-06 00:00:00,Hamburg,M'gladbach,3,1,Bundesliga
+2026-11-06 00:00:00,Willem II,Zwolle,1,1,Eredivisie
+2026-11-06 00:00:00,Sevilla,Alaves,0,0,La Liga
+2026-11-06 00:00:00,Toulouse,Strasbourg,3,1,Ligue 1
+2026-11-06 00:00:00,Everton,Coventry,3,1,Premier League
+2026-11-06 00:00:00,Famalicao,Arouca,1,0,Primeira Liga
+2026-11-06 00:00:00,Standard,Beveren,3,0,Pro League
+2026-11-06 00:00:00,Venezia,Udinese,2,1,Serie A
+2026-11-06 00:00:00,Gaziantep,Kasimpasa,0,2,Super Lig
+2026-11-07 00:00:00,Borussia Dortmund,Elversberg,2,1,Bundesliga
+2026-11-07 00:00:00,Mainz,Bayern Munich,1,2,Bundesliga
+2026-11-07 00:00:00,Paderborn,Eintracht Frankfurt,2,2,Bundesliga
+2026-11-07 00:00:00,RB Leipzig,Augsburg,5,2,Bundesliga
+2026-11-07 00:00:00,VfB Stuttgart,Werder Bremen,1,0,Bundesliga
+2026-11-07 00:00:00,Den Haag,Sparta Rotterdam,3,1,Eredivisie
+2026-11-07 00:00:00,Excelsior,Go Ahead Eagles,0,1,Eredivisie
+2026-11-07 00:00:00,For Sittard,Telstar,2,2,Eredivisie
+2026-11-07 00:00:00,Espanol,La Coruna,0,0,La Liga
+2026-11-07 00:00:00,Malaga,Santander,1,2,La Liga
+2026-11-07 00:00:00,Osasuna,Athletic Club,1,1,La Liga
+2026-11-07 00:00:00,Valencia,Real Madrid,0,3,La Liga
+2026-11-07 00:00:00,Auxerre,Paris FC,0,1,Ligue 1
+2026-11-07 00:00:00,Paris Saint-Germain,Troyes,1,0,Ligue 1
+2026-11-07 00:00:00,Arsenal,Hull,1,0,Premier League
+2026-11-07 00:00:00,Fulham,Newcastle United,1,1,Premier League
+2026-11-07 00:00:00,Leeds,Tottenham Hotspur,1,0,Premier League
+2026-11-07 00:00:00,Nottingham Forest,Manchester City,3,1,Premier League
+2026-11-07 00:00:00,Alverca,Casa Pia,1,1,Primeira Liga
+2026-11-07 00:00:00,Sporting CP,Moreirense,1,0,Primeira Liga
+2026-11-07 00:00:00,Antwerp,Lommel SK,2,2,Pro League
+2026-11-07 00:00:00,Oud-Heverlee Leuven,Mechelen,2,0,Pro League
+2026-11-07 00:00:00,RAAL La Louviere,Cercle Brugge,0,1,Pro League
+2026-11-07 00:00:00,Westerlo,Charleroi,1,5,Pro League
+2026-11-07 00:00:00,Aberdeen,Hibernian,0,4,Scottish Premiership
+2026-11-07 00:00:00,Dundee United,Motherwell,1,1,Scottish Premiership
+2026-11-07 00:00:00,St Johnstone,Dundee,2,1,Scottish Premiership
+2026-11-07 00:00:00,St Mirren,Rangers,0,2,Scottish Premiership
+2026-11-07 00:00:00,Cagliari,Frosinone,1,0,Serie A
+2026-11-07 00:00:00,Parma,Bologna,1,2,Serie A
+2026-11-07 00:00:00,Roma,Sassuolo,3,0,Serie A
+2026-11-07 00:00:00,Torino,Lecce,1,1,Serie A
+2026-11-07 00:00:00,Aris,Panetolikos,3,0,Super League Greece
+2026-11-07 00:00:00,Volos NFC,Kifisia,1,3,Super League Greece
+2026-11-07 00:00:00,Eyupspor,Kocaelispor,0,2,Super Lig
+2026-11-07 00:00:00,Galatasaray,Amedspor,4,3,Super Lig
+2026-11-07 00:00:00,Goztep,Buyuksehyr,1,2,Super Lig
+2026-11-07 00:00:00,Samsunspor,Konyaspor,1,0,Super Lig
+2026-11-08 00:00:00,FC Koln,Bayer Leverkusen,1,2,Bundesliga
+2026-11-08 00:00:00,Freiburg,Union Berlin,2,0,Bundesliga
+2026-11-08 00:00:00,Hoffenheim,Schalke 04,2,1,Bundesliga
+2026-11-08 00:00:00,AZ Alkmaar,Groningen,4,3,Eredivisie
+2026-11-08 00:00:00,Cambuur,PSV,2,5,Eredivisie
+2026-11-08 00:00:00,Heerenveen,Feyenoord,5,3,Eredivisie
+2026-11-08 00:00:00,Twente,Ajax,2,2,Eredivisie
+2026-11-08 00:00:00,Utrecht,Nijmegen,2,3,Eredivisie
+2026-11-08 00:00:00,Atletico Madrid,Barcelona,1,2,La Liga
+2026-11-08 00:00:00,Celta,Levante,0,0,La Liga
+2026-11-08 00:00:00,Elche,Real Betis,0,2,La Liga
+2026-11-08 00:00:00,Sociedad,Vallecano,1,0,La Liga
+2026-11-08 00:00:00,Villarreal,Getafe,2,0,La Liga
+2026-11-08 00:00:00,Angers,Nice,0,2,Ligue 1
+2026-11-08 00:00:00,Brest,Lyon,2,0,Ligue 1
+2026-11-08 00:00:00,Le Havre,Lorient,0,2,Ligue 1
+2026-11-08 00:00:00,Le Mans,Monaco,1,1,Ligue 1
+2026-11-08 00:00:00,Lens,Marseille,1,2,Ligue 1
+2026-11-08 00:00:00,Rennes,Lille,1,2,Ligue 1
+2026-11-08 00:00:00,Brighton,Brentford,2,0,Premier League
+2026-11-08 00:00:00,Crystal Palace,Liverpool,1,3,Premier League
+2026-11-08 00:00:00,Ipswich,Bournemouth,1,2,Premier League
+2026-11-08 00:00:00,Manchester United,Aston Villa,4,4,Premier League
+2026-11-08 00:00:00,Sunderland,Chelsea,1,0,Premier League
+2026-11-08 00:00:00,Estrela,Benfica,2,3,Primeira Liga
+2026-11-08 00:00:00,Guimaraes,Porto,1,2,Primeira Liga
+2026-11-08 00:00:00,Nacional,Academico Viseu,1,0,Primeira Liga
+2026-11-08 00:00:00,Rio Ave,Braga,0,1,Primeira Liga
+2026-11-08 00:00:00,Santa Clara,Gil Vicente,1,2,Primeira Liga
+2026-11-08 00:00:00,Club Brugge,Anderlecht,1,1,Pro League
+2026-11-08 00:00:00,Gent,Kortrijk,1,0,Pro League
+2026-11-08 00:00:00,St Truiden,Waregem,4,1,Pro League
+2026-11-08 00:00:00,St. Gilloise,Genk,1,0,Pro League
+2026-11-08 00:00:00,Celtic,Kilmarnock,1,0,Scottish Premiership
+2026-11-08 00:00:00,Hearts,Falkirk,2,5,Scottish Premiership
+2026-11-08 00:00:00,Fiorentina,Juventus,2,2,Serie A
+2026-11-08 00:00:00,Genoa,Milan,1,2,Serie A
+2026-11-08 00:00:00,Inter,Como,2,0,Serie A
+2026-11-08 00:00:00,Monza,Atalanta,0,1,Serie A
+2026-11-08 00:00:00,Napoli,Lazio,1,1,Serie A
+2026-11-08 00:00:00,AEK Athens,Levadeiakos,2,1,Super League Greece
+2026-11-08 00:00:00,Asteras Tripolis,Kalamata,1,1,Super League Greece
+2026-11-08 00:00:00,Iraklis,Panathinaikos,1,2,Super League Greece
+2026-11-08 00:00:00,OFI Crete,Atromitos,0,0,Super League Greece
+2026-11-08 00:00:00,Olympiacos,PAOK,1,1,Super League Greece
+2026-11-08 00:00:00,Alanyaspor,Trabzonspor,0,2,Super Lig
+2026-11-08 00:00:00,Besiktas,Genclerbirligi,3,0,Super Lig
+2026-11-08 00:00:00,Corum,Fenerbahce,0,5,Super Lig
+2026-11-08 00:00:00,Rizespor,Erzurumspor,2,1,Super Lig
+2026-11-25 00:00:00,Barcelona,Porto,,,UCL
+2026-11-25 00:00:00,Bayern Munich,Paris Saint-Germain,,,UCL
+2026-11-25 00:00:00,Borussia Dortmund,Napoli,,,UCL
+2026-11-25 00:00:00,Club Brugge,Manchester United,,,UCL
+2026-11-25 00:00:00,Como,Manchester City,,,UCL
+2026-11-25 00:00:00,Fenerbahce,Liverpool,,,UCL
+2026-11-25 00:00:00,Feyenoord,Lille,,,UCL
+2026-11-25 00:00:00,LASK,Inter,,,UCL
+2026-11-25 00:00:00,Lens,Galatasaray,,,UCL
+2026-11-25 00:00:00,PSV,Bodo/Glimt,,,UCL
+2026-11-25 00:00:00,RB Leipzig,Atletico Madrid,,,UCL
+2026-11-25 00:00:00,Real Betis,Aston Villa,,,UCL
+2026-11-25 00:00:00,Real Madrid,Arsenal,,,UCL
+2026-11-25 00:00:00,Slovan Bratislava,AEK Athens,,,UCL
+2026-11-25 00:00:00,Sporting CP,Slavia Praha,,,UCL
+2026-11-25 00:00:00,VfB Stuttgart,Shakhtar Donetsk,,,UCL
+2026-11-25 00:00:00,Viking,Sabah,,,UCL
+2026-11-25 00:00:00,Villarreal,Roma,,,UCL
+2026-12-09 00:00:00,Atletico Madrid,Paris Saint-Germain,,,UCL
+2026-12-09 00:00:00,Barcelona,PSV,,,UCL
+2026-12-09 00:00:00,Borussia Dortmund,Manchester City,,,UCL
+2026-12-09 00:00:00,Feyenoord,LASK,,,UCL
+2026-12-09 00:00:00,Galatasaray,Inter,,,UCL
+2026-12-09 00:00:00,Lens,Fenerbahce,,,UCL
+2026-12-09 00:00:00,Lille,Como,,,UCL
+2026-12-09 00:00:00,Liverpool,Club Brugge,,,UCL
+2026-12-09 00:00:00,Manchester United,Bodo/Glimt,,,UCL
+2026-12-09 00:00:00,Napoli,Bayern Munich,,,UCL
+2026-12-09 00:00:00,Porto,Aston Villa,,,UCL
+2026-12-09 00:00:00,RB Leipzig,Arsenal,,,UCL
+2026-12-09 00:00:00,Shakhtar Donetsk,Slovan Bratislava,,,UCL
+2026-12-09 00:00:00,Slavia Praha,AEK Athens,,,UCL
+2026-12-09 00:00:00,Sporting CP,Sabah,,,UCL
+2026-12-09 00:00:00,VfB Stuttgart,Roma,,,UCL
+2026-12-09 00:00:00,Viking,Real Madrid,,,UCL
+2026-12-09 00:00:00,Villarreal,Real Betis,,,UCL
+2027-01-20 00:00:00,Arsenal,Paris Saint-Germain,,,UCL
+2027-01-20 00:00:00,Atletico Madrid,Napoli,,,UCL
+2027-01-20 00:00:00,Bodo/Glimt,Liverpool,,,UCL
+2027-01-20 00:00:00,Como,LASK,,,UCL
+2027-01-20 00:00:00,Galatasaray,Feyenoord,,,UCL
+2027-01-20 00:00:00,Inter,Fenerbahce,,,UCL
+2027-01-20 00:00:00,Lens,Club Brugge,,,UCL
+2027-01-20 00:00:00,Lille,Borussia Dortmund,,,UCL
+2027-01-20 00:00:00,Manchester City,Bayern Munich,,,UCL
+2027-01-20 00:00:00,Manchester United,Barcelona,,,UCL
+2027-01-20 00:00:00,PSV,Aston Villa,,,UCL
+2027-01-20 00:00:00,Porto,Villarreal,,,UCL
+2027-01-20 00:00:00,RB Leipzig,Viking,,,UCL
+2027-01-20 00:00:00,Real Betis,VfB Stuttgart,,,UCL
+2027-01-20 00:00:00,Real Madrid,Sporting CP,,,UCL
+2027-01-20 00:00:00,Roma,Slovan Bratislava,,,UCL
+2027-01-20 00:00:00,Sabah,Slavia Praha,,,UCL
+2027-01-20 00:00:00,Shakhtar Donetsk,AEK Athens,,,UCL
+2027-01-28 00:00:00,AEK Athens,Sabah,,,UCL
+2027-01-28 00:00:00,Arsenal,Napoli,,,UCL
+2027-01-28 00:00:00,Aston Villa,Manchester United,,,UCL
+2027-01-28 00:00:00,Bayern Munich,Lille,,,UCL
+2027-01-28 00:00:00,Bodo/Glimt,Lens,,,UCL
+2027-01-28 00:00:00,Club Brugge,Inter,,,UCL
+2027-01-28 00:00:00,Como,Galatasaray,,,UCL
+2027-01-28 00:00:00,Fenerbahce,Feyenoord,,,UCL
+2027-01-28 00:00:00,LASK,Borussia Dortmund,,,UCL
+2027-01-28 00:00:00,Liverpool,Barcelona,,,UCL
+2027-01-28 00:00:00,Manchester City,Atletico Madrid,,,UCL
+2027-01-28 00:00:00,Paris Saint-Germain,Viking,,,UCL
+2027-01-28 00:00:00,RB Leipzig,Sporting CP,,,UCL
+2027-01-28 00:00:00,Roma,Shakhtar Donetsk,,,UCL
+2027-01-28 00:00:00,Slavia Praha,Real Madrid,,,UCL
+2027-01-28 00:00:00,Slovan Bratislava,Real Betis,,,UCL
+2027-01-28 00:00:00,VfB Stuttgart,Porto,,,UCL
+2027-01-28 00:00:00,Villarreal,PSV,,,UCL
