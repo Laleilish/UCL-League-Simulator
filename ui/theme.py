@@ -240,6 +240,13 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
   margin: 0 auto;
   padding: 1.6rem clamp(1rem, 3.2vw, 2.4rem) 4rem;
 }
+@keyframes uclPageFade {
+  0% { opacity: 0.86; transform: translateY(4px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.st-key-page.is-switching {
+  animation: uclPageFade 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
 
 @media (max-width: 640px) {
   .st-key-navbar {
@@ -281,31 +288,119 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
 }
 
 .st-key-navbar [data-testid="stButtonGroup"] {
-  overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 4px 2px;
 }
 .st-key-navbar [data-testid="stButtonGroup"]::-webkit-scrollbar { display: none; }
+.st-key-navbar [data-testid="stButtonGroup"] > div,
 .st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"] {
+  position: relative;
+  isolation: isolate;
   flex-wrap: nowrap;
+  gap: 0.22rem !important;
+  align-items: center;
 }
+
+/* Sliding capsule indicator driven by JS custom properties in ui/navbar.py */
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--glider-w, 0px);
+  height: var(--glider-h, 0px);
+  transform: translate3d(var(--glider-x, 0px), var(--glider-y, 0px), 0);
+  border-radius: 999px;
+  background: var(--ink);
+  box-shadow: 0 4px 14px rgba(26, 20, 0, 0.20);
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform, width;
+}
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider.is-ready::before {
+  transition:
+    transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+    width 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 0.2s ease,
+    box-shadow 0.22s ease;
+}
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider:has(button[aria-checked="true"]:hover)::before,
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider:has(button.is-gliding-to:hover)::before {
+  background: #261D02;
+  box-shadow: 0 6px 16px rgba(26, 20, 0, 0.24);
+}
+
 .st-key-navbar [data-testid="stButtonGroup"] button {
+  position: relative;
+  z-index: 1;
   border-radius: 999px !important;
-  border: 1px solid rgba(26,20,0,0.16) !important;
-  background: rgba(255,255,255,0.42) !important;
-  color: var(--ink) !important;
-  font-weight: 600 !important;
-  font-size: 0.8rem !important;
-  padding: 0.3rem 0.72rem !important;
+  border: 1px solid transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: rgba(26, 20, 0, 0.78) !important;
+  font-weight: 700 !important;
+  font-size: 0.84rem !important;
+  letter-spacing: -0.01em !important;
+  padding: 0.42rem 0.96rem !important;
   white-space: nowrap;
   min-height: 0 !important;
+  transition:
+    background-color 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+    color 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.22s ease,
+    transform 0.16s cubic-bezier(0.22, 1, 0.36, 1) !important;
 }
-.st-key-navbar [data-testid="stButtonGroup"] button:hover {
-  background: rgba(255,255,255,0.70) !important;
-  border-color: rgba(26,20,0,0.28) !important;
+.st-key-navbar [data-testid="stButtonGroup"] button:not([aria-checked="true"]):not(.is-gliding-to):hover {
+  background: rgba(26, 20, 0, 0.09) !important;
+  border-color: transparent !important;
+  color: var(--ink) !important;
+  box-shadow: none !important;
+  transform: none !important;
 }
-.st-key-navbar [data-testid="stButtonGroup"] button[aria-checked="true"] {
+.st-key-navbar [data-testid="stButtonGroup"] button:not([aria-checked="true"]):not(.is-gliding-to):active {
+  background: rgba(26, 20, 0, 0.15) !important;
+  color: var(--ink) !important;
+  transform: scale(0.96) !important;
+}
+
+/* Fallback before JS mounts .has-glider */
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"]:not(.has-glider) button[aria-checked="true"] {
   background: var(--ink) !important;
   color: var(--ucl-yellow) !important;
-  border-color: var(--ink) !important;
+  border-color: transparent !important;
+  box-shadow: 0 4px 12px rgba(26, 20, 0, 0.18) !important;
+}
+
+/* Active & in-flight target text colour when sliding glider is active */
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider button[aria-checked="true"]:not(.is-gliding-away),
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider button.is-gliding-to {
+  background: transparent !important;
+  color: var(--ucl-yellow) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"].has-glider button.is-gliding-away {
+  background: transparent !important;
+  color: rgba(26, 20, 0, 0.78) !important;
+  box-shadow: none !important;
+}
+.st-key-navbar [data-testid="stButtonGroup"] button[aria-checked="true"]:active,
+.st-key-navbar [data-testid="stButtonGroup"] button.is-gliding-to:active {
+  transform: scale(0.97) !important;
+}
+.st-key-navbar [data-testid="stButtonGroup"] button:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.st-key-navbar [data-testid="stButtonGroup"] [role="radiogroup"]:not(.has-glider) button[aria-checked="true"]:focus:not(:focus-visible) {
+  box-shadow: 0 4px 12px rgba(26, 20, 0, 0.18) !important;
+}
+.st-key-navbar [data-testid="stButtonGroup"] button:focus-visible {
+  outline: 2px solid rgba(26, 20, 0, 0.45) !important;
+  outline-offset: 2px !important;
 }
 
 h1, h2, h3, h4 { color: var(--ink) !important; letter-spacing: -0.025em; }
