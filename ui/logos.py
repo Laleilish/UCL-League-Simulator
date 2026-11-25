@@ -8,8 +8,11 @@ import unicodedata
 from functools import lru_cache
 from html import escape
 from pathlib import Path
+from stat import S_ISREG
 
 LOGO_DIR = Path(__file__).resolve().parent.parent / "assets" / "logos"
+APP_MARK_PATH = LOGO_DIR / "logo-app-mark.png"
+APP_ICON_PATH = LOGO_DIR / "logo-app-icon.png"
 
 # Common alternative names mapped to canonical logo slugs.
 SLUG_ALIASES: dict[str, str] = {
@@ -60,13 +63,35 @@ def logo_path(team: str) -> Path | None:
 
 
 @lru_cache(maxsize=128)
-def logo_data_uri(team: str) -> str | None:
-    """Return a cached base64 PNG data URI for a team logo, or None if missing."""
-    path = logo_path(team)
-    if path is None:
-        return None
+def _read_png_data_uri(
+    path: Path, mtime_ns: int, ctime_ns: int, size: int
+) -> str:
+    """Read and base64-encode a PNG file keyed by path and file metadata."""
     encoded = base64.b64encode(path.read_bytes()).decode("ascii")
     return f"data:image/png;base64,{encoded}"
+
+
+def _png_data_uri(path: Path | None) -> str | None:
+    """Return a cached PNG data URI that invalidates when the file changes."""
+    if path is None:
+        return None
+    try:
+        st = path.stat()
+        if not S_ISREG(st.st_mode):
+            return None
+        return _read_png_data_uri(path, st.st_mtime_ns, st.st_ctime_ns, st.st_size)
+    except OSError:
+        return None
+
+
+def logo_data_uri(team: str) -> str | None:
+    """Return a cached base64 PNG data URI for a team logo, or None if missing."""
+    return _png_data_uri(logo_path(team))
+
+
+def app_mark_data_uri() -> str | None:
+    """Return the cached base64 data URI for the SiKupingBesar emblem."""
+    return _png_data_uri(APP_MARK_PATH)
 
 
 def team_badge_html(

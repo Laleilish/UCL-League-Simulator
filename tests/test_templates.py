@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+import base64
 import csv
+import os
 from datetime import date
 from pathlib import Path
+
+import ui.logos as logos
 
 from ui.components import (
     favorite_card,
@@ -76,3 +80,42 @@ def test_favorite_card_renders_logo_and_escapes_fallback():
     assert "has-logo" not in unknown_html
     assert "&lt;F" in unknown_html
     assert "<Unknown" not in unknown_html
+
+
+def test_app_mark_data_uri_reloads_when_file_changes(tmp_path, monkeypatch):
+    mark = tmp_path / "logo-app-mark.png"
+    monkeypatch.setattr(logos, "APP_MARK_PATH", mark)
+
+    assert logos.app_mark_data_uri() is None
+
+    mark.write_bytes(b"v1-bytes")
+    expected_v1 = "data:image/png;base64," + base64.b64encode(b"v1-bytes").decode("ascii")
+    assert logos.app_mark_data_uri() == expected_v1
+
+    st = mark.stat()
+    mark.write_bytes(b"v2-bytes")
+    os.utime(mark, ns=(st.st_atime_ns, st.st_mtime_ns + 1_000_000))
+    expected_v2 = "data:image/png;base64," + base64.b64encode(b"v2-bytes").decode("ascii")
+    assert logos.app_mark_data_uri() == expected_v2
+
+    mark.write_bytes(b"v3-longer-bytes")
+    expected_v3 = "data:image/png;base64," + base64.b64encode(b"v3-longer-bytes").decode("ascii")
+    assert logos.app_mark_data_uri() == expected_v3
+
+    mark.unlink()
+    assert logos.app_mark_data_uri() is None
+
+
+def test_logo_data_uri_reloads_when_file_changes(tmp_path, monkeypatch):
+    monkeypatch.setattr(logos, "LOGO_DIR", tmp_path)
+    badge = tmp_path / "arsenal.png"
+
+    badge.write_bytes(b"badge-v1")
+    expected_v1 = "data:image/png;base64," + base64.b64encode(b"badge-v1").decode("ascii")
+    assert logos.logo_data_uri("Arsenal") == expected_v1
+
+    st = badge.stat()
+    badge.write_bytes(b"badge-v2")
+    os.utime(badge, ns=(st.st_atime_ns, st.st_mtime_ns + 1_000_000))
+    expected_v2 = "data:image/png;base64," + base64.b64encode(b"badge-v2").decode("ascii")
+    assert logos.logo_data_uri("Arsenal") == expected_v2

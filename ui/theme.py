@@ -5,6 +5,8 @@ from __future__ import annotations
 import plotly.graph_objects as go
 import streamlit as st
 
+from ui.logos import APP_ICON_PATH
+
 YELLOW = "#FFB800"
 YELLOW_DEEP = "#E09E00"
 INK = "#1A1400"
@@ -26,7 +28,7 @@ PLOTLY_CONFIG = {
 def configure_page() -> None:
     st.set_page_config(
         page_title="SiKupingBesar · UCL League Simulator",
-        page_icon="⚽",
+        page_icon=str(APP_ICON_PATH) if APP_ICON_PATH.is_file() else "⚽",
         layout="wide",
         initial_sidebar_state="collapsed",
     )
@@ -73,17 +75,165 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
 }
 
 .st-key-navbar {
-  width: 100%;
-  background: linear-gradient(100deg, #FFC21F 0%, #FFB800 55%, #F2A900 100%);
-  border-radius: 0 0 24px 24px;
-  padding: 0.65rem clamp(1rem, 4vw, 3.2rem);
-  box-shadow: 0 12px 30px rgba(26, 20, 0, 0.10);
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 999;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border-radius: 0 0 24px 24px;
+  padding: 0.65rem clamp(1rem, 4vw, 3.2rem);
+  transition:
+    top 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    left 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    right 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    padding 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    border-radius 0.42s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.st-key-navbar [data-testid="stHorizontalBlock"] { align-items: center; }
+/* Streamlit places the injected <style> and the hidden runtime iframe in
+   zero-height flex items. Take them out of flow so their flex-gap stops
+   pushing the navbar down and the page content away. */
+[data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] > [data-testid="stElementContainer"]:has(style),
+[data-testid="stLayoutWrapper"]:has(> .st-key-navbar-runtime) {
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Two stacked surfaces cross-fade so the rest -> glass change stays smooth:
+   ::before is the resting gradient bar, ::after the floating glass pill. */
+.st-key-navbar::before,
+.st-key-navbar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  box-sizing: border-box;
+  border-radius: inherit;
+  pointer-events: none;
+  transition:
+    opacity 0.38s ease,
+    border-radius 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.st-key-navbar::before {
+  background: linear-gradient(100deg, #FFC21F 0%, #FFB800 55%, #F2A900 100%);
+  box-shadow: 0 12px 30px rgba(26, 20, 0, 0.10);
+  opacity: 1;
+}
+
+.st-key-navbar::after {
+  background:
+    linear-gradient(
+      115deg,
+      rgba(255, 198, 34, 0.50) 0%,
+      rgba(255, 248, 230, 0.62) 46%,
+      rgba(246, 242, 231, 0.70) 100%
+    );
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow:
+    0 18px 42px rgba(26, 20, 0, 0.16),
+    0 2px 8px rgba(26, 20, 0, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.62);
+  -webkit-backdrop-filter: blur(18px) saturate(165%);
+  backdrop-filter: blur(18px) saturate(165%);
+  opacity: 0;
+}
+
+.st-key-navbar > * { position: relative; z-index: 1; }
+
+/* Floating state, toggled by the scroll listener in ui/navbar.py. */
+.st-key-navbar.is-floating {
+  position: fixed;
+  top: clamp(8px, 1.4vw, 16px);
+  left: clamp(10px, 2vw, 26px);
+  right: clamp(10px, 2vw, 26px);
+  width: auto;
+  border-radius: 999px;
+  padding-left: clamp(0.9rem, 2.4vw, 1.8rem);
+  padding-right: clamp(0.9rem, 2.4vw, 1.8rem);
+}
+
+.st-key-navbar.is-floating::before { opacity: 0; }
+.st-key-navbar.is-floating::after { opacity: 1; }
+
+/* Invisible embed that owns the scroll listener (see ui/navbar.py). */
+.st-key-navbar-runtime {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Reserves the navbar's normal-flow space while it is fixed, so nothing below jumps. */
+.ucl-navbar-spacer {
+  display: none;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  pointer-events: none;
+}
+
+.st-key-navbar [data-testid="stHorizontalBlock"] {
+  align-items: center;
+  min-height: 42px;
+}
+
+/* The brand mark is 42px tall, taller than Streamlit's default markdown
+   line box. Give that column the same height so both halves share a
+   baseline and the logo no longer hangs below the bar. */
+.st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"] {
+  min-height: 42px;
+}
+.st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"] > div {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+}
+/* Streamlit trims markdown blocks with a negative bottom margin, which
+   makes the 42px brand look 8px lower than the menu. */
+.st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdownContainer"] {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 720px) {
+  .st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"],
+  .st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"] > div {
+    min-height: 38px;
+  }
+}
+
+/* Brand left, menu centred in the bar regardless of brand width. */
+@media (min-width: 1100px) {
+  .st-key-navbar [data-testid="stHorizontalBlock"] {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 0;
+  }
+  .st-key-navbar [data-testid="stColumn"] {
+    width: auto !important;
+    min-width: 0 !important;
+    flex: none !important;
+  }
+  .st-key-navbar [data-testid="stColumn"]:first-child {
+    grid-column: 1;
+    justify-self: start;
+  }
+  .st-key-navbar [data-testid="stColumn"]:last-child {
+    grid-column: 2;
+    justify-self: center;
+  }
+  .st-key-navbar .st-key-nav_pills { width: auto !important; }
+}
 
 .st-key-page {
   max-width: 1320px;
@@ -92,17 +242,28 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
 }
 
 @media (max-width: 640px) {
-  .st-key-navbar { border-radius: 0 0 18px 18px; }
+  .st-key-navbar {
+    padding: 0.55rem 1rem;
+    border-radius: 0 0 18px 18px;
+  }
+  .st-key-navbar.is-floating {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    border-radius: 999px;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
   .st-key-page { padding-top: 1rem; }
 }
 
 .ucl-brand { display: flex; align-items: center; gap: 0.65rem; min-width: 0; }
 .ucl-mark {
-  display: inline-flex; flex: 0 0 42px;
-  width: 42px; height: 42px; border-radius: 50%;
+  display: block; flex: 0 0 42px;
+  width: 42px; height: 42px;
+  object-fit: contain;
   filter: drop-shadow(0 2px 5px rgba(26,20,0,0.18));
 }
-.ucl-mark svg { width: 100%; height: 100%; display: block; }
 .ucl-brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .ucl-brand-text strong {
   font-size: 1.04rem; font-weight: 800; letter-spacing: -0.025em; color: var(--ink);
