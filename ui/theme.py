@@ -338,6 +338,533 @@ a { color: #8A5B00; }
   font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.82rem;
 }
+
+/* =========================================================
+   NATURAL PRE-MATCH VERSUS ARENA & PITCH
+   ========================================================= */
+.ps2-versus-wrapper {
+  background: #141A24;
+  border: 1px solid #283344;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  margin: 1.2rem 0 1.6rem;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.ps2-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1.25rem;
+  background: #10151E;
+  border-bottom: 1px solid #232B3A;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+}
+
+.ps2-status-led {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #94A3B8;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+.ps2-led-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22C55E;
+}
+
+.ps2-competition-title {
+  font-weight: 800;
+  color: #F59E0B;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ps2-venue-pill {
+  background: #1A2230;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 0.2rem 0.65rem;
+  font-weight: 600;
+  color: #CBD5E1;
+  font-size: 0.72rem;
+}
+
+/* PITCH CONTAINER */
+.ps2-pitch-container {
+  position: relative;
+  width: 100%;
+  min-height: 380px;
+  background-color: #276937;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ps2-svg-turf {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+}
+
+.ps2-pitch-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 50% 50%, transparent 65%, rgba(0,0,0,0.2) 100%);
+  pointer-events: none;
+}
+
+/* TACTICAL FORMATION DOTS (NATURAL) */
+.ps2-tactic-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* PITCH CONTENT ROW */
+.ps2-pitch-content {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1.8rem;
+  gap: 1rem;
+}
+
+.ps2-team-zone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.ps2-zone-left {
+  justify-content: flex-start;
+}
+
+.ps2-zone-right {
+  justify-content: flex-end;
+}
+
+/* SOLID TEAM CARDS */
+.ps2-card-float {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: rgba(16, 22, 33, 0.94);
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 0.85rem 1.1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  max-width: 370px;
+}
+
+.ps2-float-right {
+  border-color: #334155;
+}
+
+.ps2-crest {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  flex-shrink: 0;
+  border: 2px solid #CBD5E1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+}
+
+.ps2-crest-a {
+  border-color: #3B82F6;
+}
+
+.ps2-crest-b {
+  border-color: #EF4444;
+}
+
+.ps2-crest img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.ps2-crest-fallback {
+  background: #1E293B;
+  color: #F8FAFC;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.ps2-team-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.ps2-text-right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.ps2-role-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #60A5FA;
+}
+
+.ps2-float-right .ps2-role-tag {
+  color: #F87171;
+}
+
+.ps2-team-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ps2-mini-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.ps2-stats-right {
+  justify-content: flex-end;
+}
+
+.ps2-stat-chip {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: 5px;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #CBD5E1;
+}
+
+.ps2-chip-odds {
+  background: #1E3A8A;
+  border-color: #2563EB;
+  color: #DBEAFE;
+}
+
+.ps2-chip-odds-b {
+  background: #7F1D1D;
+  border-color: #DC2626;
+  color: #FEE2E2;
+}
+
+/* NATURAL TACTICAL ARROWS */
+.ps2-tactical-arrow {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.35);
+  user-select: none;
+}
+
+.ps2-arrow-left {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+/* CENTER CLASH (VS & PREDIKSI SKOR) */
+.ps2-center-clash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  z-index: 6;
+}
+
+.ps2-vs-badge {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: #1E293B;
+  border: 2px solid #D97706;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.ps2-vs-text {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: #F59E0B;
+}
+
+.ps2-score-prediction {
+  background: rgba(17, 24, 39, 0.95);
+  border: 1px solid #374151;
+  border-radius: 10px;
+  padding: 0.35rem 0.85rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.22);
+}
+
+.ps2-pred-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #94A3B8;
+  text-transform: uppercase;
+}
+
+.ps2-pred-score {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+.ps2-pred-sub {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #CBD5E1;
+}
+
+.ps2-alt-scores {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: #94A3B8;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+.ps2-win-bar-container {
+  display: flex;
+  width: 140px;
+  height: 7px;
+  background: #334155;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ps2-bar-seg.a { background: #3B82F6; }
+.ps2-bar-seg.draw { background: #64748B; }
+.ps2-bar-seg.b { background: #EF4444; }
+
+/* ATTRIBUTES COMPARISON PANEL (NATURAL BROADCAST STYLE) */
+.ps2-attributes-panel {
+  padding: 1rem 1.4rem 0.8rem;
+  background: #10151E;
+  border-top: 1px solid #232B3A;
+}
+
+.ps2-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 0.85rem;
+}
+
+.ps2-header-bracket {
+  color: #D97706;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.ps2-header-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #94A3B8;
+}
+
+.ps2-attribute-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.ps2-attr-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.ps2-attr-val {
+  width: 55px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #E2E8F0;
+}
+
+.ps2-attr-val.left {
+  text-align: right;
+  color: #93C5FD;
+}
+
+.ps2-attr-val.right {
+  text-align: left;
+  color: #FCA5A5;
+}
+
+.ps2-attr-val.highlight-a {
+  color: #60A5FA;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.ps2-attr-val.highlight-b {
+  color: #F87171;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.ps2-attr-bar-wrap {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+  gap: 0.6rem;
+}
+
+.ps2-attr-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #94A3B8;
+  white-space: nowrap;
+  text-align: center;
+  flex: 0 0 200px;
+}
+
+.ps2-meter {
+  flex: 1 1 0;
+  height: 7px;
+  background: #1E293B;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.ps2-meter.left {
+  justify-content: flex-end;
+}
+
+.ps2-meter.right {
+  justify-content: flex-start;
+}
+
+.ps2-meter-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.ps2-meter-fill.a {
+  background: #3B82F6;
+}
+
+.ps2-meter-fill.b {
+  background: #EF4444;
+}
+
+/* FOOTER BAR */
+.ps2-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.9rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid #1E293B;
+  font-size: 0.68rem;
+  color: #64748B;
+  letter-spacing: 0.05em;
+}
+
+.ps2-footer-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.ps2-btn-badge {
+  background: #334155;
+  color: #E2E8F0;
+  font-weight: 700;
+  font-size: 0.58rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+}
+
+.ps2-footer-tag {
+  font-weight: 600;
+  color: #94A3B8;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 860px) {
+  .ps2-pitch-content {
+    flex-direction: column;
+    padding: 1.1rem 0.9rem;
+    gap: 1rem;
+  }
+  .ps2-zone-left, .ps2-zone-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .ps2-tactical-arrow { display: none; }
+  .ps2-card-float { width: 100%; max-width: 320px; }
+  .ps2-center-clash { order: -1; }
+  .ps2-attr-label { flex: 0 0 140px; font-size: 0.6rem; }
+}
+
+@media (max-width: 600px) {
+  .ps2-top-bar { flex-direction: column; gap: 0.35rem; text-align: center; }
+  .ps2-attr-row { flex-wrap: wrap; justify-content: center; }
+  .ps2-attr-label { flex: 1 1 100%; order: -1; }
+  .ps2-footer-bar { flex-direction: column; gap: 0.35rem; text-align: center; }
+}
+
 </style>
         """,
         unsafe_allow_html=True,

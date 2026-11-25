@@ -1,4 +1,4 @@
-"""Head-to-head: 1X2 odds, score matrix, and two-leg qualification."""
+"""Head-to-head: 1X2 odds, score matrix, PS2-style versus pitch, and two-leg qualification."""
 
 from __future__ import annotations
 
@@ -7,7 +7,8 @@ import streamlit as st
 from core.pipeline import ModelRun
 from core.stats import head_to_head, two_leg_qualification
 from ui import charts
-from ui.components import matchup_banner, metric_card, note, number, pct, section_header
+from ui.components import metric_card, note, number, pct, section_header
+from ui.pitch import render_ps2_matchup_html
 from ui.theme import PLOTLY_CONFIG
 
 
@@ -15,8 +16,8 @@ def render(model: ModelRun) -> None:
     section_header(
         "Head-to-Head",
         "Duel dua tim",
-        "Peluang menang, seri, dan kalah dari model Poisson yang sama, plus "
-        "matriks skor lengkap.",
+        "Peluang menang, seri, dan kalah dari model Poisson yang sama, "
+        "tampilan arena lapangan ala PS2, plus matriks skor lengkap.",
     )
 
     teams = model.table["team"].tolist()
@@ -44,8 +45,17 @@ def render(model: ModelRun) -> None:
 
     neutral = venue == "Netral"
     result = head_to_head(model.ratings, team_a, team_b, neutral=neutral)
+    venue_text = "Netral" if neutral else f"Kandang {team_a}"
 
-    matchup_banner(team_a, team_b, "Netral" if neutral else f"Kandang {team_a}")
+    # Render the unified PS2 pitch arena
+    ps2_html = render_ps2_matchup_html(
+        model=model,
+        result=result,
+        team_a=team_a,
+        team_b=team_b,
+        venue_label=venue_text,
+    )
+    st.markdown(ps2_html, unsafe_allow_html=True)
 
     columns = st.columns(3)
     cards = [
@@ -77,7 +87,7 @@ def render(model: ModelRun) -> None:
             metric_card(
                 f"Ekspektasi gol {team_a}",
                 number(result.exp_goals_a, 2),
-                "λ tim A",
+                "ekspektasi tim A",
             ),
             unsafe_allow_html=True,
         )
@@ -86,7 +96,7 @@ def render(model: ModelRun) -> None:
             metric_card(
                 f"Ekspektasi gol {team_b}",
                 number(result.exp_goals_b, 2),
-                "λ tim B",
+                "ekspektasi tim B",
             ),
             unsafe_allow_html=True,
         )
