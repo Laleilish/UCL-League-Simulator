@@ -1,8 +1,18 @@
 from __future__ import annotations
 
+import csv
 from datetime import date
+from pathlib import Path
 
-from ui.components import format_date_id, hero_html, initials, pct, season_id
+from ui.components import (
+    favorite_card,
+    format_date_id,
+    hero_html,
+    initials,
+    pct,
+    season_id,
+)
+from ui.logos import logo_data_uri, logo_path, team_badge_html
 
 
 def test_hero_uses_tailwind_and_escapes_input():
@@ -42,3 +52,27 @@ def test_season_label():
     assert season_id(date(2027, 1, 28)) == "2026/27"
     assert season_id(date(2026, 5, 30)) == "2025/26"
     assert season_id(None) == "—"
+
+
+def test_all_ucl_teams_have_local_png_logos():
+    teams_csv = Path(__file__).resolve().parent.parent / "data" / "ucl_2026_27_teams.csv"
+    with teams_csv.open(encoding="utf-8") as handle:
+        teams = [row["team_name"] for row in csv.DictReader(handle)]
+
+    assert len(teams) == 36
+    for team in teams:
+        path = logo_path(team)
+        assert path is not None and path.is_file(), f"Missing logo for {team}"
+        uri = logo_data_uri(team)
+        assert uri is not None and uri.startswith("data:image/png;base64,")
+
+
+def test_favorite_card_renders_logo_and_escapes_fallback():
+    known_html = favorite_card(1, "Arsenal", 18.5, 17.0, 20.0, 31.0, 48.0)
+    assert 'class="ucl-badge has-logo"' in known_html
+    assert 'src="data:image/png;base64,' in known_html
+
+    unknown_html = team_badge_html("<Unknown FC>", initials("<Unknown FC>"))
+    assert "has-logo" not in unknown_html
+    assert "&lt;F" in unknown_html
+    assert "<Unknown" not in unknown_html

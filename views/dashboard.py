@@ -20,6 +20,7 @@ from ui.components import (
     season_id,
     section_header,
 )
+from ui.logos import logo_data_uri
 from ui.theme import PLOTLY_CONFIG
 
 
@@ -30,10 +31,12 @@ def _standings_view(table: pd.DataFrame, rows: int | None = None) -> pd.DataFram
     if rows is not None:
         standings = standings.head(rows)
     standings.insert(0, "#", range(1, len(standings) + 1))
+    standings["logo"] = standings["team"].map(logo_data_uri)
     view = standings[
-        ["#", "team", "avg_points", "avg_position", "top8", "top24", "champion"]
+        ["#", "logo", "team", "avg_points", "avg_position", "top8", "top24", "champion"]
     ].rename(
         columns={
+            "logo": "Logo",
             "team": "Tim",
             "avg_points": "Poin",
             "avg_position": "Posisi",
@@ -48,6 +51,7 @@ def _standings_view(table: pd.DataFrame, rows: int | None = None) -> pd.DataFram
 def _column_config() -> dict:
     return {
         "#": st.column_config.NumberColumn("#", width="small"),
+        "Logo": st.column_config.ImageColumn("", width="small"),
         "Tim": st.column_config.TextColumn("Tim", width="medium"),
         "Poin": st.column_config.NumberColumn("Poin", format="%.1f", width="small"),
         "Posisi": st.column_config.NumberColumn("Posisi", format="%.1f", width="small"),

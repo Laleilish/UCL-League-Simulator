@@ -7,7 +7,7 @@ import streamlit as st
 from core.pipeline import ModelRun
 from core.stats import head_to_head, two_leg_qualification
 from ui import charts
-from ui.components import metric_card, note, number, pct, section_header
+from ui.components import matchup_banner, metric_card, note, number, pct, section_header
 from ui.theme import PLOTLY_CONFIG
 
 
@@ -44,6 +44,8 @@ def render(model: ModelRun) -> None:
 
     neutral = venue == "Netral"
     result = head_to_head(model.ratings, team_a, team_b, neutral=neutral)
+
+    matchup_banner(team_a, team_b, "Netral" if neutral else f"Kandang {team_a}")
 
     columns = st.columns(3)
     cards = [

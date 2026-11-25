@@ -8,6 +8,8 @@ from pathlib import Path
 
 import streamlit as st
 
+from ui.logos import team_badge_html
+
 TEMPLATE_DIR = Path(__file__).parent / "templates"
 
 MONTHS_ID = {
@@ -138,7 +140,7 @@ def favorite_card(
         f'<span class="ucl-fav-tag">{tag}</span>'
         "</div>"
         '<div class="ucl-team">'
-        f'<span class="ucl-badge">{escape(initials(team))}</span>'
+        f"{team_badge_html(team, initials(team))}"
         '<div><div class="ucl-team-name">'
         f"{escape(team)}"
         '</div><div class="ucl-team-sub">Peluang juara</div></div>'
@@ -162,3 +164,27 @@ def chip_row(items: list[str], dark: bool = False) -> None:
         f'<span class="{css}">{escape(item)}</span>' for item in items
     )
     st.markdown(f'<div class="ucl-pill-row">{html}</div>', unsafe_allow_html=True)
+
+
+def matchup_banner(team_a: str, team_b: str, venue_label: str) -> None:
+    badge_a = team_badge_html(team_a, initials(team_a))
+    badge_b = team_badge_html(team_b, initials(team_b))
+    st.markdown(
+        '<div class="ucl-matchup">'
+        '<div class="ucl-matchup-side">'
+        f"{badge_a}"
+        '<div><div class="ucl-matchup-role">Tim A</div>'
+        f'<div class="ucl-matchup-name">{escape(team_a)}</div></div>'
+        "</div>"
+        '<div class="ucl-matchup-vs">'
+        "<strong>VS</strong>"
+        f"<span>{escape(venue_label)}</span>"
+        "</div>"
+        '<div class="ucl-matchup-side right">'
+        '<div><div class="ucl-matchup-role">Tim B</div>'
+        f'<div class="ucl-matchup-name">{escape(team_b)}</div></div>'
+        f"{badge_b}"
+        "</div>"
+        "</div>",
+        unsafe_allow_html=True,
+    )

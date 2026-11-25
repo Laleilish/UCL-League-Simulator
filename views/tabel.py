@@ -6,11 +6,13 @@ import streamlit as st
 
 from core.pipeline import ModelRun
 from ui.components import int_id, note, pct, section_header
+from ui.logos import logo_data_uri
 
 
 def _display_frame(model: ModelRun, query: str):
     table = model.table.copy()
     table.insert(0, "rank", range(1, len(table) + 1))
+    table["logo"] = table["team"].map(logo_data_uri)
     appearances = dict(zip(model.ratings.teams, model.ratings.n_matches))
     table["laga"] = table["team"].map(appearances).fillna(0).astype(int)
     table["ci"] = table.apply(
@@ -20,6 +22,7 @@ def _display_frame(model: ModelRun, query: str):
     view = table[
         [
             "rank",
+            "logo",
             "team",
             "laga",
             "champion",
@@ -36,6 +39,7 @@ def _display_frame(model: ModelRun, query: str):
     ].rename(
         columns={
             "rank": "Peringkat",
+            "logo": "Logo",
             "team": "Tim",
             "laga": "Laga",
             "champion": "Juara",
@@ -119,6 +123,7 @@ def render(model: ModelRun) -> None:
         height=680,
         column_config={
             "Peringkat": st.column_config.NumberColumn("Peringkat", width="small"),
+            "Logo": st.column_config.ImageColumn("", width="small"),
             "Tim": st.column_config.TextColumn("Tim", width="medium"),
             "Laga": st.column_config.NumberColumn(
                 "Laga",

@@ -206,8 +206,50 @@ a { color: #8A5B00; }
   width: 44px; height: 44px; border-radius: 50%;
   background: var(--ucl-yellow); color: var(--ink);
   font-weight: 800; font-size: 0.78rem; letter-spacing: 0.02em;
+  overflow: hidden;
+}
+.ucl-badge.has-logo {
+  background: #FFFFFF;
+  border: 1px solid rgba(26,20,0,0.10);
+  padding: 5px;
+  box-shadow: 0 2px 6px rgba(26,20,0,0.08);
+}
+.ucl-badge img {
+  width: 100%; height: 100%; object-fit: contain; display: block;
 }
 .is-leader .ucl-badge { box-shadow: 0 0 0 3px rgba(255,184,0,0.22); }
+.is-leader .ucl-badge.has-logo {
+  background: #FFFFFF;
+  border-color: rgba(255,184,0,0.45);
+  box-shadow: 0 0 0 3px rgba(255,184,0,0.32);
+}
+
+.ucl-matchup {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  background: var(--card); border: 1px solid var(--line); border-radius: 20px;
+  padding: 1rem 1.4rem; margin: 0.4rem 0 1rem;
+  box-shadow: 0 12px 28px rgba(26,20,0,0.045);
+}
+.ucl-matchup-side {
+  display: flex; align-items: center; gap: 0.75rem; flex: 1 1 0; min-width: 0;
+}
+.ucl-matchup-side.right { justify-content: flex-end; text-align: right; }
+.ucl-matchup-side .ucl-badge { width: 52px; height: 52px; }
+.ucl-matchup-name { font-weight: 800; font-size: 1.05rem; line-height: 1.2; color: var(--ink); }
+.ucl-matchup-role { font-size: 0.72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.ucl-matchup-vs {
+  display: flex; flex-direction: column; align-items: center; gap: 0.2rem; flex: 0 0 auto;
+}
+.ucl-matchup-vs strong {
+  font-size: 0.85rem; font-weight: 800; letter-spacing: 0.12em;
+  background: var(--ink); color: var(--ucl-yellow);
+  padding: 0.25rem 0.7rem; border-radius: 999px;
+}
+.ucl-matchup-vs span { font-size: 0.72rem; color: var(--muted); font-weight: 600; }
+@media (max-width: 640px) {
+  .ucl-matchup { flex-direction: column; text-align: center; padding: 1rem; }
+  .ucl-matchup-side, .ucl-matchup-side.right { justify-content: center; text-align: center; }
+}
 .ucl-team-name { font-weight: 700; font-size: 1rem; line-height: 1.2; }
 .ucl-team-sub { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
 .is-leader .ucl-team-sub { color: rgba(255,248,230,0.62); }
