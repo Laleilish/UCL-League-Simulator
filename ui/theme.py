@@ -537,9 +537,18 @@ a { color: #8A5B00; }
   font-size: 0.82rem; line-height: 1.55;
 }
 
+[data-testid="stElementContainer"]:has([data-testid="stPlotlyChart"]) {
+  overflow: visible !important;
+}
 [data-testid="stPlotlyChart"] {
-  background: var(--card); border: 1px solid var(--line); border-radius: 18px;
-  padding: 0.55rem 0.55rem 0.15rem; box-shadow: 0 12px 28px rgba(26,20,0,0.045);
+  background: var(--card) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  box-shadow:
+    inset 0 0 0 1px var(--line),
+    0 12px 28px rgba(26, 20, 0, 0.045) !important;
 }
 
 /* Custom SiKupingBesar Tables & Markdown Tables */
@@ -1279,7 +1288,7 @@ def style_fig(
 ) -> go.Figure:
     fig.update_layout(
         height=height,
-        margin=dict(l=8, r=18, t=22, b=10),
+        margin=dict(l=22, r=26, t=28, b=42),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(

@@ -387,7 +387,7 @@ def render_navbar() -> str:
   {mark_html}
   <span class="ucl-brand-text">
     <strong>SiKupingBesar</strong>
-    <small>UCL League Simulator</small>
+    <small>UCL League Predictor</small>
   </span>
 </div>
                 """,

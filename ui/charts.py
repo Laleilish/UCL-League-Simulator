@@ -58,12 +58,17 @@ def champion_bar_figure(table: pd.DataFrame, top_n: int = 12) -> go.Figure:
             cliponaxis=False,
         )
     )
-    fig = style_fig(fig, height=max(360, top_n * 30 + 80), x_grid=True)
+    fig = style_fig(fig, height=max(410, top_n * 31 + 108), x_grid=True)
     fig.update_layout(
         showlegend=False,
         bargap=0.3,
-        margin=dict(l=10, r=40, t=10, b=10),
-        xaxis=dict(ticksuffix="%", range=[0, float(data["ci_high"].max()) * 1.3]),
+        margin=dict(l=24, r=52, t=22, b=46),
+        xaxis=dict(
+            ticksuffix="%",
+            range=[0, float(data["ci_high"].max()) * 1.3],
+            ticklabelstandoff=6,
+            automargin=True,
+        ),
     )
     fig.update_yaxes(showgrid=False, automargin=True)
     return fig
@@ -107,8 +112,8 @@ def stage_heatmap_figure(
             hovertemplate="<b>%{y}</b><br>%{x}: %{z:.2f}%<extra></extra>",
         )
     )
-    fig = style_fig(fig, height=max(430, top_n * 30 + 130))
-    fig.update_layout(margin=dict(l=10, r=10, t=20, b=10))
+    fig = style_fig(fig, height=max(455, top_n * 30 + 150))
+    fig.update_layout(margin=dict(l=22, r=22, t=30, b=26))
     fig.update_xaxes(side="top", showgrid=False, ticks="")
     fig.update_yaxes(autorange="reversed", showgrid=False, automargin=True, ticks="")
     return fig
@@ -154,10 +159,10 @@ def convergence_figure(
             ),
         )
     )
-    fig = style_fig(fig, height=400, y_grid=True)
+    fig = style_fig(fig, height=420, y_grid=True)
     tick_values = curve["simulasi"].tolist()
     fig.update_layout(
-        margin=dict(l=10, r=15, t=15, b=10),
+        margin=dict(l=22, r=26, t=24, b=52),
         xaxis=dict(
             type="log",
             tickmode="array",
@@ -165,6 +170,8 @@ def convergence_figure(
             ticktext=[f"{int(value):,}".replace(",", ".") for value in tick_values],
             title="Jumlah simulasi",
             ticksuffix="",
+            ticklabelstandoff=6,
+            automargin=True,
         ),
         yaxis=dict(ticksuffix="%", rangemode="tozero", title="Peluang juara"),
         hovermode="x unified",
@@ -192,12 +199,12 @@ def chi_square_figure(chi: ChiSquareResult) -> go.Figure:
             hovertemplate="Gol %{x}<br>Harapan: %{y:.1f}<extra></extra>",
         )
     )
-    fig = style_fig(fig, height=330, y_grid=True)
+    fig = style_fig(fig, height=360, y_grid=True)
     fig.update_layout(
         barmode="group",
         bargap=0.28,
-        margin=dict(l=10, r=15, t=15, b=10),
-        xaxis=dict(title="Gol per tim per laga"),
+        margin=dict(l=22, r=24, t=24, b=52),
+        xaxis=dict(title="Gol per tim per laga", ticklabelstandoff=6, automargin=True),
         yaxis=dict(title="Frekuensi"),
     )
     return fig
@@ -241,9 +248,16 @@ def score_matrix_figure(
             ),
         )
     )
-    fig = style_fig(fig, height=370)
-    fig.update_layout(margin=dict(l=10, r=10, t=25, b=10))
-    fig.update_xaxes(title=f"Gol {team_b}", side="bottom", showgrid=False, ticks="")
+    fig = style_fig(fig, height=405)
+    fig.update_layout(margin=dict(l=22, r=22, t=28, b=52))
+    fig.update_xaxes(
+        title=f"Gol {team_b}",
+        side="bottom",
+        showgrid=False,
+        ticks="",
+        ticklabelstandoff=6,
+        automargin=True,
+    )
     fig.update_yaxes(
         title=f"Gol {team_a}", autorange="reversed", showgrid=False, ticks=""
     )

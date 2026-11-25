@@ -169,10 +169,11 @@ def _brier_tab(model: ModelRun) -> None:
             hovertemplate="%{x}<br>Kontribusi Brier: %{y:.4f}<extra></extra>",
         )
     )
-    fig = style_fig(fig, height=330, y_grid=True)
+    fig = style_fig(fig, height=360, y_grid=True)
     fig.update_layout(
         showlegend=False,
-        margin=dict(l=10, r=15, t=25, b=10),
+        margin=dict(l=22, r=24, t=30, b=46),
+        xaxis=dict(ticklabelstandoff=6, automargin=True),
         yaxis=dict(title="Kontribusi Brier"),
     )
     st.plotly_chart(fig, config=PLOTLY_CONFIG, width="stretch")
