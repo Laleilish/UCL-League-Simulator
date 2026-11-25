@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import pandas as pd
 import streamlit as st
 
 from core.pipeline import ModelRun, dataset_summary
@@ -20,51 +19,8 @@ from ui.components import (
     season_id,
     section_header,
 )
-from ui.logos import logo_data_uri
+from ui.tables import render_standings_table
 from ui.theme import PLOTLY_CONFIG
-
-
-def _standings_view(table: pd.DataFrame, rows: int | None = None) -> pd.DataFrame:
-    standings = table.sort_values(
-        ["avg_points", "avg_position"], ascending=[False, True]
-    ).reset_index(drop=True)
-    if rows is not None:
-        standings = standings.head(rows)
-    standings.insert(0, "#", range(1, len(standings) + 1))
-    standings["logo"] = standings["team"].map(logo_data_uri)
-    view = standings[
-        ["#", "logo", "team", "avg_points", "avg_position", "top8", "top24", "champion"]
-    ].rename(
-        columns={
-            "logo": "Logo",
-            "team": "Tim",
-            "avg_points": "Poin",
-            "avg_position": "Posisi",
-            "top8": "Top 8",
-            "top24": "Top 24",
-            "champion": "Juara",
-        }
-    )
-    return view
-
-
-def _column_config() -> dict:
-    return {
-        "#": st.column_config.NumberColumn("#", width="small"),
-        "Logo": st.column_config.ImageColumn("", width="small"),
-        "Tim": st.column_config.TextColumn("Tim", width="medium"),
-        "Poin": st.column_config.NumberColumn("Poin", format="%.1f", width="small"),
-        "Posisi": st.column_config.NumberColumn("Posisi", format="%.1f", width="small"),
-        "Top 8": st.column_config.ProgressColumn(
-            "Top 8", format="%.1f%%", min_value=0.0, max_value=100.0
-        ),
-        "Top 24": st.column_config.ProgressColumn(
-            "Top 24", format="%.1f%%", min_value=0.0, max_value=100.0
-        ),
-        "Juara": st.column_config.ProgressColumn(
-            "Juara", format="%.1f%%", min_value=0.0, max_value=100.0
-        ),
-    }
 
 
 def render(model: ModelRun) -> None:
@@ -150,23 +106,11 @@ def render(model: ModelRun) -> None:
 
     section_header(
         "Klasemen proyeksi",
-        "League phase",
-        "Diurutkan dari rata-rata poin simulasi. Peringkat 1–8 langsung ke "
-        "16 besar, 9–24 ke playoff, 25–36 tersingkir.",
+        "League phase · 36 tim",
+        "Seluruh peserta diurutkan dari rata-rata poin simulasi. Peringkat 1–8 "
+        "langsung ke 16 besar, 9–24 ke playoff knockout, dan 25–36 tersingkir.",
     )
-    st.dataframe(
-        _standings_view(table, rows=12),
-        hide_index=True,
-        width="stretch",
-        column_config=_column_config(),
-    )
-    with st.expander("Lihat seluruh 36 tim"):
-        st.dataframe(
-            _standings_view(table),
-            hide_index=True,
-            width="stretch",
-            column_config=_column_config(),
-        )
+    render_standings_table(table)
 
     section_header(
         "Peluang per babak",

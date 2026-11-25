@@ -30,6 +30,7 @@ from ui.state import (
     set_matches,
     use_bundled_dataset,
 )
+from ui.tables import render_ratings_table
 
 
 def _show_upload_error(error: object) -> None:
@@ -289,29 +290,9 @@ semua baris. Gol diisi keduanya atau dikosongkan keduanya.
         )
 
         with st.expander("Rating kekuatan tim"):
-            ratings = model.ratings.to_frame().rename(
-                columns={
-                    "team": "Tim",
-                    "attack": "Serang",
-                    "defence": "Bertahan",
-                    "matches": "Laga",
-                }
-            )
-            ratings["Serang"] = ratings["Serang"].round(3)
-            ratings["Bertahan"] = ratings["Bertahan"].round(3)
-            st.dataframe(
-                ratings,
-                hide_index=True,
-                width="stretch",
-                height=360,
-                column_config={
-                    "Tim": st.column_config.TextColumn("Tim", width="medium"),
-                    "Serang": st.column_config.NumberColumn("Serang", format="%.3f"),
-                    "Bertahan": st.column_config.NumberColumn("Bertahan", format="%.3f"),
-                    "Laga": st.column_config.NumberColumn("Laga", format="%d"),
-                },
-            )
+            render_ratings_table(model.ratings.to_frame())
             st.caption(
+                "Diurutkan dari rasio kekuatan bersih (Serang ÷ Bertahan). "
                 "Nilai bertahan lebih besar berarti pertahanan lebih lemah. "
                 "Rating di-shrink ke 1 agar tim dengan sedikit laga tidak ekstrem."
             )

@@ -6,13 +6,26 @@ import streamlit as st
 
 from core.pipeline import ModelRun
 from ui.components import int_id, note, pct, section_header
-from ui.logos import logo_data_uri
+from ui.tables import render_probability_table
+
+SORT_OPTIONS: dict[str, tuple[str, bool]] = {
+    "Juara": ("Juara", False),
+    "Final": ("Final", False),
+    "Semifinal": ("Semifinal", False),
+    "Perempat": ("Perempat", False),
+    "16 Besar": ("16 Besar", False),
+    "Top 8": ("Top 8", False),
+    "Top 24": ("Top 24", False),
+    "Poin": ("Poin", False),
+    "Posisi": ("Posisi", True),
+    "Laga": ("Laga", False),
+    "Tim": ("Tim", True),
+}
 
 
-def _display_frame(model: ModelRun, query: str):
+def _display_frame(model: ModelRun, query: str, sort_key: str = "Juara"):
     table = model.table.copy()
     table.insert(0, "rank", range(1, len(table) + 1))
-    table["logo"] = table["team"].map(logo_data_uri)
     appearances = dict(zip(model.ratings.teams, model.ratings.n_matches))
     table["laga"] = table["team"].map(appearances).fillna(0).astype(int)
     table["ci"] = table.apply(
@@ -22,7 +35,6 @@ def _display_frame(model: ModelRun, query: str):
     view = table[
         [
             "rank",
-            "logo",
             "team",
             "laga",
             "champion",
@@ -39,7 +51,6 @@ def _display_frame(model: ModelRun, query: str):
     ].rename(
         columns={
             "rank": "Peringkat",
-            "logo": "Logo",
             "team": "Tim",
             "laga": "Laga",
             "champion": "Juara",
@@ -56,6 +67,8 @@ def _display_frame(model: ModelRun, query: str):
     )
     if query:
         view = view[view["Tim"].str.contains(query, case=False, na=False)]
+    col_name, ascending = SORT_OPTIONS.get(sort_key, ("Juara", False))
+    view = view.sort_values(col_name, ascending=ascending, kind="mergesort")
     return view
 
 
@@ -89,18 +102,26 @@ def render(model: ModelRun) -> None:
     section_header(
         "Tabel probabilitas",
         "36 tim",
-        "Peluang setiap tim menembus tiap babak sampai juara. Kolom bisa "
-        "diurutkan dengan mengklik judulnya.",
+        "Peluang setiap tim menembus tiap babak sampai juara. Cari tim atau "
+        "pilih kolom pengurutan di bawah ini.",
     )
 
-    left, right = st.columns([2.2, 1.0], vertical_alignment="bottom")
-    with left:
+    search_col, sort_col, dl_col = st.columns([1.8, 1.0, 0.9], vertical_alignment="bottom")
+    with search_col:
         query = st.text_input(
             "Cari tim",
             placeholder="Ketik nama tim, misalnya Madrid…",
             label_visibility="collapsed",
         )
-    with right:
+    with sort_col:
+        sort_key = st.selectbox(
+            "Urutkan",
+            options=list(SORT_OPTIONS.keys()),
+            index=0,
+            format_func=lambda key: f"Urutkan: {key}",
+            label_visibility="collapsed",
+        )
+    with dl_col:
         st.download_button(
             "Unduh CSV lengkap",
             data=_csv_bytes(model),
@@ -110,38 +131,13 @@ def render(model: ModelRun) -> None:
             width="stretch",
         )
 
-    view = _display_frame(model, query)
+    view = _display_frame(model, query, sort_key=sort_key)
     st.caption(
-        f"{len(view)} tim ditampilkan · {int_id(model.n_sims)} simulasi · "
-        f"seed {model.settings.seed}"
+        f"{len(view)} tim ditampilkan · diurutkan menurut {sort_key} · "
+        f"{int_id(model.n_sims)} simulasi · seed {model.settings.seed}"
     )
 
-    st.dataframe(
-        view,
-        hide_index=True,
-        width="stretch",
-        height=680,
-        column_config={
-            "Peringkat": st.column_config.NumberColumn("Peringkat", width="small"),
-            "Logo": st.column_config.ImageColumn("", width="small"),
-            "Tim": st.column_config.TextColumn("Tim", width="medium"),
-            "Laga": st.column_config.NumberColumn(
-                "Laga",
-                width="small",
-                help="Jumlah laga domestik + histori UCL yang dipakai untuk rating",
-            ),
-            "Juara": st.column_config.NumberColumn("Juara", format="%.2f%%"),
-            "CI 95%": st.column_config.TextColumn("CI 95%", width="medium"),
-            "Final": st.column_config.NumberColumn("Final", format="%.2f%%"),
-            "Semifinal": st.column_config.NumberColumn("Semifinal", format="%.2f%%"),
-            "Perempat": st.column_config.NumberColumn("Perempat", format="%.2f%%"),
-            "16 Besar": st.column_config.NumberColumn("16 Besar", format="%.2f%%"),
-            "Top 8": st.column_config.NumberColumn("Top 8", format="%.2f%%"),
-            "Top 24": st.column_config.NumberColumn("Top 24", format="%.2f%%"),
-            "Poin": st.column_config.NumberColumn("Poin", format="%.2f"),
-            "Posisi": st.column_config.NumberColumn("Posisi", format="%.2f"),
-        },
-    )
+    render_probability_table(view, active_sort=sort_key)
 
     note(
         "Interval kepercayaan 95% dihitung dengan metode Wilson untuk peluang "

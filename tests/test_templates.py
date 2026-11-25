@@ -17,6 +17,12 @@ from ui.components import (
     season_id,
 )
 from ui.logos import logo_data_uri, logo_path, team_badge_html
+from ui.tables import (
+    probability_table_html,
+    ratings_table_html,
+    standings_table_html,
+)
+from views.tabel import _display_frame
 
 
 def test_hero_uses_tailwind_and_escapes_input():
@@ -80,6 +86,27 @@ def test_favorite_card_renders_logo_and_escapes_fallback():
     assert "has-logo" not in unknown_html
     assert "&lt;F" in unknown_html
     assert "<Unknown" not in unknown_html
+
+
+def test_custom_tables_render_all_teams_and_escape_html(model):
+    standings_html = standings_table_html(model.table)
+    assert standings_html.count("<tr class=") == 36
+    assert "Lolos langsung 16 Besar" in standings_html
+    assert "Playoff knockout" in standings_html
+    assert "Tersingkir" in standings_html
+    assert "\n    " not in standings_html
+
+    view = _display_frame(model, query="", sort_key="Poin")
+    prob_html = probability_table_html(view, active_sort="Poin")
+    assert prob_html.count("<tr>") - 1 == 36  # minus header row
+    assert 'is-sorted">Poin</th>' in prob_html
+
+    empty_html = probability_table_html(view.iloc[0:0], active_sort="Juara")
+    assert "Tidak ada tim yang cocok" in empty_html
+
+    ratings_html = ratings_table_html(model.ratings.to_frame())
+    assert ratings_html.count("<tr>") - 1 == 36
+    assert "Rasio a/d" in ratings_html
 
 
 def test_app_mark_data_uri_reloads_when_file_changes(tmp_path, monkeypatch):
