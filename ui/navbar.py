@@ -13,6 +13,7 @@ PAGES = (
     "Head-to-Head",
     "Statistik",
     "Metodologi",
+    "About",
 )
 
 DEFAULT_PAGE = "Dashboard"

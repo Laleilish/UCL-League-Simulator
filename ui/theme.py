@@ -868,6 +868,382 @@ table.ucl-table td.is-muted { color: var(--muted); font-weight: 600; }
 }
 
 /* =========================================================
+   ABOUT PAGE: EDITORIAL CREDITS, DEVELOPERS & LECTURER
+   ========================================================= */
+.ucl-ab-wrap {
+  margin: 0.4rem 0 1.2rem;
+}
+.ucl-ab-hero {
+  padding: 0.4rem 0 0.2rem;
+}
+.ucl-ab-eyebrow-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 0.9rem;
+}
+.ucl-ab-kredit-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 184, 0, 0.20);
+  border: 1px solid rgba(224, 158, 0, 0.35);
+  color: #6B4800;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+.ucl-ab-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ink);
+  display: inline-block;
+}
+.ucl-ab-version {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.ucl-ab-title {
+  margin: 0;
+  font-size: clamp(2rem, 3.8vw, 2.85rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  color: var(--ink) !important;
+}
+.ucl-ab-lede {
+  margin: 0.95rem 0 0;
+  max-width: 610px;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+.ucl-ab-divider {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 1.75rem 0 1.85rem;
+}
+
+.ucl-ab-sec-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.ucl-ab-sec-bar.is-spaced {
+  margin-top: 2.2rem;
+}
+.ucl-ab-sec-left {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.ucl-ab-sec-title {
+  margin: 0 !important;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  color: var(--ink) !important;
+  letter-spacing: -0.02em;
+}
+.ucl-ab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--ucl-yellow);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+.ucl-ab-sec-sub {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+/* 3-COLUMN MAHASISWA PENGEMBANG CARDS */
+.ucl-ab-dev-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+.ucl-ab-dev-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.35rem 1.35rem 1.15rem;
+  box-shadow: 0 12px 28px rgba(26, 20, 0, 0.045);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+.ucl-ab-dev-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(26, 20, 0, 0.08);
+}
+.ucl-ab-dev-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.ucl-ab-dev-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  overflow: hidden;
+  flex: 0 0 64px;
+  border: 1px solid rgba(26, 20, 0, 0.10);
+  box-shadow: 0 4px 10px rgba(26, 20, 0, 0.07);
+}
+.ucl-ab-dev-photo svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.ucl-ab-dev-id {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.73rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+  margin-top: 2px;
+}
+.ucl-ab-dev-name {
+  margin: 0.95rem 0 0.4rem !important;
+  font-size: 1.12rem !important;
+  font-weight: 800 !important;
+  color: var(--ink) !important;
+  line-height: 1.22;
+}
+.ucl-ab-role-wrap {
+  margin-bottom: 0.75rem;
+}
+.ucl-ab-role-pill {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(255, 184, 0, 0.18);
+  border: 1px solid rgba(224, 158, 0, 0.32);
+  color: #7A5200;
+  font-size: 0.71rem;
+  font-weight: 700;
+}
+.ucl-ab-dev-desc {
+  margin: 0 0 1.15rem;
+  font-size: 0.81rem;
+  line-height: 1.6;
+  color: var(--muted);
+  flex: 1 1 auto;
+}
+.ucl-ab-dev-foot {
+  border-top: 1px solid #EFE9D8;
+  padding-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.ucl-ab-cohort {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.ucl-ab-icon-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ucl-ab-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #FAF7EE;
+  color: var(--muted);
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.ucl-ab-icon-btn:hover {
+  background: var(--ink);
+  color: var(--ucl-yellow);
+  border-color: var(--ink);
+}
+
+/* WIDE DOSEN PENGAMPU CARD */
+.ucl-ab-lec-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 1.55rem 1.7rem;
+  box-shadow: 0 14px 32px rgba(26, 20, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 1.65rem;
+}
+.ucl-ab-lec-photo {
+  flex: 0 0 152px;
+  width: 152px;
+  height: 164px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(26, 20, 0, 0.12);
+  box-shadow: 0 8px 20px rgba(26, 20, 0, 0.10);
+}
+.ucl-ab-lec-photo svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.ucl-ab-lec-body {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.ucl-ab-lec-badges {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+.ucl-ab-lec-pill {
+  display: inline-block;
+  padding: 0.22rem 0.7rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--ucl-yellow);
+  font-size: 0.69rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.ucl-ab-lec-nidn {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.ucl-ab-lec-name {
+  margin: 0.5rem 0 0.2rem !important;
+  font-size: 1.48rem !important;
+  font-weight: 800 !important;
+  color: var(--ink) !important;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+.ucl-ab-lec-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #8A5B00;
+  margin-bottom: 0.65rem;
+}
+.ucl-ab-lec-desc {
+  margin: 0;
+  max-width: 680px;
+  font-size: 0.84rem;
+  line-height: 1.62;
+  color: var(--muted);
+}
+.ucl-ab-lec-foot {
+  border-top: 1px solid #EFE9D8;
+  margin-top: 1.05rem;
+  padding-top: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.ucl-ab-lec-dept {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.ucl-ab-lec-actions,
+.ucl-ab-tech-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.ucl-ab-btn-light,
+.ucl-ab-btn-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.85rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.ucl-ab-btn-light {
+  background: #FAF7EE;
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.ucl-ab-btn-dark {
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  color: var(--ucl-yellow);
+}
+
+/* TEKNOLOGI & LISENSI BANNER */
+.ucl-ab-tech-bar {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.ucl-ab-tech-title {
+  margin: 0 0 0.25rem !important;
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+  color: var(--ink) !important;
+}
+.ucl-ab-tech-sub {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 980px) {
+  .ucl-ab-dev-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .ucl-ab-lec-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.2rem 1.15rem;
+    gap: 1.1rem;
+  }
+  .ucl-ab-lec-photo {
+    width: 110px;
+    height: 118px;
+    flex-basis: auto;
+  }
+  .ucl-ab-lec-name { font-size: 1.24rem !important; }
+  .ucl-ab-dev-card { padding: 1.1rem 1.1rem 1rem; }
+  .ucl-ab-tech-bar { padding: 1.05rem 1.1rem; }
+}
+
+/* =========================================================
    NATURAL PRE-MATCH VERSUS ARENA & PITCH
    ========================================================= */
 .ps2-versus-wrapper {

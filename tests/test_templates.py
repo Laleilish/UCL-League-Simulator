@@ -22,6 +22,7 @@ from ui.tables import (
     ratings_table_html,
     standings_table_html,
 )
+from views.about import about_cards_html
 from views.tabel import _display_frame
 
 
@@ -107,6 +108,16 @@ def test_custom_tables_render_all_teams_and_escape_html(model):
     ratings_html = ratings_table_html(model.ratings.to_frame())
     assert ratings_html.count("<tr>") - 1 == 36
     assert "Rasio a/d" in ratings_html
+
+
+def test_about_page_contains_developers_and_lecturer():
+    html = about_cards_html()
+    assert "Febriansyah Nugraha" in html
+    assert "Ilyassa Putra" in html
+    assert "Raden Hamizan Rizky Kusuma" in html
+    assert "Dosen Pengampu" in html
+    assert html.index("Mahasiswa Pengembang") < html.index("Dosen Pengampu")
+    assert "\n    " not in html
 
 
 def test_app_mark_data_uri_reloads_when_file_changes(tmp_path, monkeypatch):

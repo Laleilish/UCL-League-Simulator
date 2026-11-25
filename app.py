@@ -8,7 +8,7 @@ from core.pipeline import DataValidationError
 from ui.navbar import render_navbar
 from ui.state import get_model, init_state
 from ui.theme import configure_page, inject_css
-from views import dashboard, head_to_head, metodologi, simulator, statistik, tabel
+from views import about, dashboard, head_to_head, metodologi, simulator, statistik, tabel
 
 
 def _render_error(error: Exception | None) -> None:
@@ -49,6 +49,10 @@ def main() -> None:
 
         if page == "Simulator":
             simulator.render(model, error)
+        elif page == "About":
+            about.render()
+        elif page == "Metodologi":
+            metodologi.render()
         elif model is None:
             _render_error(error)
         elif page == "Dashboard":
@@ -59,8 +63,6 @@ def main() -> None:
             head_to_head.render(model)
         elif page == "Statistik":
             statistik.render(model)
-        elif page == "Metodologi":
-            metodologi.render()
         else:
             dashboard.render(model)
 
