@@ -115,6 +115,24 @@ _NAVBAR_SCROLL_SCRIPT = """
     };
   }
 
+  function scrollPillIntoView(group, btn, smooth) {
+    var scroller = group.closest('[data-testid="stButtonGroup"]') || group;
+    if (!scroller || scroller.scrollWidth <= scroller.clientWidth + 2) return;
+    var sRect = scroller.getBoundingClientRect();
+    var bRect = btn.getBoundingClientRect();
+    var targetLeft =
+      scroller.scrollLeft +
+      (bRect.left - sRect.left) -
+      (sRect.width / 2 - bRect.width / 2);
+    var maxScroll = Math.max(0, scroller.scrollWidth - scroller.clientWidth);
+    var clamped = Math.max(0, Math.min(maxScroll, targetLeft));
+    if (typeof scroller.scrollTo === "function") {
+      scroller.scrollTo({ left: clamped, behavior: smooth ? "smooth" : "auto" });
+    } else {
+      scroller.scrollLeft = clamped;
+    }
+  }
+
   function applyGliderVars(group, box) {
     group.style.setProperty("--glider-x", box.x.toFixed(2) + "px");
     group.style.setProperty("--glider-y", box.y.toFixed(2) + "px");
@@ -190,6 +208,7 @@ _NAVBAR_SCROLL_SCRIPT = """
       applyGliderVars(group, nextBox);
       glideState.lastIdx = targetIdx;
       glideState.initialized = true;
+      scrollPillIntoView(group, targetBtn, false);
       win.requestAnimationFrame(function () {
         group.classList.add("is-ready");
       });
@@ -268,6 +287,7 @@ _NAVBAR_SCROLL_SCRIPT = """
     group.classList.add("has-glider", "is-ready");
     applyGliderVars(group, measureButton(group, btn));
     glideState.lastIdx = nextIdx;
+    scrollPillIntoView(group, btn, true);
 
     var page = doc.querySelector(".st-key-page");
     if (page) {

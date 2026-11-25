@@ -65,6 +65,22 @@
     letter-spacing: 0.02em;
   }
   .chip.light { background: rgba(255,255,255,0.55); color: #1A1400; }
+  @media (max-width: 768px) {
+    .hero { border-radius: 22px; padding: 24px 22px; }
+    .orb-1 { width: 210px; height: 210px; right: -70px; top: -95px; border-width: 28px; }
+    .orb-2 { width: 140px; height: 140px; right: 70px; bottom: -95px; border-width: 20px; }
+    .title { font-size: clamp(24px, 5.4vw, 36px); line-height: 1.06; }
+    .lede { font-size: 12.8px; line-height: 1.55; margin-top: 10px; }
+    .chips { gap: 6px; margin-top: 14px; }
+    .chip { padding: 5px 10px; font-size: 10.5px; }
+  }
+  @media (max-width: 480px) {
+    .hero { border-radius: 18px; padding: 18px 16px; }
+    .eyebrow { font-size: 10px; letter-spacing: 0.14em; margin-bottom: 7px; }
+    .title { font-size: clamp(21px, 6.2vw, 28px); }
+    .lede { font-size: 12px; line-height: 1.5; }
+    .chip { padding: 4px 9px; font-size: 10px; }
+  }
 </style>
 </head>
 <body>
@@ -77,5 +93,25 @@
     <p class="lede">{{DESCRIPTION}}</p>
     <div class="chips">{{CHIPS}}</div>
   </div>
+  <script>
+    (function () {
+      function syncHeight() {
+        var el = document.querySelector(".hero");
+        if (!el || !window.frameElement) return;
+        var h = Math.ceil(el.getBoundingClientRect().height) + 6;
+        if (h > 80) {
+          window.frameElement.style.height = h + "px";
+        }
+      }
+      window.addEventListener("load", syncHeight);
+      window.addEventListener("resize", syncHeight);
+      if (typeof ResizeObserver === "function") {
+        var ro = new ResizeObserver(syncHeight);
+        var hero = document.querySelector(".hero");
+        if (hero) ro.observe(hero);
+      }
+      setTimeout(syncHeight, 60);
+    })();
+  </script>
 </body>
 </html>

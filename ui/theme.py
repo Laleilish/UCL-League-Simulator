@@ -248,20 +248,46 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
   animation: uclPageFade 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .st-key-navbar {
-    padding: 0.55rem 1rem;
+    padding: 0.5rem 0.9rem;
     border-radius: 0 0 18px 18px;
   }
   .st-key-navbar.is-floating {
-    top: 8px;
+    top: 6px;
     left: 8px;
     right: 8px;
-    border-radius: 999px;
-    padding-left: 0.85rem;
-    padding-right: 0.85rem;
+    border-radius: 22px;
+    padding: 0.45rem 0.75rem;
   }
-  .st-key-page { padding-top: 1rem; }
+  .st-key-navbar [data-testid="stHorizontalBlock"] {
+    gap: 0.25rem !important;
+    min-height: 0;
+  }
+  .st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"],
+  .st-key-navbar [data-testid="stColumn"]:first-child [data-testid="stMarkdown"] > div {
+    min-height: 34px;
+  }
+  .st-key-page {
+    padding: 1rem 0.85rem 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .st-key-navbar {
+    padding: 0.45rem 0.7rem;
+    border-radius: 0 0 16px 16px;
+  }
+  .st-key-navbar.is-floating {
+    top: 5px;
+    left: 6px;
+    right: 6px;
+    border-radius: 18px;
+    padding: 0.4rem 0.65rem;
+  }
+  .st-key-page {
+    padding: 0.8rem 0.65rem 2.5rem;
+  }
 }
 
 .ucl-brand { display: flex; align-items: center; gap: 0.65rem; min-width: 0; }
@@ -402,6 +428,23 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stMarkdownContaine
   outline: 2px solid rgba(26, 20, 0, 0.45) !important;
   outline-offset: 2px !important;
 }
+@media (max-width: 768px) {
+  .st-key-navbar [data-testid="stButtonGroup"] {
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    padding: 2px 0;
+  }
+  .st-key-navbar [data-testid="stButtonGroup"] button {
+    font-size: 0.78rem !important;
+    padding: 0.35rem 0.76rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .st-key-navbar [data-testid="stButtonGroup"] button {
+    font-size: 0.75rem !important;
+    padding: 0.32rem 0.66rem !important;
+  }
+}
 
 h1, h2, h3, h4 { color: var(--ink) !important; letter-spacing: -0.025em; }
 p, li, label, span { color: inherit; }
@@ -421,8 +464,22 @@ a { color: #8A5B00; }
 .ucl-section-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 
 .ucl-kpi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.85rem; margin: 0.2rem 0 0.4rem; }
-@media (max-width: 1000px) { .ucl-kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 520px) { .ucl-kpi-grid { grid-template-columns: 1fr; } }
+@media (max-width: 1000px) { .ucl-kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; } }
+@media (max-width: 640px) {
+  .ucl-section { margin: 1.5rem 0 0.75rem; }
+  .ucl-section h2 { font-size: 1.24rem; }
+  .ucl-section p { font-size: 0.84rem; }
+  .ucl-card { padding: 0.9rem 0.95rem; border-radius: 15px; }
+  .ucl-kpi .label { font-size: 0.65rem; }
+  .ucl-kpi .value { font-size: 1.32rem; }
+  .ucl-kpi .sub { font-size: 0.72rem; }
+  .ucl-fav { padding: 1.05rem 1.1rem; border-radius: 18px; }
+  .ucl-fav-value { font-size: 1.95rem; }
+  .ucl-badge { width: 38px; height: 38px; }
+  .st-key-page [data-testid="stHorizontalBlock"] { gap: 0.65rem; }
+  [data-testid="stForm"] { padding: 0.95rem 0.95rem 0.5rem; border-radius: 16px; }
+}
+@media (max-width: 380px) { .ucl-kpi-grid { grid-template-columns: 1fr; } }
 
 .ucl-card {
   background: var(--card); border: 1px solid var(--line); border-radius: 18px;
@@ -697,6 +754,68 @@ table.ucl-table td.is-muted { color: var(--muted); font-weight: 600; }
 }
 [data-testid="stMarkdownContainer"] table:not(.ucl-table) tbody tr:hover td {
   background: rgba(255, 184, 0, 0.07);
+}
+
+/* Mobile & Tablet Responsive Table Adjustments */
+@media (max-width: 768px) {
+  .ucl-table-card { border-radius: 16px; }
+  .ucl-table-legend { padding: 0.6rem 0.85rem; gap: 0.45rem; }
+  .ucl-zone-pills { gap: 0.55rem; }
+  .ucl-zone-item { font-size: 0.68rem; }
+  .ucl-table-meta { font-size: 0.68rem; width: 100%; }
+  .ucl-table-wrap { -webkit-overflow-scrolling: touch; }
+  table.ucl-table { font-size: 0.78rem; }
+  table.ucl-table thead th { padding: 0.68rem 0.55rem; font-size: 0.62rem; }
+  table.ucl-table td { padding: 0.5rem 0.55rem; }
+  table.ucl-table.is-dense thead th { padding: 0.62rem 0.48rem; }
+  table.ucl-table.is-dense td { padding: 0.44rem 0.48rem; }
+  table.ucl-table thead th.col-rank,
+  table.ucl-table td.col-rank { width: 38px; padding-left: 0.35rem; padding-right: 0.25rem; }
+  table.ucl-table td.col-bar { min-width: 112px; }
+  .ucl-td-team { min-width: 138px; gap: 0.45rem; }
+  .ucl-td-team-name { font-size: 0.78rem; max-width: 112px; overflow: hidden; text-overflow: ellipsis; }
+  .ucl-badge.sm { width: 26px; height: 26px; padding: 2px; }
+  .ucl-pos { min-width: 24px; height: 22px; font-size: 0.68rem; border-radius: 6px; }
+  .ucl-meter { gap: 0.4rem; }
+  .ucl-meter-track { flex-basis: 42px; max-width: 60px; height: 6px; }
+  .ucl-meter-val { min-width: 40px; font-size: 0.74rem; }
+  .ucl-heat { min-width: 46px; padding: 0.16rem 0.36rem; font-size: 0.74rem; }
+  .ucl-heat.is-strong { min-width: 52px; }
+  .ucl-ci-pill { font-size: 0.68rem; padding: 0.14rem 0.42rem; }
+
+  /* Sticky club column when scrolling horizontally on mobile/tablet */
+  table.ucl-table thead th.col-team {
+    position: sticky;
+    left: 0;
+    z-index: 4;
+    background: var(--ink);
+    box-shadow: 3px 0 8px rgba(26, 20, 0, 0.12);
+  }
+  table.ucl-table tbody td.col-team {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--card);
+    box-shadow: 3px 0 8px rgba(26, 20, 0, 0.05);
+  }
+  table.ucl-table tbody tr.zone-out td.col-team {
+    background: #FBF9F3;
+  }
+  table.ucl-table tbody tr:hover td.col-team {
+    background: #FFF6DF;
+  }
+
+  [data-testid="stMarkdownContainer"] table:not(.ucl-table) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.78rem;
+    border-radius: 14px;
+  }
+  [data-testid="stMarkdownContainer"] table:not(.ucl-table) thead th,
+  [data-testid="stMarkdownContainer"] table:not(.ucl-table) tbody td {
+    padding: 0.55rem 0.75rem;
+  }
 }
 
 .stButton > button, .stDownloadButton > button, [data-testid="stFormSubmitButton"] > button {
@@ -1254,24 +1373,53 @@ table.ucl-table td.is-muted { color: var(--muted); font-weight: 600; }
 @media (max-width: 860px) {
   .ps2-pitch-content {
     flex-direction: column;
-    padding: 1.1rem 0.9rem;
-    gap: 1rem;
+    padding: 1rem 0.85rem;
+    gap: 0.85rem;
   }
   .ps2-zone-left, .ps2-zone-right {
     width: 100%;
     justify-content: center;
   }
   .ps2-tactical-arrow { display: none; }
-  .ps2-card-float { width: 100%; max-width: 320px; }
-  .ps2-center-clash { order: -1; }
+  .ps2-card-float {
+    width: 100%;
+    max-width: 360px;
+  }
+  .ps2-card-float.ps2-float-right {
+    flex-direction: row-reverse;
+  }
+  .ps2-card-float.ps2-float-right .ps2-team-info.ps2-text-right {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .ps2-card-float.ps2-float-right .ps2-mini-stats.ps2-stats-right {
+    justify-content: flex-start;
+  }
   .ps2-attr-label { flex: 0 0 140px; font-size: 0.6rem; }
 }
 
 @media (max-width: 600px) {
-  .ps2-top-bar { flex-direction: column; gap: 0.35rem; text-align: center; }
-  .ps2-attr-row { flex-wrap: wrap; justify-content: center; }
-  .ps2-attr-label { flex: 1 1 100%; order: -1; }
-  .ps2-footer-bar { flex-direction: column; gap: 0.35rem; text-align: center; }
+  .ps2-versus-wrapper { border-radius: 14px; margin: 0.8rem 0 1.2rem; }
+  .ps2-top-bar { flex-direction: column; gap: 0.35rem; text-align: center; padding: 0.55rem 0.8rem; }
+  .ps2-pitch-container { min-height: 0; }
+  .ps2-pitch-content { padding: 0.85rem 0.7rem; gap: 0.7rem; }
+  .ps2-card-float { padding: 0.68rem 0.8rem; gap: 0.7rem; max-width: 100%; }
+  .ps2-crest { width: 52px; height: 52px; padding: 5px; }
+  .ps2-team-name { font-size: 0.98rem; }
+  .ps2-vs-badge { width: 50px; height: 50px; }
+  .ps2-vs-text { font-size: 1.1rem; }
+  .ps2-score-prediction { padding: 0.3rem 0.7rem; }
+  .ps2-pred-score { font-size: 1rem; }
+  .ps2-attributes-panel { padding: 0.85rem 0.8rem 0.7rem; }
+  .ps2-panel-header { text-align: center; }
+  .ps2-header-title { font-size: 0.62rem; }
+  .ps2-attribute-grid { gap: 0.7rem; }
+  .ps2-attr-row { gap: 0.45rem; align-items: flex-end; }
+  .ps2-attr-val { width: 44px; font-size: 0.74rem; }
+  .ps2-attr-val.highlight-a, .ps2-attr-val.highlight-b { font-size: 0.78rem; }
+  .ps2-attr-bar-wrap { flex-wrap: wrap; gap: 0.25rem 0.4rem; }
+  .ps2-attr-label { flex: 1 1 100%; order: -1; font-size: 0.58rem; }
+  .ps2-footer-bar { flex-direction: column; gap: 0.35rem; text-align: center; font-size: 0.62rem; }
 }
 
 </style>
